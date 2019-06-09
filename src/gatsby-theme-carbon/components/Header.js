@@ -3,7 +3,7 @@ import Header from 'gatsby-theme-carbon/src/components/Header';
 
 const CustomSwitcher = props => (
   <Header {...props}>
-    <span>Gatsby theme</span>&nbsp;Carbon
+    <span>Third Wave of Digitalization</span>
   </Header>
 );
 

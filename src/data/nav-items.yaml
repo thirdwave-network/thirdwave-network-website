@@ -48,3 +48,6 @@
 - title: Resources
   pages:
     - path: /resources
+- title: Contact Author
+  pages:
+    - path: /author    
