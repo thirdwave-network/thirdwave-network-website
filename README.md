@@ -1,82 +1,83 @@
-<h1 align="center">
-  Carbon Design Gatsby Starter
-</h1>
+# gatsby-casper
 
-Get started using with the Gatsby Carbon theme which includes all configuration you might need to build a beautiful site inspired by the [Carbon Design System](https://www.carbondesignsystem.com).
+Demo: https://gatsby-casper.netlify.com/  
 
-## 🧗 Getting started
+This is a static blog generator and starter gatsby repo. A port of [Casper](https://github.com/TryGhost/Casper) v2 a theme from [Ghost](https://ghost.org/) for [GatsbyJS](https://www.gatsbyjs.org/) using [TypeScript](https://www.typescriptlang.org/).
 
-1. **Create your site**
+## Getting Started
+Clone this repo.
 
-Use the gatsby CLI to bootstrap your site with the starter
-
-```sh
-npx gatsby new my-carbon-site https://github.com/carbon-design-system/gatsby-starter-carbon-theme
+```
+git clone https://github.com/scttcper/gatsby-casper.git --depth=1
 ```
 
-2. **Start developing**
+Remove .git folder and setup a new one
 
-Navigate into your directory and start it up
-
-```sh
-    cd my-carbon-site/
-    gatsby develop
+```
+rm -rf .git && git init
 ```
 
-3. **Make some changes!**
+Edit website-config.ts with your website settings.
+Either disable subscribe or setup a mailchimp list and add the form action and hidden field input name.
 
-Navigate to `localhost:8000` to see your site running
+Now push to whatever repo you want!
 
-Each of the Items in your side bar correlates to a MDX file in your `src/pages/` directory. Navigate to a site and try editing the corresponding markdown file. You'll be able to see it update live!
 
-## 🔍 What's in here?
+### Progress
+- [x] emotion / component styles
+- [x] home page
+- [x] tag page
+- [x] author page
+- [x] blog page
+  - [x] subscribe form - using [mailchimp](https://mailchimp.com)
+  - [ ] full width images in markdown? - not sure if possible
+  - [ ] multiple post authors
+  - [ ] floating reading progress bar
+- [x] 404 page
+- [x] subscribe modal/overlay
+- [x] rss feed
+- [x] polish ✨
+  - [x] meta tags
+  - [x] page titles
 
-Lets check out the structure of our project
 
-    .
-    ├── LICENSE
-    ├── README.md
-    ├── gatsby-config.js
-    ├── node_modules
-    ├── package.json
-    ├── public
-    ├── src
-    │   ├── gatsby-theme-carbon
-    │   └── pages
-    └── yarn.lock
+### Deploy to Netlify
 
-1.  **`/node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages) are automatically installed.
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/scttcper/gatsby-casper)
 
-1.  **`/src`**: This directory will contain all of the code related to what you will see on the front-end of your site.
+## How to configure Google Analytics
+Edit `gatsby-config.js` and add your tracking ID
 
-    - **gatsby-theme-carbon** this is where you'll override (known as shadowing) the default `gatsby-theme-carbon` components
-    - **pages** This is where most of your content will live. You'll represent each page with an MDX file.
 
-1.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
+```javascript
+{
+    resolve: `gatsby-plugin-google-analytics`,
+    options: {
+      // Here goes your tracking ID
+      trackingId: 'UA-XXXX-Y',
+      // Puts tracking script in the head instead of the body
+      head: true,
+      // IP anonymization for GDPR compliance
+      anonymize: true,
+      // Disable analytics for users with `Do Not Track` enabled
+      respectDNT: true,
+      // Avoids sending pageview hits from custom paths
+      exclude: ['/preview/**'],
+      // Specifies what percentage of users should be tracked
+      sampleRate: 100,
+      // Determines how often site speed tracking beacons will be sent
+      siteSpeedSampleRate: 10,
+    },
+  },
+```
 
-1.  **`gatsby-config.js`**: This is the main configuration file for a Gatsby site. This is where you can specify information about your site (metadata) like the site title and description. You'll notice that all of the configuration for the site is coming from `gatsby-theme-carbon`
+## How to edit your site title and description 
+Edit `gatsby-config.js` section `siteMetadata`
 
-1.  **`LICENSE`**: Gatsby is licensed under the Apache 2.0 license.
-
-1.  **`yarn.lock`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
-
-1.  **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
-
-1.  **`README.md`**: This file!
-
-## 👷‍ Components
-
-This is where we'll document the various utility components as they're added.
-
-## 📘 Resources
-
-1. [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/)
-1. [MDX](https://mdxjs.com/)
-
-## 👻 Configuration and Shadowing
-
-Coming soon!
-
-## 🚀 Deployment
-
-Coming soon!
+```javascript
+ siteMetadata: {
+    title: 'My awesome site name',
+    description: 'This is a description for my site',
+    siteUrl: 'https://mysite.com', // full path to blog - no ending slash
+  },
+```
