@@ -50,7 +50,7 @@ export interface WebsiteConfig {
 
 const config: WebsiteConfig = {
   title: 'Ghost',
-  description: 'The professional publishing platform',
+  description: 'The third wave of digitalization - decentralization',
   coverImage: 'img/blog-cover.jpg',
   logo: 'img/ghost-logo.png',
   lang: 'en',
