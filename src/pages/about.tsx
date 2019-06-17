@@ -69,6 +69,8 @@ const About: React.FC = () => (
                 lacus tempus sapien dignissim ullamcorper. In hac habitasse platea dictumst. Proin
                 quis massa aliquam, feugiat tortor sit amet, tincidunt urna. Donec posuere pulvinar
                 lectus, ac semper ipsum vulputate quis.
+
+                https://www.meetup.com/Silesia-Blockchain-Meetup/
               </p>
             </div>
           </PostFullContent>
