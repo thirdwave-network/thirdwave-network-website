@@ -71,6 +71,8 @@ const About: React.FC = () => (
                 lectus, ac semper ipsum vulputate quis.
 
                 https://www.meetup.com/Silesia-Blockchain-Meetup/
+
+                https://www.linkedin.com/in/tomaszwaszczyk/
               </p>
             </div>
           </PostFullContent>
