@@ -92,3 +92,5 @@ https://github.com/tendermint/tendermint
 
 https://github.com/scttcper/gatsby-casper
 
+https://qtum.org/en/developer
+
