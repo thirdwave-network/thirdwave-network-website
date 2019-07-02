@@ -86,9 +86,17 @@ Edit `gatsby-config.js` section `siteMetadata`
 
 https://github.com/tendermint/tendermint
 
+https://qtum.org/en/developer
+
+https://dacade.org/
+
+https://www.newsweek.com/2018/11/16/new-internet-blockchain-technology-could-help-us-take-back-our-data-facebook-1222860.html
 
 
 ## Links
 
 https://github.com/scttcper/gatsby-casper
 
+https://github.com/ryanwiemer/gatsby-starter-gcn
+
+https://github.com/wonism/gatsby-advanced-blog
