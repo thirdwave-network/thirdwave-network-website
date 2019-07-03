@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-casper",
-  "description": "Casper for gatsby",
+  "name": "thirdwave-network",
+  "description": "The third wave of digitalization",
   "version": "0.0.0",
   "private": true,
-  "author": "Scott Cooper <scttcper@gmail.com>",
+  "author": "Tomasz Waszczyk <tomasz@waszczyk.com>",
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
