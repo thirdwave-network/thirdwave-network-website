@@ -92,6 +92,7 @@ https://dacade.org/
 
 https://www.newsweek.com/2018/11/16/new-internet-blockchain-technology-could-help-us-take-back-our-data-facebook-1222860.html
 
+https://github.com/nczhu/solidity-koans/issues/51
 
 ## Links
 
@@ -105,3 +106,4 @@ https://qtum.org/en/developer
 
 https://www.unic.ac.cy/blockchain/
 
+https://github.com/prayash/awesome-gatsby
