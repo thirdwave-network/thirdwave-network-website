@@ -2,7 +2,7 @@
 title: "Great Gatsby"
 author: Another Author
 tags: []
-image: img/marvin-meyer-794521-unsplash.jpg
+image: img/digital-age.png
 date: "1922-12-12T10:00:00.000Z"
 draft: false
 ---
