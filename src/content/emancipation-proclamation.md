@@ -1,9 +1,9 @@
 ---
-title: "Great Gatsby"
+title: "The Third Wave"
 author: Another Author
 tags: []
 image: img/digital-age.png
-date: "1922-12-12T10:00:00.000Z"
+date: "2019-07-30T10:00:00.000Z"
 draft: false
 ---
 
