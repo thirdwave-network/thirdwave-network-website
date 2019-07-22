@@ -151,7 +151,7 @@ class SiteNav extends React.Component<SiteNavProps, SiteNaveState> {
               <Link to="/tags/getting-started/">Getting Started</Link>
             </li>
             <li role="menuitem">
-              <Link to="/tags/getting-started/">MimbleWimble</Link>
+              <Link to="/tags/getting-started/">Why ThirdWave?</Link>
             </li>
           </ul>
         </SiteNavLeft>
