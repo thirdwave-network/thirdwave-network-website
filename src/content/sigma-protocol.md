@@ -26,3 +26,7 @@ b) No exotic cryptography
 
 c) Simple and easy to audit construction
 
+
+# Links
+
+https://slideslive.com/38911785/satoshi-has-no-clothes-failures-in-onchain-privacy
