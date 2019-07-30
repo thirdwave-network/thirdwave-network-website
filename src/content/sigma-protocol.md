@@ -14,10 +14,15 @@ Sigma (Σ) Protocol completely removes the need for a trusted setup, which is a 
 
 After 6-12 months when the Zcoin blockchain grows due to MTP proof sizes...
 
+
 Dash mixes transactions together. It a pretty bad privacy solution, and I don't think anyone considers them a privacy coin anymore.
 Zcash and Zcoin are similar in the fact that they both use Zero Knowledge proofs to break down the links between coins.
 but Zcoin's system has several advantages.
 
+
 a) Trusteless setup
+
 b) No exotic cryptography
+
 c) Simple and easy to audit construction
+
