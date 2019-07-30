@@ -28,6 +28,13 @@ c) Simple and easy to audit construction
 
 Minting is just destruction
 
+To understand why Zero Knowlegde proofs are the best system for on-chain privacy, there is a really good talk that's the watch:
+https://www.youtube.com/watch?v=9s3EbSKDA3o
+To create fungibility, all the coins need to be equal. Including having an equal history.
+Monero hides it's coins history with in a sea of transactions, but they're still there. (decoy model)
+While Zcoin lets you distory a coin and create a new coin without any link between them.
+https://zcoin.io/zcoins-privacy-technology-compares-competition/
+
 
 # Links
 
