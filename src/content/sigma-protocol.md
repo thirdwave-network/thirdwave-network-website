@@ -26,6 +26,8 @@ b) No exotic cryptography
 
 c) Simple and easy to audit construction
 
+Minting is just destruction
+
 
 # Links
 
