@@ -87,6 +87,8 @@ Edit `gatsby-config.js` section `siteMetadata`
 
 ## Tematy
 
+https://privacyalternatives.com/
+
 https://github.com/tendermint/tendermint
 
 https://qtum.org/en/developer
