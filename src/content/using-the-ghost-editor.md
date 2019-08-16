@@ -5,7 +5,7 @@ author: Tomasz Waszczyk
 tags: ["Getting Started"]
 image: img/writing.jpg
 date: "2015-02-02T23:46:37.121Z"
-draft: false
+draft: true
 ---
 
 Ghost uses a language called **Markdown** to format text.
@@ -15,7 +15,6 @@ When you go to edit a post and see special characters and colours intertwined be
 At the bottom of the editor, you'll find a toolbar with basic formatting options to help you get started as easily as possible. You'll also notice that there's a **?** icon, which contains more advanced shortcuts.
 
 For now, though, let's run you through some of the basics. You'll want to make sure you're editing this post in order to see all the Markdown we've used.
-
 
 ## Formatting text
 
@@ -28,7 +27,6 @@ The most common shortcuts are of course, **bold** text, _italic_ text, and [hype
 
 With just a couple of extra characters here and there, you're well on your way to creating a beautifully formatted story.
 
-
 ## Inserting images
 
 Images in Markdown look just the same as links, except they're prefixed with an exclamation mark, like this:
@@ -40,7 +38,6 @@ Images in Markdown look just the same as links, except they're prefixed with an 
 Most Markdown editors don't make you type this out, though. In Ghost you can click on the image icon in the toolbar at the bottom of the editor, or you can just click and drag an image from your desktop directly into the editor. Both will upload the image for you and generate the appropriate Markdown.
 
 _**Important Note:** Ghost does not currently have automatic image resizing, so it's always a good idea to make sure your images aren't gigantic files **before** uploading them to Ghost._
-
 
 ## Making lists
 
@@ -55,7 +52,6 @@ or
 - Remember to buy milk
 - Feed the cat
 - Come up with idea for next story
-
 
 ## Adding quotes
 
