@@ -14,11 +14,9 @@ Sigma (Σ) Protocol completely removes the need for a trusted setup, which is a 
 
 After 6-12 months when the Zcoin blockchain grows due to MTP proof sizes...
 
-
 Dash mixes transactions together. It a pretty bad privacy solution, and I don't think anyone considers them a privacy coin anymore.
 Zcash and Zcoin are similar in the fact that they both use Zero Knowledge proofs to break down the links between coins.
 but Zcoin's system has several advantages.
-
 
 a) Trusteless setup
 
@@ -29,13 +27,12 @@ c) Simple and easy to audit construction
 Minting is just destruction
 
 To understand why Zero Knowlegde proofs are the best system for on-chain privacy, there is a really good talk that's the watch:
-https://www.youtube.com/watch?v=9s3EbSKDA3o
+<https://www.youtube.com/watch?v=9s3EbSKDA3o>
 To create fungibility, all the coins need to be equal. Including having an equal history.
 Monero hides it's coins history with in a sea of transactions, but they're still there. (decoy model)
 While Zcoin lets you distory a coin and create a new coin without any link between them.
-https://zcoin.io/zcoins-privacy-technology-compares-competition/
+<https://zcoin.io/zcoins-privacy-technology-compares-competition/>
 
+## Links
 
-# Links
-
-https://slideslive.com/38911785/satoshi-has-no-clothes-failures-in-onchain-privacy
+<https://slideslive.com/38911785/satoshi-has-no-clothes-failures-in-onchain-privacy>
