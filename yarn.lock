@@ -733,10 +733,10 @@
     "@babel/helper-plugin-utils" "^7.0.0"
     "@babel/plugin-transform-typescript" "^7.3.2"
 
-"@babel/runtime@^7.0.0", "@babel/runtime@^7.1.2", "@babel/runtime@^7.4.2", "@babel/runtime@^7.4.3", "@babel/runtime@^7.4.5":
-  version "7.4.5"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.4.5.tgz#582bb531f5f9dc67d2fcb682979894f75e253f12"
-  integrity sha512-TuI4qpWZP6lGOGIuGWtp9sPluqYICmbk8T/1vpSysqJxRPkudh/ofFWyqdcMsDf2s7KvDL4/YHgKyvcS3g9CJQ==
+"@babel/runtime@^7.0.0", "@babel/runtime@^7.1.2", "@babel/runtime@^7.4.2", "@babel/runtime@^7.4.3", "@babel/runtime@^7.4.5", "@babel/runtime@^7.5.5":
+  version "7.5.5"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.5.5.tgz#74fba56d35efbeca444091c7850ccd494fd2f132"
+  integrity sha512-28QvEGyQyNkB0/m2B4FU7IEZGK2NUrcMtT6BZEFALTguLk+AUT6ofsHtPk5QyjAdUkpMJ+/Em+quwz4HOt30AQ==
   dependencies:
     regenerator-runtime "^0.13.2"
 
@@ -5571,14 +5571,14 @@ gatsby-transformer-sharp@2.2.5:
     semver "^5.6.0"
     sharp "^0.22.1"
 
-gatsby-transformer-yaml@2.1.12:
-  version "2.1.12"
-  resolved "https://registry.yarnpkg.com/gatsby-transformer-yaml/-/gatsby-transformer-yaml-2.1.12.tgz#2d1ee6ed6f399315d76caaa53888b02d2049bf31"
-  integrity sha512-KkRKb3ysNwYwBRE0kUA17gLHA5bg6NOmjf8OeSeHhNkJJrn8DQkRhqd8aGCXgfg5m7AeN7XU/5MGtF4uDXVM0A==
+gatsby-transformer-yaml@2.2.7:
+  version "2.2.7"
+  resolved "https://registry.yarnpkg.com/gatsby-transformer-yaml/-/gatsby-transformer-yaml-2.2.7.tgz#88c27ced678e82fa3224b6ebb47b36c837d52218"
+  integrity sha512-umAzTcMAZAF9X+PzfmT9UnhpwikcXEoSyxVh3UUS3ibfP6q/bY189OyZYmT4PtrJUGHeqO0pJJ2lvHNbTxC5Eg==
   dependencies:
-    "@babel/runtime" "^7.0.0"
-    js-yaml "^3.13.0"
-    lodash "^4.17.10"
+    "@babel/runtime" "^7.5.5"
+    js-yaml "^3.13.1"
+    lodash "^4.17.15"
     unist-util-select "^1.5.0"
 
 gatsby@2.13.44:
@@ -7710,7 +7710,7 @@ lodash.uniq@^4.5.0:
   resolved "https://registry.yarnpkg.com/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
   integrity sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=
 
-lodash@4.17.15, lodash@^4.11.1, lodash@^4.15.0, lodash@^4.17.10, lodash@^4.17.11, lodash@^4.17.14, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.3.0:
+lodash@4.17.15, lodash@^4.11.1, lodash@^4.15.0, lodash@^4.17.10, lodash@^4.17.11, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.3.0:
   version "4.17.15"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
   integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
