@@ -17,7 +17,7 @@ const PageTemplate = css`
   }
 `;
 
-const About: React.FC = () => (
+const Author: React.FC = () => (
   <IndexLayout>
     <Helmet>
       <title>Author</title>
@@ -40,13 +40,15 @@ const About: React.FC = () => (
               Tomasz Waszczyk – absolwent Wydziału Automatyki, Elektroniki i Informatyki Politechniki Śląskiej w Gliwicach na kierunku Informatyka oraz Uniwersytetu w Monachium, przez parę lat zajmowałem się implementacją oraz wdrażaniem strategii algorytmicznych w banku z grupy Tier 1. Obecnie zajmuję się rynkiem internetu rzeczy pracując jako programista oraz współpracuję z inwestorami instytucjonalnymi w celu zaprojektowania przekształcenia tradycjnego portfela w stronę zdygitalizowanych firm mających globalny potencjał poprzez między innymi analizę modelu insentywizacji oraz tokenomiki. Prywatnie pasjonat historii (myślę, że przed nami czasy kiedy coraz bardziej będzie cenna znajomość historii), sauny oraz muzyki klasycznej (Glenn Gould), założyciel Silesia Blockchain Meetup – cyklicznych spotkań gdzie można posłuchać merytorycznych prelekcji.
               </p>
               <p>
-
               </p>
               <p>
                 https://www.meetup.com/Silesia-Blockchain-Meetup/
               </p>
               <p>
                 https://www.linkedin.com/in/tomaszwaszczyk/
+              </p>
+              <p>
+                https://twitter.com/pantarheipl
               </p>
             </div>
           </PostFullContent>
@@ -57,4 +59,4 @@ const About: React.FC = () => (
   </IndexLayout>
 );
 
-export default About;
+export default Author;
