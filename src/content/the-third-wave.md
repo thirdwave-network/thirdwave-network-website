@@ -59,4 +59,7 @@ Nie spodziewam się, że zmiany nastąpią z dnia na dzień, ale uważam, że pr
 
 * <https://www.meetup.com/Silesia-Blockchain-Meetup/>
 
+* The New World (Dis)Order - Peter Zeihan - 72nd CFA Institute Annual Conference:
+ <https://www.youtube.com/watch?v=pKVQDUQR8I4>
+
 * The Age of Surveillance Capitalism: The Fight for a Human Future at the New Frontier of Power

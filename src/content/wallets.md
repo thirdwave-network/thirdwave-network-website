@@ -14,3 +14,5 @@ zelcore wallet swap function
 <https://changenow.io/>
 
 <https://www.argent.xyz/>
+
+https://steemit.com/cryptocurrency/@atomicwallet/custodial-vs-non-custodial-wallets
