@@ -59,6 +59,8 @@ Nie spodziewam się, że zmiany nastąpią z dnia na dzień, ale uważam, że pr
 
 * <https://www.meetup.com/Silesia-Blockchain-Meetup/>
 
+* https://www.euronext.com/en/about/media/euronext-press-releases/euronext-invests-tokeny-solutions-compliant-tokenization
+
 * The New World (Dis)Order - Peter Zeihan - 72nd CFA Institute Annual Conference:
  <https://www.youtube.com/watch?v=pKVQDUQR8I4>
 

@@ -18,3 +18,5 @@ https://grin.report/d/xoo9N43iz/chain?orgId=1
 https://www.coingecko.com/en/coins/compare?coin_ids=beam,grin,zcash,monero,zcoin
 
 https://www.kycp.org
+
+https://satang.pro/exchange/market/XZC-THB
