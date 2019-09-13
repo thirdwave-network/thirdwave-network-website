@@ -16,6 +16,10 @@ draft: false
          wmode="transparent" width="425" height="350" />
 </object>
 
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=A3AdN7U24iU
+" target="_blank"><img src="http://img.youtube.com/vi/A3AdN7U24iU/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+
 ---
 
 <a href="https://github.com/thirdwave-network/thirdwave-network-website/tree/master/src/content/why-rust.md" target="_blank">Improve the page!</a>
