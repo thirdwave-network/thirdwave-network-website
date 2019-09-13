@@ -15,3 +15,7 @@ draft: false
          type="application/x-shockwave-flash"
          wmode="transparent" width="425" height="350" />
 </object>
+
+---
+
+<a href="https://github.com/thirdwave-network/thirdwave-network-website/tree/master/src/content/why-rust.md" target="_blank">Improve the page!</a>
