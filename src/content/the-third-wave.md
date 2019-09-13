@@ -64,6 +64,8 @@ Nie spodziewam się, że zmiany nastąpią z dnia na dzień, ale uważam, że pr
 * The New World (Dis)Order - Peter Zeihan - 72nd CFA Institute Annual Conference:
  <https://www.youtube.com/watch?v=pKVQDUQR8I4>
 
+ * https://medium.com/@ElectricCapital/programmable-money-79e16dc7bfca
+
  Is There a Global War Coming? | George Friedman at Brain Bar: <https://www.youtube.com/watch?v=kwnPgscg0vU>
 
 * The Age of Surveillance Capitalism: The Fight for a Human Future at the New Frontier of Power

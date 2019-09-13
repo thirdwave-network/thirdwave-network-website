@@ -191,7 +191,7 @@ A variety of community build wallets are available, such as:
 
 It is possible to buy aeternity tokens on exchanges like Binance, OKex, Huobi, GateIO and many others. A full list of markets can be found via https://coinmarketcap.com/currencies/aeternity/#markets
 
-## Run your own Node and Services.
+## Run your own Node and Services
 
 - How to host a [Node](https://docs.aeternity.io/en/latest/installation/)
 - How to host the Sophia Smart Contract [Compiler](https://github.com/aeternity/aesophia)
