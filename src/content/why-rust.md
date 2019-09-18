@@ -61,6 +61,8 @@ The company maintains decentralized solutions dealing with P2P networking, conse
 
 * https://github.com/mimblewimble/grin
 
+* https://github.com/libra/libra
+
 ---
 
 <a href="https://github.com/thirdwave-network/thirdwave-network-website/tree/master/src/content/why-rust.md" target="_blank">Help to improve the page!</a>
