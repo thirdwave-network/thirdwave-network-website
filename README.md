@@ -15,7 +15,6 @@ https://www.newsweek.com/2018/11/16/new-internet-blockchain-technology-could-hel
 
 https://github.com/nczhu/solidity-koans/issues/51
 
-
 ## Links
 
 https://github.com/scttcper/gatsby-casper
@@ -29,3 +28,5 @@ https://qtum.org/en/developer
 https://www.unic.ac.cy/blockchain/
 
 https://github.com/prayash/awesome-gatsby
+
+https://kauri.io/
