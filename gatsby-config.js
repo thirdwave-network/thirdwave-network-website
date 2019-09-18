@@ -4,7 +4,7 @@ module.exports = {
   siteMetadata: {
     title: 'thirdwave.network',
     description: 'thirdwave.network - the third wave of digitalization',
-    siteUrl: 'https://gatsby-casper.netlify.com', // full path to blog - no ending slash
+    siteUrl: 'https://thirdwave.network', // full path to blog - no ending slash
   },
   mapping: {
     'MarkdownRemark.frontmatter.author': 'AuthorYaml',
@@ -47,7 +47,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-canonical-urls',
       options: {
-        siteUrl: 'https://gatsby-casper.netlify.com',
+        siteUrl: 'https://thirdwave.network',
       },
     },
     'gatsby-plugin-emotion',
