@@ -52,7 +52,7 @@
     "postcss-color-function": "4.1.0",
     "prism-themes": "1.1.0",
     "prismjs": "1.16.0",
-    "react": "16.8.6",
+    "react": "16.10.1",
     "react-dom": "16.8.6",
     "react-emotion": "10.0.0",
     "react-helmet": "5.2.1",
