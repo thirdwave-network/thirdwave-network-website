@@ -65,6 +65,8 @@ The company maintains decentralized solutions dealing with P2P networking, conse
 
 * https://rocket.rs
 
+* https://rustinblockchain.org/
+
 ---
 
 <a href="https://github.com/thirdwave-network/thirdwave-network-website/tree/master/src/content/why-rust.md" target="_blank">Help to improve the page!</a>
