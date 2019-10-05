@@ -11,13 +11,13 @@ const siteMetadata = {
   },
   social: [
     {
-      url: `https://twitter.com/narative`,
+      url: `https://twitter.com/thirdwave_`,
     },
     {
       url: `https://behance.com/narative`,
     },
     {
-      url: `https://github.com/narative`,
+      url: `https://github.com/thirdwave-network`,
     },
     {
       url: `https://instagram.com/narative.co`,
