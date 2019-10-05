@@ -1,12 +1,12 @@
 require("dotenv").config();
 
 const siteMetadata = {
-  title: `Novela by Narative`,
-  name: `Narative`,
-  siteUrl: `https://novela.narative.co`,
+  title: `Third wave of Internet`,
+  name: `thirdwave.network`,
+  siteUrl: `https://thirdwave.network/`,
   description: `This is my description that will be used in the meta tags and important for search results`,
   hero: {
-    heading: `Welcome to Novela, the simplest way to start publishing with Gatsby.`,
+    heading: `Welcome to Third Wave, next wave of the Internet.`,
     maxWidth: 652,
   },
   social: [
