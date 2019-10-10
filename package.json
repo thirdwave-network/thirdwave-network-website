@@ -1,0 +1,50 @@
+{
+  "name": "narative.co",
+  "description": "Narative",
+  "version": "1.0.0",
+  "author": "Dennis BRotzky <dennis@narative.co>",
+  "keywords": [
+    "narative"
+  ],
+  "scripts": {
+    "build": "./node_modules/.bin/gatsby build --prefix-paths",
+    "dev": "./node_modules/.bin/gatsby develop",
+    "format": "prettier --write 'src/**/*.js'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "formik": "^0.11.11",
+    "gatsby": "next",
+    "gatsby-image": "next",
+    "gatsby-link": "next",
+    "gatsby-plugin-favicon": "next",
+    "gatsby-plugin-google-analytics": "next",
+    "gatsby-plugin-manifest": "^2.0.4",
+    "gatsby-plugin-netlify-cache": "next",
+    "gatsby-plugin-react-helmet": "next",
+    "gatsby-plugin-react-next": "next",
+    "gatsby-plugin-sharp": "next",
+    "gatsby-plugin-styled-components": "next",
+    "gatsby-source-filesystem": "next",
+    "gatsby-transformer-sharp": "next",
+    "prop-types": "^15.6.1",
+    "react": "^16.5.1",
+    "react-click-outside": "^3.0.1",
+    "react-device-detect": "^1.5.9",
+    "react-dom": "^16.5.1",
+    "react-helmet": "^5.2.0",
+    "react-text-mask": "^5.4.0",
+    "react-transition-group": "^2.3.1",
+    "styled-components": "^3.2.6"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-styled-components": "^1.5.1",
+    "babel-plugin-transform-regenerator": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-runtime": "^6.26.0",
+    "gatsby-cli": "^1.1.50",
+    "prettier": "^1.12.0"
+  }
+}
