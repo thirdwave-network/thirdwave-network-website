@@ -28,7 +28,7 @@
     "gatsby-source-filesystem": "next",
     "gatsby-transformer-sharp": "next",
     "prop-types": "^15.6.1",
-    "react": "^16.5.1",
+    "react": "^16.10.2",
     "react-click-outside": "^3.0.1",
     "react-device-detect": "^1.5.9",
     "react-dom": "^16.5.1",
