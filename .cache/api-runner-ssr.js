@@ -9,10 +9,10 @@ var plugins = [{
       options: {"plugins":[],"logo":"./static/favicon.png","injectHTML":true,"icons":{"android":true,"appleIcon":true,"appleStartup":true,"coast":false,"favicons":true,"firefox":true,"twitter":false,"yandex":false,"windows":false}},
     },{
       plugin: require('/home/panta/workspaces/thirdwave-network-website/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"name":"Narative","short_name":"Narative","start_url":"/","background_color":"#111216","theme_color":"#111216"},
+      options: {"plugins":[],"name":"thirdwave.network","short_name":"thirdwave.network","start_url":"/","background_color":"#111216","theme_color":"#111216"},
     },{
       plugin: require('/home/panta/workspaces/thirdwave-network-website/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
-      options: {"plugins":[],"trackingId":"UA-118232427-1"},
+      options: {"plugins":[],"trackingId":"UA-"},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [
