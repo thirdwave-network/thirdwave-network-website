@@ -102,15 +102,15 @@ class CareersPage extends Component {
                   </ImageTraceContainer>
                 </ImageContainer>
               </Container>
-              <Section header="Why Narative">
+              <Section header="Why thirdwave">
                 <SectionCopy maxWidth="69rem">
-                  At Narative, nobody has a "boss". Instead, we hold a common
+                  At thirdwave.network, nobody has a "boss". Instead, we hold a common
                   goal, where everyone owns executive level decision, regardless
                   of position. We teach and learn from each other everyday, with
                   growth based on trust and relationships.
                 </SectionCopy>
               </Section>
-              <Section header="Working at Narative">
+              <Section header="Working at thirdwave">
                 <FlexColumn>
                   <WhatWeDoContent>
                     <SectionCopy maxWidth="46rem">
@@ -144,7 +144,7 @@ class CareersPage extends Component {
                     <UnderlineInner>exceptional clients</UnderlineInner>
                   </Underline>{' '}
                   to fund our own ideas. Displaying our core beliefs through the
-                  development of our own products. We call this Narative Labs.
+                  development of our own products. We call this thirdwave labs.
                 </SectionCopy>
               </Section>
               <CareersGraph />

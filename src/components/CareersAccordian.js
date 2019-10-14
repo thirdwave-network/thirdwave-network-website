@@ -167,14 +167,14 @@ class CareersAccordian extends Component {
             >
               There are currently no available positions. But if you believe you
               have something unique to bring to the team, get in touch at{' '}
-              <a href="mailto:careers@narative.co">careers@narative.co</a>. We
+              <a href="mailto:hello@thirdwave.network">hello@thirdwave.network</a>. We
               love meeting new people!
             </span>
             <div
               onClick={() => this.setState({ copied: true })}
               style={{ justifySelf: 'flex-end' }}
             >
-              <CopyToClipboard textToCopy="careers@narative.co" />
+              <CopyToClipboard textToCopy="hello@thirdwave.network" />
             </div>
           </AccordianCareersEmail>
         </AccordianContainer>
@@ -197,13 +197,13 @@ class CareersAccordian extends Component {
         <AccordianCareersEmail copied={this.state.copied}>
           <span style={{ display: this.state.copied ? 'none' : 'inline' }}>
             Don't see a position you're looking for? Send us a message to{' '}
-            <a href="mailto:careers@narative.co">careers@narative.co</a>
+            <a href="mailto:hello@thirdwave.network">hello@thirdwave.network</a>
           </span>
           <div
             onClick={() => this.setState({ copied: true })}
             style={{ justifySelf: 'flex-end' }}
           >
-            <CopyToClipboard textToCopy="careers@narative.co" />
+            <CopyToClipboard textToCopy="hello@thirdwave.network" />
           </div>
         </AccordianCareersEmail>
       </AccordianContainer>
