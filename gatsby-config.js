@@ -1,5 +1,5 @@
 const siteMetadata = {
-  title: 'Narative',
+  title: 'thirdwave.network',
 }
 
 const plugins = [
@@ -43,8 +43,8 @@ const plugins = [
   {
     resolve: 'gatsby-plugin-manifest',
     options: {
-      name: 'Narative',
-      short_name: 'Narative',
+      name: 'thirdwave.network',
+      short_name: 'thirdwave.network',
       start_url: '/',
       background_color: '#111216',
       theme_color: '#111216',
@@ -53,7 +53,7 @@ const plugins = [
   {
     resolve: `gatsby-plugin-google-analytics`,
     options: {
-      trackingId: 'UA-118232427-1',
+      trackingId: 'UA-',
     },
   },
 ]

@@ -369,7 +369,7 @@ class NotFound extends Component {
                     animation={animation}
                     transitionDelay={800}
                   >
-                    © {new Date().getFullYear()} Narative Studio Inc.
+                    © {new Date().getFullYear()} thirdwave.network
                   </CopyRightContainer>
                   <div />
                 </LeftContainer>
@@ -385,7 +385,7 @@ class NotFound extends Component {
                     animation={animation}
                     transitionDelay={800}
                   >
-                    © {new Date().getFullYear()} Narative Studio Inc.
+                    © {new Date().getFullYear()} thirdwave.network
                   </CopyRightContainerMobile>
                 </RightContainer>
               </GridContainer>

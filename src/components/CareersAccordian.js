@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react'
+import React, { Component } from 'react'
 import styled, { keyframes } from 'styled-components'
 
 import CopyToClipboard from './CopyToClipboard'

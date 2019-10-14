@@ -29,7 +29,7 @@ class IndexPage extends Component {
       <Layout>
         <Fragment>
           <Helmet
-            title="Narative"
+            title="thirdwave.network"
             pathname={this.props.location.pathname}
             image={this.props.data.homeMeta.childImageSharp.fixed.src}
           />
@@ -47,7 +47,7 @@ class IndexPage extends Component {
                     <TextContainer animation={animation} transitionDelay={600}>
                       <WelcomeHeader>Accelerate your story</WelcomeHeader>
                       <MainText>
-                        Narative brings decades of design, engineering and
+                        thirdwave.network brings decades of design, engineering and
                         marketing expertise directly to your team, so you can
                         build the products you've always dreamed of — and the
                         ones you're yet to dream up.
@@ -77,7 +77,7 @@ class IndexPage extends Component {
 
                     <NarativeVideoContainer animation={animation}>
                       <NarativeVideo
-                        label="Narative wave video"
+                        label="thirdwave.network wave video"
                         webm="https://res.cloudinary.com/narative/video/upload/v1524716897/narative-wave.webm"
                         mp4="https://res.cloudinary.com/narative/video/upload/v1524716897/narative-wave.mp4"
                         poster="https://res.cloudinary.com/narative/video/upload/v1524716897/narative-wave.jpg"

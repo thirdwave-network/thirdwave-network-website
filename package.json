@@ -1,10 +1,10 @@
 {
-  "name": "narative.co",
-  "description": "Narative",
+  "name": "thirdwave.network",
+  "description": "thirdwave.network",
   "version": "1.0.0",
-  "author": "Dennis BRotzky <dennis@narative.co>",
+  "author": "Tomasz Waszczyk <tomasz@waszczyk.com>",
   "keywords": [
-    "narative"
+    "thirdwave.network"
   ],
   "scripts": {
     "build": "./node_modules/.bin/gatsby build --prefix-paths",

@@ -1,0 +1,2447 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "jsonName": "dev-404-page-5f9",
+      "internalComponentName": "ComponentDev404Page",
+      "path": "/dev-404-page/",
+      "component": "/home/panta/workspaces/thirdwave-network-website/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin dev-404-page",
+      "pluginCreatorId": "Plugin dev-404-page",
+      "componentPath": "/home/panta/workspaces/thirdwave-network-website/.cache/dev-404-page.js",
+      "id": "SitePage /dev-404-page/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "0746bc8be9b07725fded9a31f9e3da84",
+        "description": "Plugin dev-404-page",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin dev-404-page": {
+      "resolve": "/home/panta/workspaces/thirdwave-network-website/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "Plugin dev-404-page",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/panta/workspaces/thirdwave-network-website/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "c0a42d0372d2d9767313f1591224a368",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin load-babel-config": {
+      "resolve": "/home/panta/workspaces/thirdwave-network-website/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "id": "Plugin load-babel-config",
+      "name": "load-babel-config",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/panta/workspaces/thirdwave-network-website/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "packageJson": {
+        "name": "load-babel-config",
+        "description": "Internal plugin that handles loading Babel configs",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "076667f01915458fca501e2641e897e9",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin internal-data-bridge": {
+      "resolve": "/home/panta/workspaces/thirdwave-network-website/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "Plugin internal-data-bridge",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/panta/workspaces/thirdwave-network-website/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "20d8cf11cbee9a4494254c73e03b8c05",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin prod-404": {
+      "resolve": "/home/panta/workspaces/thirdwave-network-website/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "Plugin prod-404",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/panta/workspaces/thirdwave-network-website/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "755ef06bef04259f094332c7b8b58baf",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin query-runner": {
+      "resolve": "/home/panta/workspaces/thirdwave-network-website/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "Plugin query-runner",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/panta/workspaces/thirdwave-network-website/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "21a626f6d7c8ea8238262fc40584f38d",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-react-helmet": {
+      "resolve": "/home/panta/workspaces/thirdwave-network-website/node_modules/gatsby-plugin-react-helmet",
+      "id": "Plugin gatsby-plugin-react-helmet",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "3.0.0-rc.1",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/home/panta/workspaces/thirdwave-network-website/node_modules/gatsby-plugin-react-helmet",
+      "packageJson": {
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
+        "version": "3.0.0-rc.1",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "react-helmet",
+          "seo",
+          "document",
+          "head",
+          "title",
+          "meta",
+          "link",
+          "script",
+          "base",
+          "noscript",
+          "style"
+        ],
+        "author": "Kyle Mathews <matthews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          },
+          {
+            "name": "react-helmet",
+            "version": ">=5.1.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "a588c0a461e4cd245db58eaa07640884",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-react-next": {
+      "resolve": "/home/panta/workspaces/thirdwave-network-website/node_modules/gatsby-plugin-react-next",
+      "id": "Plugin gatsby-plugin-react-next",
+      "name": "gatsby-plugin-react-next",
+      "version": "2.0.1-13",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/panta/workspaces/thirdwave-network-website/node_modules/gatsby-plugin-react-next",
+      "packageJson": {
+        "name": "gatsby-plugin-react-next",
+        "description": "Use React 16 with your Gatsby v1 site",
+        "version": "2.0.1-13",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "7.0.0-beta.47"
+          },
+          {
+            "name": "core-js",
+            "version": "^2.5.1"
+          },
+          {
+            "name": "resolve",
+            "version": "^1.5.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "7.0.0-beta.47"
+          },
+          {
+            "name": "@babel/core",
+            "version": "7.0.0-beta.47"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "6fd7adaa553cccd692ece1616b6c99b3",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-image": {
+      "resolve": "/home/panta/workspaces/thirdwave-network-website/node_modules/gatsby-image",
+      "id": "Plugin gatsby-image",
+      "name": "gatsby-image",
+      "version": "2.0.0-rc.4",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/panta/workspaces/thirdwave-network-website/node_modules/gatsby-image",
+      "packageJson": {
+        "name": "gatsby-image",
+        "description": "Lazy-loading React image component with optional support for the blur-up effect.",
+        "version": "2.0.0-rc.4",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-component",
+          "react-component"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "prop-types",
+            "version": "^15.6.1"
+          },
+          {
+            "name": "react-testing-library",
+            "version": "^4.1.7"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "3459227d40668c9b48a52c5c4d043126",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-sharp": {
+      "resolve": "/home/panta/workspaces/thirdwave-network-website/node_modules/gatsby-plugin-sharp",
+      "id": "Plugin gatsby-plugin-sharp",
+      "name": "gatsby-plugin-sharp",
+      "version": "2.0.0-rc.7",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/panta/workspaces/thirdwave-network-website/node_modules/gatsby-plugin-sharp",
+      "packageJson": {
+        "name": "gatsby-plugin-sharp",
+        "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
+        "version": "2.0.0-rc.7",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "async",
+            "version": "^2.1.2"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "imagemin",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "imagemin-pngquant",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "imagemin-webp",
+            "version": "^4.1.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mini-svg-data-uri",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.20.2"
+          },
+          {
+            "name": "svgo",
+            "version": "^0.7.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "60f4fb9b4cb658f23f6161fe93073c39",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-transformer-sharp": {
+      "resolve": "/home/panta/workspaces/thirdwave-network-website/node_modules/gatsby-transformer-sharp",
+      "id": "Plugin gatsby-transformer-sharp",
+      "name": "gatsby-transformer-sharp",
+      "version": "2.1.1-rc.3",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType",
+        "onPreExtractQueries"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/panta/workspaces/thirdwave-network-website/node_modules/gatsby-transformer-sharp",
+      "packageJson": {
+        "name": "gatsby-transformer-sharp",
+        "description": "Gatsby transformer plugin for images using Sharp",
+        "version": "2.1.1-rc.3",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.20.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.0-beta.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "631acc04fcfc0ac06917c97e40894a43",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-netlify-cache": {
+      "resolve": "/home/panta/workspaces/thirdwave-network-website/node_modules/gatsby-plugin-netlify-cache",
+      "id": "Plugin gatsby-plugin-netlify-cache",
+      "name": "gatsby-plugin-netlify-cache",
+      "version": "1.0.0-beta0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPreInit",
+        "onPostBuild"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/panta/workspaces/thirdwave-network-website/node_modules/gatsby-plugin-netlify-cache",
+      "packageJson": {
+        "name": "gatsby-plugin-netlify-cache",
+        "description": "Cache your build files on Netlify",
+        "version": "1.0.0-beta0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "netlify",
+          "cache"
+        ],
+        "author": "Benedikt Rötsch <info@benedikt-roetsch.de>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.2.0"
+          },
+          {
+            "name": "eslint",
+            "version": "^5.4.0"
+          },
+          {
+            "name": "eslint-config-prettier",
+            "version": "^3.0.1"
+          },
+          {
+            "name": "eslint-config-standard",
+            "version": "^12.0.0"
+          },
+          {
+            "name": "eslint-plugin-import",
+            "version": "^2.14.0"
+          },
+          {
+            "name": "eslint-plugin-node",
+            "version": "^7.0.1"
+          },
+          {
+            "name": "eslint-plugin-prettier",
+            "version": "^2.6.2"
+          },
+          {
+            "name": "eslint-plugin-promise",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "eslint-plugin-standard",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "prettier",
+            "version": "^1.14.2"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "eae39253c6e0ad6d22f404d0664056e6",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-styled-components": {
+      "resolve": "/home/panta/workspaces/thirdwave-network-website/node_modules/gatsby-plugin-styled-components",
+      "id": "Plugin gatsby-plugin-styled-components",
+      "name": "gatsby-plugin-styled-components",
+      "version": "3.0.0-rc.5",
+      "pluginOptions": {
+        "plugins": [],
+        "displayName": true
+      },
+      "nodeAPIs": [
+        "onCreateBabelConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "wrapRootElement",
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/home/panta/workspaces/thirdwave-network-website/node_modules/gatsby-plugin-styled-components",
+      "packageJson": {
+        "name": "gatsby-plugin-styled-components",
+        "description": "Gatsby plugin to add support for styled components",
+        "version": "3.0.0-rc.5",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "styled-components"
+        ],
+        "author": "Guten Ye <ywzhaifei@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "babel-plugin-styled-components",
+            "version": ">1.5.0"
+          },
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          },
+          {
+            "name": "styled-components",
+            "version": ">= 2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "d862d4d919a81bf81a5106405510a0eb",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-source-filesystem": {
+      "resolve": "/home/panta/workspaces/thirdwave-network-website/node_modules/gatsby-source-filesystem",
+      "id": "Plugin gatsby-source-filesystem",
+      "name": "gatsby-source-filesystem",
+      "version": "2.0.1-rc.6",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "assets",
+        "path": "/home/panta/workspaces/thirdwave-network-website/src/assets/"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/panta/workspaces/thirdwave-network-website/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "2.0.1-rc.6",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "xstate",
+            "version": "^3.1.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "aa9c80d91bc71eee0f0af559c8a3076f",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-favicon": {
+      "resolve": "/home/panta/workspaces/thirdwave-network-website/node_modules/gatsby-plugin-favicon",
+      "id": "Plugin gatsby-plugin-favicon",
+      "name": "gatsby-plugin-favicon",
+      "version": "3.1.4",
+      "pluginOptions": {
+        "plugins": [],
+        "logo": "./static/favicon.png",
+        "injectHTML": true,
+        "icons": {
+          "android": true,
+          "appleIcon": true,
+          "appleStartup": true,
+          "coast": false,
+          "favicons": true,
+          "firefox": true,
+          "twitter": false,
+          "yandex": false,
+          "windows": false
+        }
+      },
+      "nodeAPIs": [
+        "onCreateWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/home/panta/workspaces/thirdwave-network-website/node_modules/gatsby-plugin-favicon",
+      "packageJson": {
+        "name": "gatsby-plugin-favicon",
+        "description": "Gatsby plugin to add favicon for all configurations",
+        "version": "3.1.4",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon"
+        ],
+        "author": "Julien Blatecky <julien.blatecky@creatiwity.net>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "favicons-webpack-plugin",
+            "version": "git://github.com/Creatiwity/favicons-webpack-plugin.git#f262255febeeca348bf7ae5cc140e0386c074e2c"
+          },
+          {
+            "name": "html-react-parser",
+            "version": "^0.4.6"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          },
+          {
+            "name": "react",
+            "version": "^16.4.2"
+          }
+        ],
+        "devDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "d8504eaaacf67186b7b2f6e5b958b719",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-manifest": {
+      "resolve": "/home/panta/workspaces/thirdwave-network-website/node_modules/gatsby-plugin-manifest",
+      "id": "Plugin gatsby-plugin-manifest",
+      "name": "gatsby-plugin-manifest",
+      "version": "2.0.4",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "Narative",
+        "short_name": "Narative",
+        "start_url": "/",
+        "background_color": "#111216",
+        "theme_color": "#111216"
+      },
+      "nodeAPIs": [
+        "onPostBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/home/panta/workspaces/thirdwave-network-website/node_modules/gatsby-plugin-manifest",
+      "packageJson": {
+        "name": "gatsby-plugin-manifest",
+        "description": "Gatsby plugin which adds a manifest.webmanifest to make sites progressive web apps",
+        "version": "2.0.4",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "icons",
+          "manifest.webmanifest",
+          "progressive-web-app",
+          "pwa"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.20.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "73cf4bdb1ef5b934afdf78c01977afc3",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-google-analytics": {
+      "resolve": "/home/panta/workspaces/thirdwave-network-website/node_modules/gatsby-plugin-google-analytics",
+      "id": "Plugin gatsby-plugin-google-analytics",
+      "name": "gatsby-plugin-google-analytics",
+      "version": "2.0.0-rc.2",
+      "pluginOptions": {
+        "plugins": [],
+        "trackingId": "UA-118232427-1"
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [
+        "onRouteUpdate"
+      ],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/home/panta/workspaces/thirdwave-network-website/node_modules/gatsby-plugin-google-analytics",
+      "packageJson": {
+        "name": "gatsby-plugin-google-analytics",
+        "description": "Gatsby plugin to add google analytics onto a site",
+        "version": "2.0.0-rc.2",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "google analytics"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "de8b68c699bcdccc909d4f01bd0ae36f",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin default-site-plugin": {
+      "resolve": "/home/panta/workspaces/thirdwave-network-website",
+      "id": "Plugin default-site-plugin",
+      "name": "default-site-plugin",
+      "version": "6b71fb139cfc470bdc13b97e1629c3b7",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/panta/workspaces/thirdwave-network-website",
+      "packageJson": {
+        "name": "narative.co",
+        "description": "Narative",
+        "version": "1.0.0",
+        "keywords": [
+          "narative"
+        ],
+        "author": "Dennis BRotzky <dennis@narative.co>",
+        "dependencies": [
+          {
+            "name": "formik",
+            "version": "^0.11.11"
+          },
+          {
+            "name": "gatsby",
+            "version": "next"
+          },
+          {
+            "name": "gatsby-image",
+            "version": "next"
+          },
+          {
+            "name": "gatsby-link",
+            "version": "next"
+          },
+          {
+            "name": "gatsby-plugin-favicon",
+            "version": "next"
+          },
+          {
+            "name": "gatsby-plugin-google-analytics",
+            "version": "next"
+          },
+          {
+            "name": "gatsby-plugin-manifest",
+            "version": "^2.0.4"
+          },
+          {
+            "name": "gatsby-plugin-netlify-cache",
+            "version": "next"
+          },
+          {
+            "name": "gatsby-plugin-react-helmet",
+            "version": "next"
+          },
+          {
+            "name": "gatsby-plugin-react-next",
+            "version": "next"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "next"
+          },
+          {
+            "name": "gatsby-plugin-styled-components",
+            "version": "next"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "next"
+          },
+          {
+            "name": "gatsby-transformer-sharp",
+            "version": "next"
+          },
+          {
+            "name": "prop-types",
+            "version": "^15.6.1"
+          },
+          {
+            "name": "react",
+            "version": "^16.5.1"
+          },
+          {
+            "name": "react-click-outside",
+            "version": "^3.0.1"
+          },
+          {
+            "name": "react-device-detect",
+            "version": "^1.5.9"
+          },
+          {
+            "name": "react-dom",
+            "version": "^16.5.1"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.2.0"
+          },
+          {
+            "name": "react-text-mask",
+            "version": "^5.4.0"
+          },
+          {
+            "name": "react-transition-group",
+            "version": "^2.3.1"
+          },
+          {
+            "name": "styled-components",
+            "version": "^3.2.6"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-plugin-styled-components",
+            "version": "^1.5.1"
+          },
+          {
+            "name": "babel-plugin-transform-regenerator",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-plugin-transform-runtime",
+            "version": "^6.23.0"
+          },
+          {
+            "name": "babel-polyfill",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "gatsby-cli",
+            "version": "^1.1.50"
+          },
+          {
+            "name": "prettier",
+            "version": "^1.12.0"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "f1e4a61fc465d8ca77d295e13efc107b",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-page-creator": {
+      "resolve": "/home/panta/workspaces/thirdwave-network-website/node_modules/gatsby-plugin-page-creator",
+      "id": "Plugin gatsby-plugin-page-creator",
+      "name": "gatsby-plugin-page-creator",
+      "version": "2.0.0",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/home/panta/workspaces/thirdwave-network-website/src/pages",
+        "pathCheck": false
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/panta/workspaces/thirdwave-network-website/node_modules/gatsby-plugin-page-creator",
+      "packageJson": {
+        "name": "gatsby-plugin-page-creator",
+        "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
+        "version": "2.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "glob",
+            "version": "^7.1.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "parse-filepath",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "90a78249dd31b6c9ad99e1bf914d23d7",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {
+        "title": "thirdwave.network"
+      },
+      "port": "8000",
+      "host": "localhost",
+      "buildTime": "2019-10-14T20:14:19.294Z",
+      "id": "Site",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "fd5a56e02c4100d31478e922e17b8d07",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "0f9397df-7ebc-5f8d-9bc0-c48eee54633b": {
+      "id": "0f9397df-7ebc-5f8d-9bc0-c48eee54633b",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "f9923258fcee832b77ea8229fd544fcf",
+        "type": "Directory",
+        "description": "Directory \"src/assets\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "assets",
+      "absolutePath": "/home/panta/workspaces/thirdwave-network-website/src/assets/",
+      "relativePath": "",
+      "extension": "",
+      "size": 4096,
+      "prettySize": "4.1 kB",
+      "modifiedTime": "2019-10-08T22:27:34.925Z",
+      "accessTime": "2019-10-14T19:38:03.693Z",
+      "changeTime": "2019-10-10T20:02:34.451Z",
+      "birthTime": "2019-10-10T20:02:34.451Z",
+      "root": "/",
+      "dir": "/home/panta/workspaces/thirdwave-network-website/src",
+      "base": "assets",
+      "ext": "",
+      "name": "assets",
+      "relativeDirectory": "..",
+      "dev": 2051,
+      "mode": 16893,
+      "nlink": 4,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 21236823,
+      "blocks": 8,
+      "atimeMs": 1571081883692.6743,
+      "mtimeMs": 1570573654924.772,
+      "ctimeMs": 1570737754450.731,
+      "birthtimeMs": 1570737754450.731,
+      "atime": "2019-10-14T19:38:03.693Z",
+      "mtime": "2019-10-08T22:27:34.925Z",
+      "ctime": "2019-10-10T20:02:34.451Z",
+      "birthtime": "2019-10-10T20:02:34.451Z"
+    },
+    "638121fe-a65a-5b60-981b-f69fa58f2d0e": {
+      "id": "638121fe-a65a-5b60-981b-f69fa58f2d0e",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "a03365a848477b979266c967dc9ab97f",
+        "type": "Directory",
+        "description": "Directory \"src/assets/careers\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "assets",
+      "absolutePath": "/home/panta/workspaces/thirdwave-network-website/src/assets/careers",
+      "relativePath": "careers",
+      "extension": "",
+      "size": 4096,
+      "prettySize": "4.1 kB",
+      "modifiedTime": "2019-10-08T22:21:17.711Z",
+      "accessTime": "2019-10-14T19:38:03.805Z",
+      "changeTime": "2019-10-10T20:02:34.451Z",
+      "birthTime": "2019-10-10T20:02:34.451Z",
+      "root": "/",
+      "dir": "/home/panta/workspaces/thirdwave-network-website/src/assets",
+      "base": "careers",
+      "ext": "",
+      "name": "careers",
+      "relativeDirectory": "",
+      "dev": 2051,
+      "mode": 16893,
+      "nlink": 4,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 21236824,
+      "blocks": 8,
+      "atimeMs": 1571081883804.675,
+      "mtimeMs": 1570573277710.805,
+      "ctimeMs": 1570737754450.731,
+      "birthtimeMs": 1570737754450.731,
+      "atime": "2019-10-14T19:38:03.805Z",
+      "mtime": "2019-10-08T22:21:17.711Z",
+      "ctime": "2019-10-10T20:02:34.451Z",
+      "birthtime": "2019-10-10T20:02:34.451Z"
+    },
+    "0278f505-a3aa-5ad9-b37b-f800bb78d957": {
+      "id": "0278f505-a3aa-5ad9-b37b-f800bb78d957",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "0a4ba8783ee28fb120b4148fcba702f6",
+        "type": "Directory",
+        "description": "Directory \"src/assets/meta\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "assets",
+      "absolutePath": "/home/panta/workspaces/thirdwave-network-website/src/assets/meta",
+      "relativePath": "meta",
+      "extension": "",
+      "size": 4096,
+      "prettySize": "4.1 kB",
+      "modifiedTime": "2019-10-08T22:21:17.743Z",
+      "accessTime": "2019-10-14T19:38:03.805Z",
+      "changeTime": "2019-10-10T20:02:34.451Z",
+      "birthTime": "2019-10-10T20:02:34.451Z",
+      "root": "/",
+      "dir": "/home/panta/workspaces/thirdwave-network-website/src/assets",
+      "base": "meta",
+      "ext": "",
+      "name": "meta",
+      "relativeDirectory": "",
+      "dev": 2051,
+      "mode": 16893,
+      "nlink": 2,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 21236836,
+      "blocks": 8,
+      "atimeMs": 1571081883804.675,
+      "mtimeMs": 1570573277742.805,
+      "ctimeMs": 1570737754450.731,
+      "birthtimeMs": 1570737754450.731,
+      "atime": "2019-10-14T19:38:03.805Z",
+      "mtime": "2019-10-08T22:21:17.743Z",
+      "ctime": "2019-10-10T20:02:34.451Z",
+      "birthtime": "2019-10-10T20:02:34.451Z"
+    },
+    "ad05cfb5-a056-52da-8262-9d5bbbf9d269": {
+      "id": "ad05cfb5-a056-52da-8262-9d5bbbf9d269",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "0704343b6ace83fd910540643f97da25",
+        "type": "Directory",
+        "description": "Directory \"src/assets/careers/gallery\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "assets",
+      "absolutePath": "/home/panta/workspaces/thirdwave-network-website/src/assets/careers/gallery",
+      "relativePath": "careers/gallery",
+      "extension": "",
+      "size": 4096,
+      "prettySize": "4.1 kB",
+      "modifiedTime": "2019-10-08T22:21:17.711Z",
+      "accessTime": "2019-10-14T19:38:03.885Z",
+      "changeTime": "2019-10-10T20:02:34.447Z",
+      "birthTime": "2019-10-10T20:02:34.447Z",
+      "root": "/",
+      "dir": "/home/panta/workspaces/thirdwave-network-website/src/assets/careers",
+      "base": "gallery",
+      "ext": "",
+      "name": "gallery",
+      "relativeDirectory": "careers",
+      "dev": 2051,
+      "mode": 16893,
+      "nlink": 2,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 21236825,
+      "blocks": 8,
+      "atimeMs": 1571081883884.6758,
+      "mtimeMs": 1570573277710.805,
+      "ctimeMs": 1570737754446.731,
+      "birthtimeMs": 1570737754446.731,
+      "atime": "2019-10-14T19:38:03.885Z",
+      "mtime": "2019-10-08T22:21:17.711Z",
+      "ctime": "2019-10-10T20:02:34.447Z",
+      "birthtime": "2019-10-10T20:02:34.447Z"
+    },
+    "b8b5c6c6-48fb-5fc1-b642-e1bbb87150e0": {
+      "id": "b8b5c6c6-48fb-5fc1-b642-e1bbb87150e0",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "2d5df8f1b2d1002c1ebe110984f9604c",
+        "type": "Directory",
+        "description": "Directory \"src/assets/careers/hero\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "assets",
+      "absolutePath": "/home/panta/workspaces/thirdwave-network-website/src/assets/careers/hero",
+      "relativePath": "careers/hero",
+      "extension": "",
+      "size": 4096,
+      "prettySize": "4.1 kB",
+      "modifiedTime": "2019-10-08T22:23:24.635Z",
+      "accessTime": "2019-10-14T19:38:03.885Z",
+      "changeTime": "2019-10-10T20:02:34.451Z",
+      "birthTime": "2019-10-10T20:02:34.451Z",
+      "root": "/",
+      "dir": "/home/panta/workspaces/thirdwave-network-website/src/assets/careers",
+      "base": "hero",
+      "ext": "",
+      "name": "hero",
+      "relativeDirectory": "careers",
+      "dev": 2051,
+      "mode": 16893,
+      "nlink": 2,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 21236834,
+      "blocks": 8,
+      "atimeMs": 1571081883884.6758,
+      "mtimeMs": 1570573404635.405,
+      "ctimeMs": 1570737754450.731,
+      "birthtimeMs": 1570737754450.731,
+      "atime": "2019-10-14T19:38:03.885Z",
+      "mtime": "2019-10-08T22:23:24.635Z",
+      "ctime": "2019-10-10T20:02:34.451Z",
+      "birthtime": "2019-10-10T20:02:34.451Z"
+    },
+    "4723478d-b8ce-54bd-a7f0-00b661edd874": {
+      "id": "4723478d-b8ce-54bd-a7f0-00b661edd874",
+      "children": [
+        "e2cebcc4-c4ef-5391-98b8-d9ca44fdfdd9"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "9e340a605fa76116b8271d106315644e",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/assets/meta/careers-meta.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "assets",
+      "absolutePath": "/home/panta/workspaces/thirdwave-network-website/src/assets/meta/careers-meta.jpg",
+      "relativePath": "meta/careers-meta.jpg",
+      "extension": "jpg",
+      "size": 16851,
+      "prettySize": "16.9 kB",
+      "modifiedTime": "2019-10-08T22:21:17.743Z",
+      "accessTime": "2019-10-10T20:03:58.843Z",
+      "changeTime": "2019-10-10T20:02:34.451Z",
+      "birthTime": "2019-10-10T20:02:34.451Z",
+      "root": "/",
+      "dir": "/home/panta/workspaces/thirdwave-network-website/src/assets/meta",
+      "base": "careers-meta.jpg",
+      "ext": ".jpg",
+      "name": "careers-meta",
+      "relativeDirectory": "meta",
+      "dev": 2051,
+      "mode": 33204,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 21236837,
+      "blocks": 40,
+      "atimeMs": 1570737838843.1387,
+      "mtimeMs": 1570573277742.805,
+      "ctimeMs": 1570737754450.731,
+      "birthtimeMs": 1570737754450.731,
+      "atime": "2019-10-10T20:03:58.843Z",
+      "mtime": "2019-10-08T22:21:17.743Z",
+      "ctime": "2019-10-10T20:02:34.451Z",
+      "birthtime": "2019-10-10T20:02:34.451Z"
+    },
+    "e047e5c9-00e0-590a-86cc-10f0cf4baf00": {
+      "id": "e047e5c9-00e0-590a-86cc-10f0cf4baf00",
+      "children": [
+        "48b65d01-3088-504f-b9fe-e52e60446200"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "c6e6573c87098f9f6a8091accc5f2f9e",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/assets/meta/narative-meta.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "assets",
+      "absolutePath": "/home/panta/workspaces/thirdwave-network-website/src/assets/meta/narative-meta.jpg",
+      "relativePath": "meta/narative-meta.jpg",
+      "extension": "jpg",
+      "size": 13782,
+      "prettySize": "13.8 kB",
+      "modifiedTime": "2019-10-08T22:21:17.747Z",
+      "accessTime": "2019-10-10T20:03:58.843Z",
+      "changeTime": "2019-10-10T20:02:34.451Z",
+      "birthTime": "2019-10-10T20:02:34.451Z",
+      "root": "/",
+      "dir": "/home/panta/workspaces/thirdwave-network-website/src/assets/meta",
+      "base": "narative-meta.jpg",
+      "ext": ".jpg",
+      "name": "narative-meta",
+      "relativeDirectory": "meta",
+      "dev": 2051,
+      "mode": 33204,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 21236838,
+      "blocks": 32,
+      "atimeMs": 1570737838843.1387,
+      "mtimeMs": 1570573277746.805,
+      "ctimeMs": 1570737754450.731,
+      "birthtimeMs": 1570737754450.731,
+      "atime": "2019-10-10T20:03:58.843Z",
+      "mtime": "2019-10-08T22:21:17.747Z",
+      "ctime": "2019-10-10T20:02:34.451Z",
+      "birthtime": "2019-10-10T20:02:34.451Z"
+    },
+    "204f45a5-cb8c-567f-97b1-eb26ef02a2d0": {
+      "id": "204f45a5-cb8c-567f-97b1-eb26ef02a2d0",
+      "children": [
+        "039283a8-39ff-5a7a-abee-b3728936808c"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "dafa9b18caff247b522be3b22ff8eed9",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/assets/careers/gallery/4-careers-gallery-4.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "assets",
+      "absolutePath": "/home/panta/workspaces/thirdwave-network-website/src/assets/careers/gallery/4-careers-gallery-4.jpg",
+      "relativePath": "careers/gallery/4-careers-gallery-4.jpg",
+      "extension": "jpg",
+      "size": 50045,
+      "prettySize": "50 kB",
+      "modifiedTime": "2019-10-08T22:21:17.711Z",
+      "accessTime": "2019-10-10T20:03:58.799Z",
+      "changeTime": "2019-10-10T20:02:34.447Z",
+      "birthTime": "2019-10-10T20:02:34.447Z",
+      "root": "/",
+      "dir": "/home/panta/workspaces/thirdwave-network-website/src/assets/careers/gallery",
+      "base": "4-careers-gallery-4.jpg",
+      "ext": ".jpg",
+      "name": "4-careers-gallery-4",
+      "relativeDirectory": "careers/gallery",
+      "dev": 2051,
+      "mode": 33204,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 21236829,
+      "blocks": 104,
+      "atimeMs": 1570737838799.1384,
+      "mtimeMs": 1570573277710.805,
+      "ctimeMs": 1570737754446.731,
+      "birthtimeMs": 1570737754446.731,
+      "atime": "2019-10-10T20:03:58.799Z",
+      "mtime": "2019-10-08T22:21:17.711Z",
+      "ctime": "2019-10-10T20:02:34.447Z",
+      "birthtime": "2019-10-10T20:02:34.447Z"
+    },
+    "530d0011-f5da-5be8-8890-0893f7eb48df": {
+      "id": "530d0011-f5da-5be8-8890-0893f7eb48df",
+      "children": [
+        "42c35cff-ba6b-562f-848f-6f9c96296881"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "adb2fe6d00cd333c24037d8062efebbd",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/assets/careers/gallery/6-careers-gallery-6.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "assets",
+      "absolutePath": "/home/panta/workspaces/thirdwave-network-website/src/assets/careers/gallery/6-careers-gallery-6.jpg",
+      "relativePath": "careers/gallery/6-careers-gallery-6.jpg",
+      "extension": "jpg",
+      "size": 50862,
+      "prettySize": "50.9 kB",
+      "modifiedTime": "2019-10-08T22:21:17.711Z",
+      "accessTime": "2019-10-10T20:03:58.803Z",
+      "changeTime": "2019-10-10T20:02:34.447Z",
+      "birthTime": "2019-10-10T20:02:34.447Z",
+      "root": "/",
+      "dir": "/home/panta/workspaces/thirdwave-network-website/src/assets/careers/gallery",
+      "base": "6-careers-gallery-6.jpg",
+      "ext": ".jpg",
+      "name": "6-careers-gallery-6",
+      "relativeDirectory": "careers/gallery",
+      "dev": 2051,
+      "mode": 33204,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 21236831,
+      "blocks": 104,
+      "atimeMs": 1570737838803.1387,
+      "mtimeMs": 1570573277710.805,
+      "ctimeMs": 1570737754446.731,
+      "birthtimeMs": 1570737754446.731,
+      "atime": "2019-10-10T20:03:58.803Z",
+      "mtime": "2019-10-08T22:21:17.711Z",
+      "ctime": "2019-10-10T20:02:34.447Z",
+      "birthtime": "2019-10-10T20:02:34.447Z"
+    },
+    "89c751e8-5962-548c-b155-28c899bb66be": {
+      "id": "89c751e8-5962-548c-b155-28c899bb66be",
+      "children": [
+        "1be7513d-0dfa-5ddb-a8fb-e1834810b0df"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "886a07bc748ea874e7d4cf0587a26e5c",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/assets/careers/gallery/7-careers-gallery-7.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "assets",
+      "absolutePath": "/home/panta/workspaces/thirdwave-network-website/src/assets/careers/gallery/7-careers-gallery-7.jpg",
+      "relativePath": "careers/gallery/7-careers-gallery-7.jpg",
+      "extension": "jpg",
+      "size": 51858,
+      "prettySize": "51.9 kB",
+      "modifiedTime": "2019-10-08T22:21:17.711Z",
+      "accessTime": "2019-10-10T20:03:58.807Z",
+      "changeTime": "2019-10-10T20:02:34.447Z",
+      "birthTime": "2019-10-10T20:02:34.447Z",
+      "root": "/",
+      "dir": "/home/panta/workspaces/thirdwave-network-website/src/assets/careers/gallery",
+      "base": "7-careers-gallery-7.jpg",
+      "ext": ".jpg",
+      "name": "7-careers-gallery-7",
+      "relativeDirectory": "careers/gallery",
+      "dev": 2051,
+      "mode": 33204,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 21236832,
+      "blocks": 104,
+      "atimeMs": 1570737838807.1387,
+      "mtimeMs": 1570573277710.805,
+      "ctimeMs": 1570737754446.731,
+      "birthtimeMs": 1570737754446.731,
+      "atime": "2019-10-10T20:03:58.807Z",
+      "mtime": "2019-10-08T22:21:17.711Z",
+      "ctime": "2019-10-10T20:02:34.447Z",
+      "birthtime": "2019-10-10T20:02:34.447Z"
+    },
+    "e2cebcc4-c4ef-5391-98b8-d9ca44fdfdd9": {
+      "id": "e2cebcc4-c4ef-5391-98b8-d9ca44fdfdd9",
+      "children": [],
+      "parent": "4723478d-b8ce-54bd-a7f0-00b661edd874",
+      "internal": {
+        "contentDigest": "9e340a605fa76116b8271d106315644e",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "48b65d01-3088-504f-b9fe-e52e60446200": {
+      "id": "48b65d01-3088-504f-b9fe-e52e60446200",
+      "children": [],
+      "parent": "e047e5c9-00e0-590a-86cc-10f0cf4baf00",
+      "internal": {
+        "contentDigest": "c6e6573c87098f9f6a8091accc5f2f9e",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "039283a8-39ff-5a7a-abee-b3728936808c": {
+      "id": "039283a8-39ff-5a7a-abee-b3728936808c",
+      "children": [],
+      "parent": "204f45a5-cb8c-567f-97b1-eb26ef02a2d0",
+      "internal": {
+        "contentDigest": "dafa9b18caff247b522be3b22ff8eed9",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "42c35cff-ba6b-562f-848f-6f9c96296881": {
+      "id": "42c35cff-ba6b-562f-848f-6f9c96296881",
+      "children": [],
+      "parent": "530d0011-f5da-5be8-8890-0893f7eb48df",
+      "internal": {
+        "contentDigest": "adb2fe6d00cd333c24037d8062efebbd",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "1be7513d-0dfa-5ddb-a8fb-e1834810b0df": {
+      "id": "1be7513d-0dfa-5ddb-a8fb-e1834810b0df",
+      "children": [],
+      "parent": "89c751e8-5962-548c-b155-28c899bb66be",
+      "internal": {
+        "contentDigest": "886a07bc748ea874e7d4cf0587a26e5c",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "4efb8563-b9d4-5cff-80d2-b5cfe0799728": {
+      "id": "4efb8563-b9d4-5cff-80d2-b5cfe0799728",
+      "children": [
+        "47c89790-dc5a-5dbb-adac-1fae46145878"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "bca66d72858eab66f356c7c07bc1bc78",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/assets/careers/gallery/8-careers-gallery-8.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "assets",
+      "absolutePath": "/home/panta/workspaces/thirdwave-network-website/src/assets/careers/gallery/8-careers-gallery-8.jpg",
+      "relativePath": "careers/gallery/8-careers-gallery-8.jpg",
+      "extension": "jpg",
+      "size": 49154,
+      "prettySize": "49.2 kB",
+      "modifiedTime": "2019-10-08T22:21:17.711Z",
+      "accessTime": "2019-10-10T20:03:58.807Z",
+      "changeTime": "2019-10-10T20:02:34.447Z",
+      "birthTime": "2019-10-10T20:02:34.447Z",
+      "root": "/",
+      "dir": "/home/panta/workspaces/thirdwave-network-website/src/assets/careers/gallery",
+      "base": "8-careers-gallery-8.jpg",
+      "ext": ".jpg",
+      "name": "8-careers-gallery-8",
+      "relativeDirectory": "careers/gallery",
+      "dev": 2051,
+      "mode": 33204,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 21236833,
+      "blocks": 104,
+      "atimeMs": 1570737838807.1387,
+      "mtimeMs": 1570573277710.805,
+      "ctimeMs": 1570737754446.731,
+      "birthtimeMs": 1570737754446.731,
+      "atime": "2019-10-10T20:03:58.807Z",
+      "mtime": "2019-10-08T22:21:17.711Z",
+      "ctime": "2019-10-10T20:02:34.447Z",
+      "birthtime": "2019-10-10T20:02:34.447Z"
+    },
+    "3e8806b5-80ca-53b9-b032-7f369489f5a0": {
+      "id": "3e8806b5-80ca-53b9-b032-7f369489f5a0",
+      "children": [
+        "3e928972-e639-5066-98e7-fdb2bb823ae9"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "9c996fd283a7b5b81df2b6585174a907",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/assets/careers/gallery/1-careers-gallery-1.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "assets",
+      "absolutePath": "/home/panta/workspaces/thirdwave-network-website/src/assets/careers/gallery/1-careers-gallery-1.jpg",
+      "relativePath": "careers/gallery/1-careers-gallery-1.jpg",
+      "extension": "jpg",
+      "size": 87659,
+      "prettySize": "87.7 kB",
+      "modifiedTime": "2019-10-08T22:21:17.711Z",
+      "accessTime": "2019-10-10T20:03:58.791Z",
+      "changeTime": "2019-10-10T20:02:34.447Z",
+      "birthTime": "2019-10-10T20:02:34.447Z",
+      "root": "/",
+      "dir": "/home/panta/workspaces/thirdwave-network-website/src/assets/careers/gallery",
+      "base": "1-careers-gallery-1.jpg",
+      "ext": ".jpg",
+      "name": "1-careers-gallery-1",
+      "relativeDirectory": "careers/gallery",
+      "dev": 2051,
+      "mode": 33204,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 21236826,
+      "blocks": 176,
+      "atimeMs": 1570737838791.1384,
+      "mtimeMs": 1570573277710.805,
+      "ctimeMs": 1570737754446.731,
+      "birthtimeMs": 1570737754446.731,
+      "atime": "2019-10-10T20:03:58.791Z",
+      "mtime": "2019-10-08T22:21:17.711Z",
+      "ctime": "2019-10-10T20:02:34.447Z",
+      "birthtime": "2019-10-10T20:02:34.447Z"
+    },
+    "aa1c1224-a48f-5d42-9687-8fa449c53b0f": {
+      "id": "aa1c1224-a48f-5d42-9687-8fa449c53b0f",
+      "children": [
+        "dd474860-3c69-5c59-991c-e5c38fbc868f"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "26f6cdaf06e9aafc620d910d1fce941a",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/assets/careers/gallery/2-careers-gallery-2.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "assets",
+      "absolutePath": "/home/panta/workspaces/thirdwave-network-website/src/assets/careers/gallery/2-careers-gallery-2.jpg",
+      "relativePath": "careers/gallery/2-careers-gallery-2.jpg",
+      "extension": "jpg",
+      "size": 82942,
+      "prettySize": "82.9 kB",
+      "modifiedTime": "2019-10-08T22:21:17.711Z",
+      "accessTime": "2019-10-10T20:03:58.795Z",
+      "changeTime": "2019-10-10T20:02:34.447Z",
+      "birthTime": "2019-10-10T20:02:34.447Z",
+      "root": "/",
+      "dir": "/home/panta/workspaces/thirdwave-network-website/src/assets/careers/gallery",
+      "base": "2-careers-gallery-2.jpg",
+      "ext": ".jpg",
+      "name": "2-careers-gallery-2",
+      "relativeDirectory": "careers/gallery",
+      "dev": 2051,
+      "mode": 33204,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 21236827,
+      "blocks": 168,
+      "atimeMs": 1570737838795.1384,
+      "mtimeMs": 1570573277710.805,
+      "ctimeMs": 1570737754446.731,
+      "birthtimeMs": 1570737754446.731,
+      "atime": "2019-10-10T20:03:58.795Z",
+      "mtime": "2019-10-08T22:21:17.711Z",
+      "ctime": "2019-10-10T20:02:34.447Z",
+      "birthtime": "2019-10-10T20:02:34.447Z"
+    },
+    "ddadb57e-ad66-5d8e-b47b-42346ec57e0e": {
+      "id": "ddadb57e-ad66-5d8e-b47b-42346ec57e0e",
+      "children": [
+        "3dedca1a-4dd2-5d4c-8901-a5be06843d8f"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "b6871b317e6abf149d3ca2c530083bd8",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/assets/careers/gallery/3-careers-gallery-1.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "assets",
+      "absolutePath": "/home/panta/workspaces/thirdwave-network-website/src/assets/careers/gallery/3-careers-gallery-1.jpg",
+      "relativePath": "careers/gallery/3-careers-gallery-1.jpg",
+      "extension": "jpg",
+      "size": 80300,
+      "prettySize": "80.3 kB",
+      "modifiedTime": "2019-10-08T22:21:17.711Z",
+      "accessTime": "2019-10-10T20:03:58.799Z",
+      "changeTime": "2019-10-10T20:02:34.447Z",
+      "birthTime": "2019-10-10T20:02:34.447Z",
+      "root": "/",
+      "dir": "/home/panta/workspaces/thirdwave-network-website/src/assets/careers/gallery",
+      "base": "3-careers-gallery-1.jpg",
+      "ext": ".jpg",
+      "name": "3-careers-gallery-1",
+      "relativeDirectory": "careers/gallery",
+      "dev": 2051,
+      "mode": 33204,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 21236828,
+      "blocks": 160,
+      "atimeMs": 1570737838799.1384,
+      "mtimeMs": 1570573277710.805,
+      "ctimeMs": 1570737754446.731,
+      "birthtimeMs": 1570737754446.731,
+      "atime": "2019-10-10T20:03:58.799Z",
+      "mtime": "2019-10-08T22:21:17.711Z",
+      "ctime": "2019-10-10T20:02:34.447Z",
+      "birthtime": "2019-10-10T20:02:34.447Z"
+    },
+    "9d7568a3-fb04-5979-86a2-0272afca4d92": {
+      "id": "9d7568a3-fb04-5979-86a2-0272afca4d92",
+      "children": [
+        "0f1bb921-e114-5ac5-9045-e16495ff6d33"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "a8a0e52d7fde00a2ca6a940b0d1ef2b0",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/assets/careers/gallery/5-careers-gallery-5.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "assets",
+      "absolutePath": "/home/panta/workspaces/thirdwave-network-website/src/assets/careers/gallery/5-careers-gallery-5.jpg",
+      "relativePath": "careers/gallery/5-careers-gallery-5.jpg",
+      "extension": "jpg",
+      "size": 93649,
+      "prettySize": "93.6 kB",
+      "modifiedTime": "2019-10-08T22:21:17.711Z",
+      "accessTime": "2019-10-10T20:03:58.803Z",
+      "changeTime": "2019-10-10T20:02:34.447Z",
+      "birthTime": "2019-10-10T20:02:34.447Z",
+      "root": "/",
+      "dir": "/home/panta/workspaces/thirdwave-network-website/src/assets/careers/gallery",
+      "base": "5-careers-gallery-5.jpg",
+      "ext": ".jpg",
+      "name": "5-careers-gallery-5",
+      "relativeDirectory": "careers/gallery",
+      "dev": 2051,
+      "mode": 33204,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 21236830,
+      "blocks": 184,
+      "atimeMs": 1570737838803.1387,
+      "mtimeMs": 1570573277710.805,
+      "ctimeMs": 1570737754446.731,
+      "birthtimeMs": 1570737754446.731,
+      "atime": "2019-10-10T20:03:58.803Z",
+      "mtime": "2019-10-08T22:21:17.711Z",
+      "ctime": "2019-10-10T20:02:34.447Z",
+      "birthtime": "2019-10-10T20:02:34.447Z"
+    },
+    "47c89790-dc5a-5dbb-adac-1fae46145878": {
+      "id": "47c89790-dc5a-5dbb-adac-1fae46145878",
+      "children": [],
+      "parent": "4efb8563-b9d4-5cff-80d2-b5cfe0799728",
+      "internal": {
+        "contentDigest": "bca66d72858eab66f356c7c07bc1bc78",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "3e928972-e639-5066-98e7-fdb2bb823ae9": {
+      "id": "3e928972-e639-5066-98e7-fdb2bb823ae9",
+      "children": [],
+      "parent": "3e8806b5-80ca-53b9-b032-7f369489f5a0",
+      "internal": {
+        "contentDigest": "9c996fd283a7b5b81df2b6585174a907",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "dd474860-3c69-5c59-991c-e5c38fbc868f": {
+      "id": "dd474860-3c69-5c59-991c-e5c38fbc868f",
+      "children": [],
+      "parent": "aa1c1224-a48f-5d42-9687-8fa449c53b0f",
+      "internal": {
+        "contentDigest": "26f6cdaf06e9aafc620d910d1fce941a",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "3dedca1a-4dd2-5d4c-8901-a5be06843d8f": {
+      "id": "3dedca1a-4dd2-5d4c-8901-a5be06843d8f",
+      "children": [],
+      "parent": "ddadb57e-ad66-5d8e-b47b-42346ec57e0e",
+      "internal": {
+        "contentDigest": "b6871b317e6abf149d3ca2c530083bd8",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "0f1bb921-e114-5ac5-9045-e16495ff6d33": {
+      "id": "0f1bb921-e114-5ac5-9045-e16495ff6d33",
+      "children": [],
+      "parent": "9d7568a3-fb04-5979-86a2-0272afca4d92",
+      "internal": {
+        "contentDigest": "a8a0e52d7fde00a2ca6a940b0d1ef2b0",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "e58b2d44-47a4-5d1d-a436-eb9ca6802169": {
+      "id": "e58b2d44-47a4-5d1d-a436-eb9ca6802169",
+      "children": [
+        "b71d1733-a2e3-5996-ad41-04d660370db9"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "ee2c8fadd997cd57e186900d79e38dde",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/assets/careers/hero/narative-careers-hero.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "assets",
+      "absolutePath": "/home/panta/workspaces/thirdwave-network-website/src/assets/careers/hero/narative-careers-hero.png",
+      "relativePath": "careers/hero/narative-careers-hero.png",
+      "extension": "png",
+      "size": 925056,
+      "prettySize": "925 kB",
+      "modifiedTime": "2019-10-08T22:21:17.723Z",
+      "accessTime": "2019-10-10T20:03:58.811Z",
+      "changeTime": "2019-10-10T20:02:34.451Z",
+      "birthTime": "2019-10-10T20:02:34.451Z",
+      "root": "/",
+      "dir": "/home/panta/workspaces/thirdwave-network-website/src/assets/careers/hero",
+      "base": "narative-careers-hero.png",
+      "ext": ".png",
+      "name": "narative-careers-hero",
+      "relativeDirectory": "careers/hero",
+      "dev": 2051,
+      "mode": 33204,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 21236835,
+      "blocks": 1808,
+      "atimeMs": 1570737838811.1387,
+      "mtimeMs": 1570573277722.805,
+      "ctimeMs": 1570737754450.731,
+      "birthtimeMs": 1570737754450.731,
+      "atime": "2019-10-10T20:03:58.811Z",
+      "mtime": "2019-10-08T22:21:17.723Z",
+      "ctime": "2019-10-10T20:02:34.451Z",
+      "birthtime": "2019-10-10T20:02:34.451Z"
+    },
+    "b71d1733-a2e3-5996-ad41-04d660370db9": {
+      "id": "b71d1733-a2e3-5996-ad41-04d660370db9",
+      "children": [],
+      "parent": "e58b2d44-47a4-5d1d-a436-eb9ca6802169",
+      "internal": {
+        "contentDigest": "ee2c8fadd997cd57e186900d79e38dde",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "SitePage /404/": {
+      "jsonName": "404-22d",
+      "internalComponentName": "Component404",
+      "path": "/404/",
+      "component": "/home/panta/workspaces/thirdwave-network-website/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/home/panta/workspaces/thirdwave-network-website/src/pages/404.js",
+      "id": "SitePage /404/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "f490e2a8f7638aee02908dd750bd7b4f",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /careers/": {
+      "jsonName": "careers-9cf",
+      "internalComponentName": "ComponentCareers",
+      "path": "/careers/",
+      "component": "/home/panta/workspaces/thirdwave-network-website/src/pages/careers.js",
+      "componentChunkName": "component---src-pages-careers-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/home/panta/workspaces/thirdwave-network-website/src/pages/careers.js",
+      "id": "SitePage /careers/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "0b96b7e0486f055a4f3bae1b8e494342",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /contact/": {
+      "jsonName": "contact-26a",
+      "internalComponentName": "ComponentContact",
+      "path": "/contact/",
+      "component": "/home/panta/workspaces/thirdwave-network-website/src/pages/contact.js",
+      "componentChunkName": "component---src-pages-contact-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/home/panta/workspaces/thirdwave-network-website/src/pages/contact.js",
+      "id": "SitePage /contact/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "d47cd15bc1850d740a2929650c797179",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "jsonName": "index",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/home/panta/workspaces/thirdwave-network-website/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/home/panta/workspaces/thirdwave-network-website/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "bceb04a10f113d2a0dc010c36fb6f181",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404.html": {
+      "jsonName": "404-html-516",
+      "internalComponentName": "Component404Html",
+      "path": "/404.html",
+      "component": "/home/panta/workspaces/thirdwave-network-website/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin prod-404",
+      "pluginCreatorId": "Plugin prod-404",
+      "componentPath": "/home/panta/workspaces/thirdwave-network-website/src/pages/404.js",
+      "id": "SitePage /404.html",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "d86b73dec17e28824e3cbc4184175823",
+        "description": "Plugin prod-404",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "0cdb9ab2f40a313e51ab6a842b89dede"
+  },
+  "componentDataDependencies": {
+    "nodes": {
+      "e58b2d44-47a4-5d1d-a436-eb9ca6802169": [
+        "/careers/"
+      ],
+      "b71d1733-a2e3-5996-ad41-04d660370db9": [
+        "/careers/"
+      ],
+      "4723478d-b8ce-54bd-a7f0-00b661edd874": [
+        "/careers/"
+      ],
+      "e2cebcc4-c4ef-5391-98b8-d9ca44fdfdd9": [
+        "/careers/"
+      ],
+      "039283a8-39ff-5a7a-abee-b3728936808c": [
+        "/careers/"
+      ],
+      "204f45a5-cb8c-567f-97b1-eb26ef02a2d0": [
+        "/careers/"
+      ],
+      "42c35cff-ba6b-562f-848f-6f9c96296881": [
+        "/careers/"
+      ],
+      "530d0011-f5da-5be8-8890-0893f7eb48df": [
+        "/careers/"
+      ],
+      "1be7513d-0dfa-5ddb-a8fb-e1834810b0df": [
+        "/careers/"
+      ],
+      "89c751e8-5962-548c-b155-28c899bb66be": [
+        "/careers/"
+      ],
+      "47c89790-dc5a-5dbb-adac-1fae46145878": [
+        "/careers/"
+      ],
+      "4efb8563-b9d4-5cff-80d2-b5cfe0799728": [
+        "/careers/"
+      ],
+      "3e928972-e639-5066-98e7-fdb2bb823ae9": [
+        "/careers/"
+      ],
+      "3e8806b5-80ca-53b9-b032-7f369489f5a0": [
+        "/careers/"
+      ],
+      "dd474860-3c69-5c59-991c-e5c38fbc868f": [
+        "/careers/"
+      ],
+      "aa1c1224-a48f-5d42-9687-8fa449c53b0f": [
+        "/careers/"
+      ],
+      "3dedca1a-4dd2-5d4c-8901-a5be06843d8f": [
+        "/careers/"
+      ],
+      "ddadb57e-ad66-5d8e-b47b-42346ec57e0e": [
+        "/careers/"
+      ],
+      "0f1bb921-e114-5ac5-9045-e16495ff6d33": [
+        "/careers/"
+      ],
+      "9d7568a3-fb04-5979-86a2-0272afca4d92": [
+        "/careers/"
+      ],
+      "e047e5c9-00e0-590a-86cc-10f0cf4baf00": [
+        "/",
+        "/contact/"
+      ],
+      "48b65d01-3088-504f-b9fe-e52e60446200": [
+        "/",
+        "/contact/"
+      ]
+    },
+    "connections": {
+      "File": [
+        "/careers/"
+      ]
+    }
+  },
+  "jsonDataPaths": {
+    "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
+    "index": "91/path---index-6a9-KChkhEdPYRCHJmdKMmfzhUmWvaA",
+    "contact-26a": "249/path---contact-26-a-cd9-WAbfDcpnJlIynWac28apoAgYeaw",
+    "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
+    "careers-9cf": "702/path---careers-9-cf-41d-jSZ5oIdLtvJT0FNdA7ZDnYsRQIc",
+    "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E"
+  },
+  "components": {
+    "/home/panta/workspaces/thirdwave-network-website/src/pages/404.js": {
+      "query": "",
+      "componentPath": "/home/panta/workspaces/thirdwave-network-website/src/pages/404.js"
+    },
+    "/home/panta/workspaces/thirdwave-network-website/src/pages/careers.js": {
+      "query": "query CareersPageQuery {\n  careersHero: file(name: {regex: \"/narative-careers-hero/\"}) {\n    childImageSharp {\n      fluid(maxWidth: 467, quality: 100) {\n        ...GatsbyImageSharpFluid_noBase64\n      }\n    }\n  }\n  careersMeta: file(name: {regex: \"/careers-meta/\"}) {\n    childImageSharp {\n      fixed(width: 1200, quality: 100) {\n        ...GatsbyImageSharpFixed_noBase64\n      }\n    }\n  }\n  gallery: allFile(filter: {name: {regex: \"/careers-gallery/\"}}) {\n    edges {\n      node {\n        childImageSharp {\n          fluid(maxWidth: 960, quality: 100) {\n            ...GatsbyImageSharpFluid_withWebp_tracedSVG\n          }\n        }\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid_noBase64 on ImageSharpFluid {\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n\nfragment GatsbyImageSharpFixed_noBase64 on ImageSharpFixed {\n  width\n  height\n  src\n  srcSet\n}\n\nfragment GatsbyImageSharpFluid_withWebp_tracedSVG on ImageSharpFluid {\n  tracedSVG\n  aspectRatio\n  src\n  srcSet\n  srcWebp\n  srcSetWebp\n  sizes\n}\n",
+      "componentPath": "/home/panta/workspaces/thirdwave-network-website/src/pages/careers.js"
+    },
+    "/home/panta/workspaces/thirdwave-network-website/src/pages/contact.js": {
+      "query": "query ContactPageQuery {\n  contactMeta: file(name: {regex: \"/narative-meta/\"}) {\n    childImageSharp {\n      fixed(width: 1200, quality: 100) {\n        ...GatsbyImageSharpFixed_noBase64\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFixed_noBase64 on ImageSharpFixed {\n  width\n  height\n  src\n  srcSet\n}\n",
+      "componentPath": "/home/panta/workspaces/thirdwave-network-website/src/pages/contact.js"
+    },
+    "/home/panta/workspaces/thirdwave-network-website/src/pages/index.js": {
+      "query": "query HomePageQuery {\n  homeMeta: file(name: {regex: \"/narative-meta/\"}) {\n    childImageSharp {\n      fixed(width: 1200, quality: 100) {\n        ...GatsbyImageSharpFixed_noBase64\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFixed_noBase64 on ImageSharpFixed {\n  width\n  height\n  src\n  srcSet\n}\n",
+      "componentPath": "/home/panta/workspaces/thirdwave-network-website/src/pages/index.js"
+    },
+    "/home/panta/workspaces/thirdwave-network-website/.cache/dev-404-page.js": {
+      "query": "",
+      "componentPath": "/home/panta/workspaces/thirdwave-network-website/.cache/dev-404-page.js"
+    }
+  },
+  "staticQueryComponents": {}
+}

@@ -22,7 +22,7 @@ import { Helmet as ReactHelmt } from 'react-helmet'
 
 const seoURL = path => `https://narative.co${path}`
 const seoDescription =
-  "Narative brings decades of design, engineering and marketing expertise directly to your team, so you can build the products you've always dreamed of — and the ones you're yet to dream up."
+  "thirdwave.network brings decades of design, engineering and marketing expertise directly to your team, so you can build the products you've always dreamed of — and the ones you're yet to dream up."
 
 const getMetaTags = ({
   title,
@@ -55,10 +55,10 @@ const getMetaTags = ({
     { itemprop: 'image', content: seoURL(image) },
     { name: 'description', content: description },
     { name: 'twitter:card', content: 'summary_large_image' },
-    { name: 'twitter:site', content: 'Narative' },
+    { name: 'twitter:site', content: 'thirdwave.network' },
     { name: 'twitter:title', content: title },
     { name: 'twitter:description', content: description },
-    { name: 'twitter:creator', content: twitter || 'Narative' },
+    { name: 'twitter:creator', content: twitter || 'thirdwave.network' },
     {
       name: 'twitter:image',
       content: seoURL(image),
@@ -68,7 +68,7 @@ const getMetaTags = ({
     { property: 'og:url', content: url },
     { property: 'og:image', content: seoURL(image) },
     { property: 'og:description', content: description },
-    { property: 'og:site_name', content: 'Narative' },
+    { property: 'og:site_name', content: 'thirdwave.network' },
   ]
 
   if (published)
