@@ -7,26 +7,26 @@ const SocialLinks = ({ fill = 'white' }) => (
   <Fragment>
     <SocialIconContainer
       target="_blank"
-      href="https://www.facebook.com/narative.co/"
+      href="https://www.facebook.com/thirdwave.network/"
     >
       <SocialIcons.FacebookIcon fill={fill} />
     </SocialIconContainer>
-    <SocialIconContainer target="_blank" href="https://twitter.com/narative_co">
+    <SocialIconContainer target="_blank" href="https://twitter.com/thirdwave_">
       <SocialIcons.TwitterIcon fill={fill} />
     </SocialIconContainer>
     <SocialIconContainer
       target="_blank"
-      href="https://www.instagram.com/narative.co/"
+      href="https://www.instagram.com/thirdwave.network/"
     >
       <SocialIcons.InstagramIcon fill={fill} />
     </SocialIconContainer>
     <SocialIconContainer
       target="_blank"
-      href="https://www.linkedin.com/company/narative/"
+      href="https://www.linkedin.com/company/thirdwave.network/"
     >
       <SocialIcons.LinkedinIcon fill={fill} />
     </SocialIconContainer>
-    <SocialIconContainer target="_blank" href="https://medium.com/narative">
+    <SocialIconContainer target="_blank" href="https://medium.com/thirdwave.network">
       <SocialIcons.MediumIcon fill={fill} />
     </SocialIconContainer>
   </Fragment>
