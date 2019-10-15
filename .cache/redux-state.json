@@ -1138,6 +1138,14 @@
         "author": "Tomasz Waszczyk <tomasz@waszczyk.com>",
         "dependencies": [
           {
+            "name": "@mdx-js/mdx",
+            "version": "^1.5.1"
+          },
+          {
+            "name": "@mdx-js/react",
+            "version": "^1.5.1"
+          },
+          {
             "name": "formik",
             "version": "^0.11.11"
           },
@@ -1164,6 +1172,10 @@
           {
             "name": "gatsby-plugin-manifest",
             "version": "^2.0.4"
+          },
+          {
+            "name": "gatsby-plugin-mdx",
+            "version": "^1.0.52"
           },
           {
             "name": "gatsby-plugin-netlify-cache",
@@ -1199,7 +1211,7 @@
           },
           {
             "name": "react",
-            "version": "^16.5.1"
+            "version": "^16.10.2"
           },
           {
             "name": "react-click-outside",
@@ -1376,12 +1388,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-10-14T20:29:20.418Z",
+      "buildTime": "2019-10-15T19:17:22.124Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "63a1615f5d56bfa7f290d31474dfe965",
+        "contentDigest": "893a69f46bec4099625b8a7c57f32f9a",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1841,6 +1853,53 @@
       "ctime": "2019-10-10T20:02:34.447Z",
       "birthtime": "2019-10-10T20:02:34.447Z"
     },
+    "4efb8563-b9d4-5cff-80d2-b5cfe0799728": {
+      "id": "4efb8563-b9d4-5cff-80d2-b5cfe0799728",
+      "children": [
+        "47c89790-dc5a-5dbb-adac-1fae46145878"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "bca66d72858eab66f356c7c07bc1bc78",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/assets/careers/gallery/8-careers-gallery-8.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "assets",
+      "absolutePath": "/home/panta/workspaces/thirdwave-network-website/src/assets/careers/gallery/8-careers-gallery-8.jpg",
+      "relativePath": "careers/gallery/8-careers-gallery-8.jpg",
+      "extension": "jpg",
+      "size": 49154,
+      "prettySize": "49.2 kB",
+      "modifiedTime": "2019-10-08T22:21:17.711Z",
+      "accessTime": "2019-10-14T20:07:31.557Z",
+      "changeTime": "2019-10-10T20:02:34.447Z",
+      "birthTime": "2019-10-10T20:02:34.447Z",
+      "root": "/",
+      "dir": "/home/panta/workspaces/thirdwave-network-website/src/assets/careers/gallery",
+      "base": "8-careers-gallery-8.jpg",
+      "ext": ".jpg",
+      "name": "8-careers-gallery-8",
+      "relativeDirectory": "careers/gallery",
+      "dev": 2051,
+      "mode": 33204,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 21236833,
+      "blocks": 104,
+      "atimeMs": 1571083651556.609,
+      "mtimeMs": 1570573277710.805,
+      "ctimeMs": 1570737754446.731,
+      "birthtimeMs": 1570737754446.731,
+      "atime": "2019-10-14T20:07:31.557Z",
+      "mtime": "2019-10-08T22:21:17.711Z",
+      "ctime": "2019-10-10T20:02:34.447Z",
+      "birthtime": "2019-10-10T20:02:34.447Z"
+    },
     "e2cebcc4-c4ef-5391-98b8-d9ca44fdfdd9": {
       "id": "e2cebcc4-c4ef-5391-98b8-d9ca44fdfdd9",
       "children": [],
@@ -1891,52 +1950,15 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
-    "4efb8563-b9d4-5cff-80d2-b5cfe0799728": {
-      "id": "4efb8563-b9d4-5cff-80d2-b5cfe0799728",
-      "children": [
-        "47c89790-dc5a-5dbb-adac-1fae46145878"
-      ],
-      "parent": "___SOURCE___",
+    "47c89790-dc5a-5dbb-adac-1fae46145878": {
+      "id": "47c89790-dc5a-5dbb-adac-1fae46145878",
+      "children": [],
+      "parent": "4efb8563-b9d4-5cff-80d2-b5cfe0799728",
       "internal": {
         "contentDigest": "bca66d72858eab66f356c7c07bc1bc78",
-        "type": "File",
-        "mediaType": "image/jpeg",
-        "description": "File \"src/assets/careers/gallery/8-careers-gallery-8.jpg\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "assets",
-      "absolutePath": "/home/panta/workspaces/thirdwave-network-website/src/assets/careers/gallery/8-careers-gallery-8.jpg",
-      "relativePath": "careers/gallery/8-careers-gallery-8.jpg",
-      "extension": "jpg",
-      "size": 49154,
-      "prettySize": "49.2 kB",
-      "modifiedTime": "2019-10-08T22:21:17.711Z",
-      "accessTime": "2019-10-14T20:07:31.557Z",
-      "changeTime": "2019-10-10T20:02:34.447Z",
-      "birthTime": "2019-10-10T20:02:34.447Z",
-      "root": "/",
-      "dir": "/home/panta/workspaces/thirdwave-network-website/src/assets/careers/gallery",
-      "base": "8-careers-gallery-8.jpg",
-      "ext": ".jpg",
-      "name": "8-careers-gallery-8",
-      "relativeDirectory": "careers/gallery",
-      "dev": 2051,
-      "mode": 33204,
-      "nlink": 1,
-      "uid": 1000,
-      "gid": 1000,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 21236833,
-      "blocks": 104,
-      "atimeMs": 1571083651556.609,
-      "mtimeMs": 1570573277710.805,
-      "ctimeMs": 1570737754446.731,
-      "birthtimeMs": 1570737754446.731,
-      "atime": "2019-10-14T20:07:31.557Z",
-      "mtime": "2019-10-08T22:21:17.711Z",
-      "ctime": "2019-10-10T20:02:34.447Z",
-      "birthtime": "2019-10-10T20:02:34.447Z"
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
     },
     "3e8806b5-80ca-53b9-b032-7f369489f5a0": {
       "id": "3e8806b5-80ca-53b9-b032-7f369489f5a0",
@@ -2125,16 +2147,6 @@
       "mtime": "2019-10-08T22:21:17.711Z",
       "ctime": "2019-10-10T20:02:34.447Z",
       "birthtime": "2019-10-10T20:02:34.447Z"
-    },
-    "47c89790-dc5a-5dbb-adac-1fae46145878": {
-      "id": "47c89790-dc5a-5dbb-adac-1fae46145878",
-      "children": [],
-      "parent": "4efb8563-b9d4-5cff-80d2-b5cfe0799728",
-      "internal": {
-        "contentDigest": "bca66d72858eab66f356c7c07bc1bc78",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
     },
     "3e928972-e639-5066-98e7-fdb2bb823ae9": {
       "id": "3e928972-e639-5066-98e7-fdb2bb823ae9",
@@ -2336,7 +2348,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "f8da0b545997c735299ac5410f54ffd5"
+    "PLUGINS_HASH": "cee1a1dd652a83e17f84eb289f31d2e0"
   },
   "componentDataDependencies": {
     "nodes": {
