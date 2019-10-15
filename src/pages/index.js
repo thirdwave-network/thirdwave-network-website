@@ -45,7 +45,7 @@ class IndexPage extends Component {
                       We're hiring
                     </CareersCotnainerMobile>
                     <TextContainer animation={animation} transitionDelay={600}>
-                      <WelcomeHeader>Accelerate your story</WelcomeHeader>
+                      <WelcomeHeader>Dive into third wave</WelcomeHeader>
                       <MainText>
                         thirdwave.network brings decades of design, engineering and
                         marketing expertise directly to your team, so you can

@@ -6,7 +6,8 @@
   "keywords": [
     "thirdwave.network"
   ],
-  "license": "GPL",
+  "license": "UNLICENSED",
+  "private": true,
   "scripts": {
     "build": "./node_modules/.bin/gatsby build --prefix-paths",
     "dev": "./node_modules/.bin/gatsby develop",
