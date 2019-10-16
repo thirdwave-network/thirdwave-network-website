@@ -70,7 +70,7 @@ class IndexPage extends Component {
                   <RightContainer>
                     <CareersCotnainer to="/careers">
                       <ArrowAnimation>
-                        <HighlightText>Careers</HighlightText>
+                        <HighlightText>Dive into digitalisation</HighlightText>
                         <ArrowRightIcon color="white" />
                       </ArrowAnimation>
                     </CareersCotnainer>
@@ -78,9 +78,9 @@ class IndexPage extends Component {
                     <NarativeVideoContainer animation={animation}>
                       <NarativeVideo
                         label="thirdwave.network wave video"
-                        webm="./movies/third-wave.webm"
-                        mp4="./movies/third-wave.mp4"
-                        poster="./images/third-wave.jpg"
+                        webm="https://github.com/thirdwave-network/thirdwave-network-website/blob/master/static/movies/third-wave.webm"
+                        mp4="https://github.com/thirdwave-network/thirdwave-network-website/blob/master/static/movies/third-wave.mp4"
+                        poster="https://github.com/thirdwave-network/thirdwave-network-website/blob/master/static/images/third-wave.jpg"
                       />
                       {/* <NarativeVideo
                         controls={false}
