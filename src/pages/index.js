@@ -45,7 +45,7 @@ class IndexPage extends Component {
                       We're hiring
                     </CareersCotnainerMobile>
                     <TextContainer animation={animation} transitionDelay={600}>
-                      <WelcomeHeader>Adopt to third wave</WelcomeHeader>
+                      <WelcomeHeader>Dive into third wave</WelcomeHeader>
                       <MainText>
                         thirdwave.network brings decades of design, engineering and
                         marketing expertise directly to your team, so you can
@@ -78,9 +78,9 @@ class IndexPage extends Component {
                     <NarativeVideoContainer animation={animation}>
                       <NarativeVideo
                         label="thirdwave.network wave video"
-                        webm="https://github.com/thirdwave-network/thirdwave-network-website/blob/master/static/movies/third-wave.webm"
-                        mp4="https://github.com/thirdwave-network/thirdwave-network-website/blob/master/static/movies/third-wave.mp4"
-                        poster="https://github.com/thirdwave-network/thirdwave-network-website/blob/master/static/images/third-wave.jpg"
+                        webm="https://res.cloudinary.com/thirdwave-cloud/video/upload/v1571251181/third-wave_kyxuwz.webm"
+                        mp4="https://res.cloudinary.com/thirdwave-cloud/video/upload/v1571251169/third-wave_hbmggl.mp4"
+                        poster="https://res.cloudinary.com/thirdwave-cloud/image/upload/v1571251184/third-wave_xwngw1.jpg"
                       />
                       {/* <NarativeVideo
                         controls={false}
