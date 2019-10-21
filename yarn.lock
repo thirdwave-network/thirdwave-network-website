@@ -5905,8 +5905,9 @@ gatsby-plugin-favicon@next:
     lodash "^4.17.10"
 
 gatsby-plugin-google-analytics@next:
-  version "2.0.0-rc.2"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-analytics/-/gatsby-plugin-google-analytics-2.0.0-rc.2.tgz#6ec18010a581c6f4258779a9ee6ea96626e60f31"
+  version "2.0.12"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-analytics/-/gatsby-plugin-google-analytics-2.0.12.tgz#163d43049f49fa0e4f18e48aa032c671303167e3"
+  integrity sha512-0hO4ortJ/6je+tdE/xyhgeB6HcBbHNpbxUTuduyHqZdUHg+LbYK5jHxgvh3iwAIylLKP4rSX/R9+v8bRigVYqA==
   dependencies:
     "@babel/runtime" "^7.0.0"
 
