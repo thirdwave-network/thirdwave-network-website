@@ -8,7 +8,7 @@ import React from 'react'
 const Logo = ({ color }) =>
   color === 'dark' ? (
     <svg xmlns="http://www.w3.org/2000/svg" width="230px" height="35px" viewBox="0 0 230 35" >
-      <title>thirdwave.network Logo</title>
+      <title>thirdwave.network</title>
       <g>
       <g id="typography">
         <g>
@@ -63,7 +63,7 @@ const Logo = ({ color }) =>
     </svg>
   ) : (
     <svg xmlns="http://www.w3.org/2000/svg" width="230px" height="35px" viewBox="0 0 230 35">
-      <title>thirdwave.network Logo</title>
+      <title>thirdwave.network</title>
       <g>
       <g id="typography">
         <g>
