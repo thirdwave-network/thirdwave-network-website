@@ -9,6 +9,7 @@ const plugins = [
   `gatsby-plugin-sharp`,
   `gatsby-transformer-sharp`,
   'gatsby-plugin-netlify-cache',
+  // 'gatsby-plugin-mdx',
   {
     resolve: `gatsby-plugin-styled-components`,
     options: {
@@ -22,6 +23,19 @@ const plugins = [
       path: `${__dirname}/src/assets/`,
     },
   },
+  // {
+  //   resolve: `gatsby-plugin-mdx`,
+  //   options: {
+  //     name: `mdxpages`,
+  //     path: `${__dirname}/src/mdxpages/`,
+  //   },
+  // },
+  // {
+  //   resolve: "gatsby-plugin-page-creator",
+  //   options: {
+  //     path: `/src/`,
+  //   },
+  // },
   {
     resolve: `gatsby-plugin-favicon`,
     options: {

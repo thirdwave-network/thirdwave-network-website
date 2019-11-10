@@ -787,7 +787,7 @@
       "resolve": "/home/panta/workspaces/thirdwave-network-website/node_modules/gatsby-source-filesystem",
       "id": "Plugin gatsby-source-filesystem",
       "name": "gatsby-source-filesystem",
-      "version": "2.0.1-rc.6",
+      "version": "2.0.19",
       "pluginOptions": {
         "plugins": [],
         "name": "assets",
@@ -803,7 +803,7 @@
       "packageJson": {
         "name": "gatsby-source-filesystem",
         "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
-        "version": "2.0.1-rc.6",
+        "version": "2.0.19",
         "keywords": [
           "gatsby",
           "gatsby-plugin"
@@ -828,6 +828,10 @@
             "version": "^1.7.0"
           },
           {
+            "name": "file-type",
+            "version": "^10.2.0"
+          },
+          {
             "name": "fs-extra",
             "version": "^5.0.0"
           },
@@ -846,6 +850,14 @@
           {
             "name": "pretty-bytes",
             "version": "^4.0.2"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "read-chunk",
+            "version": "^3.0.0"
           },
           {
             "name": "slash",
@@ -870,6 +882,10 @@
             "version": "^7.0.0"
           },
           {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
             "name": "cross-env",
             "version": "^5.1.4"
           }
@@ -886,7 +902,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "aa9c80d91bc71eee0f0af559c8a3076f",
+        "contentDigest": "f213b342d785ac3fc7e18ce2d083d226",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -1054,7 +1070,7 @@
       "resolve": "/home/panta/workspaces/thirdwave-network-website/node_modules/gatsby-plugin-google-analytics",
       "id": "Plugin gatsby-plugin-google-analytics",
       "name": "gatsby-plugin-google-analytics",
-      "version": "2.0.0-rc.2",
+      "version": "2.0.12",
       "pluginOptions": {
         "plugins": [],
         "trackingId": "UA-"
@@ -1070,7 +1086,7 @@
       "packageJson": {
         "name": "gatsby-plugin-google-analytics",
         "description": "Gatsby plugin to add google analytics onto a site",
-        "version": "2.0.0-rc.2",
+        "version": "2.0.12",
         "main": "index.js",
         "keywords": [
           "gatsby",
@@ -1095,6 +1111,10 @@
             "version": "^7.0.0"
           },
           {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
             "name": "cross-env",
             "version": "^5.1.4"
           }
@@ -1111,7 +1131,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "b534ebaee88855fb8800b10966d34fac",
+        "contentDigest": "cf3e161160dceff7735adff680cee163",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -1120,7 +1140,7 @@
       "resolve": "/home/panta/workspaces/thirdwave-network-website",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "ce934ec8b7f576df2de984e55b33f03c",
+      "version": "edac32fd359c8eff3ec9f842cf0f4ca3",
       "pluginOptions": {
         "plugins": []
       },
@@ -1284,7 +1304,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "6c67c89c262b11f882b55902e59e21bb",
+        "contentDigest": "29f3922085cab0392d07c4146700b49e",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -1389,12 +1409,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-10-21T19:13:40.859Z",
+      "buildTime": "2019-11-10T11:58:53.221Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "cd67f2faf687ecfc761f3f08356e9970",
+        "contentDigest": "ff5b9cbb35d1db13954e79530706653b",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1402,9 +1422,9 @@
     "0f9397df-7ebc-5f8d-9bc0-c48eee54633b": {
       "id": "0f9397df-7ebc-5f8d-9bc0-c48eee54633b",
       "children": [],
-      "parent": "___SOURCE___",
+      "parent": null,
       "internal": {
-        "contentDigest": "8d4c466f16796d46ace99081d3b61c43",
+        "contentDigest": "da6cb136689dccf1dd06942ca7297cc9",
         "type": "Directory",
         "description": "Directory \"src/assets\"",
         "owner": "gatsby-source-filesystem"
@@ -1416,7 +1436,7 @@
       "size": 4096,
       "prettySize": "4.1 kB",
       "modifiedTime": "2019-10-16T17:42:40.053Z",
-      "accessTime": "2019-10-21T19:04:42.129Z",
+      "accessTime": "2019-11-09T14:46:27.878Z",
       "changeTime": "2019-10-16T17:42:40.053Z",
       "birthTime": "2019-10-16T17:42:40.053Z",
       "root": "/",
@@ -1434,11 +1454,11 @@
       "blksize": 4096,
       "ino": 21236823,
       "blocks": 8,
-      "atimeMs": 1571684682128.8774,
+      "atimeMs": 1573310787878.343,
       "mtimeMs": 1571247760053.0933,
       "ctimeMs": 1571247760053.0933,
       "birthtimeMs": 1571247760053.0933,
-      "atime": "2019-10-21T19:04:42.129Z",
+      "atime": "2019-11-09T14:46:27.878Z",
       "mtime": "2019-10-16T17:42:40.053Z",
       "ctime": "2019-10-16T17:42:40.053Z",
       "birthtime": "2019-10-16T17:42:40.053Z"
@@ -1446,9 +1466,9 @@
     "638121fe-a65a-5b60-981b-f69fa58f2d0e": {
       "id": "638121fe-a65a-5b60-981b-f69fa58f2d0e",
       "children": [],
-      "parent": "___SOURCE___",
+      "parent": null,
       "internal": {
-        "contentDigest": "ddea3367c5e5f753a6ece9fc30395bea",
+        "contentDigest": "f10fb435c2040c3145696eaead5e3e52",
         "type": "Directory",
         "description": "Directory \"src/assets/careers\"",
         "owner": "gatsby-source-filesystem"
@@ -1460,7 +1480,7 @@
       "size": 4096,
       "prettySize": "4.1 kB",
       "modifiedTime": "2019-10-08T22:21:17.711Z",
-      "accessTime": "2019-10-21T19:04:42.741Z",
+      "accessTime": "2019-11-09T14:46:27.946Z",
       "changeTime": "2019-10-10T20:02:34.451Z",
       "birthTime": "2019-10-10T20:02:34.451Z",
       "root": "/",
@@ -1478,11 +1498,11 @@
       "blksize": 4096,
       "ino": 21236824,
       "blocks": 8,
-      "atimeMs": 1571684682740.882,
+      "atimeMs": 1573310787946.3442,
       "mtimeMs": 1570573277710.805,
       "ctimeMs": 1570737754450.731,
       "birthtimeMs": 1570737754450.731,
-      "atime": "2019-10-21T19:04:42.741Z",
+      "atime": "2019-11-09T14:46:27.946Z",
       "mtime": "2019-10-08T22:21:17.711Z",
       "ctime": "2019-10-10T20:02:34.451Z",
       "birthtime": "2019-10-10T20:02:34.451Z"
@@ -1490,9 +1510,9 @@
     "0278f505-a3aa-5ad9-b37b-f800bb78d957": {
       "id": "0278f505-a3aa-5ad9-b37b-f800bb78d957",
       "children": [],
-      "parent": "___SOURCE___",
+      "parent": null,
       "internal": {
-        "contentDigest": "9d0d1e03fced56437dd140cd597c7d35",
+        "contentDigest": "61fcd7104360172bee22f36488bc8793",
         "type": "Directory",
         "description": "Directory \"src/assets/meta\"",
         "owner": "gatsby-source-filesystem"
@@ -1504,7 +1524,7 @@
       "size": 4096,
       "prettySize": "4.1 kB",
       "modifiedTime": "2019-10-08T22:21:17.743Z",
-      "accessTime": "2019-10-21T19:04:42.741Z",
+      "accessTime": "2019-11-09T14:46:27.946Z",
       "changeTime": "2019-10-10T20:02:34.451Z",
       "birthTime": "2019-10-10T20:02:34.451Z",
       "root": "/",
@@ -1522,11 +1542,11 @@
       "blksize": 4096,
       "ino": 21236836,
       "blocks": 8,
-      "atimeMs": 1571684682740.882,
+      "atimeMs": 1573310787946.3442,
       "mtimeMs": 1570573277742.805,
       "ctimeMs": 1570737754450.731,
       "birthtimeMs": 1570737754450.731,
-      "atime": "2019-10-21T19:04:42.741Z",
+      "atime": "2019-11-09T14:46:27.946Z",
       "mtime": "2019-10-08T22:21:17.743Z",
       "ctime": "2019-10-10T20:02:34.451Z",
       "birthtime": "2019-10-10T20:02:34.451Z"
@@ -1534,9 +1554,9 @@
     "ad05cfb5-a056-52da-8262-9d5bbbf9d269": {
       "id": "ad05cfb5-a056-52da-8262-9d5bbbf9d269",
       "children": [],
-      "parent": "___SOURCE___",
+      "parent": null,
       "internal": {
-        "contentDigest": "3ca985d27592778de86b313dc4852e95",
+        "contentDigest": "f3090aa49dd77fd88c2834b568b82d77",
         "type": "Directory",
         "description": "Directory \"src/assets/careers/gallery\"",
         "owner": "gatsby-source-filesystem"
@@ -1548,7 +1568,7 @@
       "size": 4096,
       "prettySize": "4.1 kB",
       "modifiedTime": "2019-10-08T22:21:17.711Z",
-      "accessTime": "2019-10-21T19:04:42.765Z",
+      "accessTime": "2019-11-09T14:46:27.994Z",
       "changeTime": "2019-10-10T20:02:34.447Z",
       "birthTime": "2019-10-10T20:02:34.447Z",
       "root": "/",
@@ -1566,11 +1586,11 @@
       "blksize": 4096,
       "ino": 21236825,
       "blocks": 8,
-      "atimeMs": 1571684682764.8823,
+      "atimeMs": 1573310787994.345,
       "mtimeMs": 1570573277710.805,
       "ctimeMs": 1570737754446.731,
       "birthtimeMs": 1570737754446.731,
-      "atime": "2019-10-21T19:04:42.765Z",
+      "atime": "2019-11-09T14:46:27.994Z",
       "mtime": "2019-10-08T22:21:17.711Z",
       "ctime": "2019-10-10T20:02:34.447Z",
       "birthtime": "2019-10-10T20:02:34.447Z"
@@ -1578,9 +1598,9 @@
     "b8b5c6c6-48fb-5fc1-b642-e1bbb87150e0": {
       "id": "b8b5c6c6-48fb-5fc1-b642-e1bbb87150e0",
       "children": [],
-      "parent": "___SOURCE___",
+      "parent": null,
       "internal": {
-        "contentDigest": "21386ca187614057213f8e7168454598",
+        "contentDigest": "726656222597ffb96697aaaf45c40b02",
         "type": "Directory",
         "description": "Directory \"src/assets/careers/hero\"",
         "owner": "gatsby-source-filesystem"
@@ -1592,7 +1612,7 @@
       "size": 4096,
       "prettySize": "4.1 kB",
       "modifiedTime": "2019-10-08T22:23:24.635Z",
-      "accessTime": "2019-10-21T19:04:42.765Z",
+      "accessTime": "2019-11-09T14:46:27.994Z",
       "changeTime": "2019-10-10T20:02:34.451Z",
       "birthTime": "2019-10-10T20:02:34.451Z",
       "root": "/",
@@ -1610,11 +1630,11 @@
       "blksize": 4096,
       "ino": 21236834,
       "blocks": 8,
-      "atimeMs": 1571684682764.8823,
+      "atimeMs": 1573310787994.345,
       "mtimeMs": 1570573404635.405,
       "ctimeMs": 1570737754450.731,
       "birthtimeMs": 1570737754450.731,
-      "atime": "2019-10-21T19:04:42.765Z",
+      "atime": "2019-11-09T14:46:27.994Z",
       "mtime": "2019-10-08T22:23:24.635Z",
       "ctime": "2019-10-10T20:02:34.451Z",
       "birthtime": "2019-10-10T20:02:34.451Z"
@@ -1624,7 +1644,7 @@
       "children": [
         "e2cebcc4-c4ef-5391-98b8-d9ca44fdfdd9"
       ],
-      "parent": "___SOURCE___",
+      "parent": null,
       "internal": {
         "contentDigest": "9e340a605fa76116b8271d106315644e",
         "type": "File",
@@ -1639,7 +1659,7 @@
       "size": 16851,
       "prettySize": "16.9 kB",
       "modifiedTime": "2019-10-08T22:21:17.743Z",
-      "accessTime": "2019-10-15T20:14:44.757Z",
+      "accessTime": "2019-11-10T11:43:28.737Z",
       "changeTime": "2019-10-10T20:02:34.451Z",
       "birthTime": "2019-10-10T20:02:34.451Z",
       "root": "/",
@@ -1657,11 +1677,11 @@
       "blksize": 4096,
       "ino": 21236837,
       "blocks": 40,
-      "atimeMs": 1571170484757.4788,
+      "atimeMs": 1573386208736.6738,
       "mtimeMs": 1570573277742.805,
       "ctimeMs": 1570737754450.731,
       "birthtimeMs": 1570737754450.731,
-      "atime": "2019-10-15T20:14:44.757Z",
+      "atime": "2019-11-10T11:43:28.737Z",
       "mtime": "2019-10-08T22:21:17.743Z",
       "ctime": "2019-10-10T20:02:34.451Z",
       "birthtime": "2019-10-10T20:02:34.451Z"
@@ -1671,7 +1691,7 @@
       "children": [
         "48b65d01-3088-504f-b9fe-e52e60446200"
       ],
-      "parent": "___SOURCE___",
+      "parent": null,
       "internal": {
         "contentDigest": "c6e6573c87098f9f6a8091accc5f2f9e",
         "type": "File",
@@ -1686,7 +1706,7 @@
       "size": 13782,
       "prettySize": "13.8 kB",
       "modifiedTime": "2019-10-08T22:21:17.747Z",
-      "accessTime": "2019-10-15T20:14:44.757Z",
+      "accessTime": "2019-11-10T11:43:28.737Z",
       "changeTime": "2019-10-10T20:02:34.451Z",
       "birthTime": "2019-10-10T20:02:34.451Z",
       "root": "/",
@@ -1704,11 +1724,11 @@
       "blksize": 4096,
       "ino": 21236838,
       "blocks": 32,
-      "atimeMs": 1571170484757.4788,
+      "atimeMs": 1573386208736.6738,
       "mtimeMs": 1570573277746.805,
       "ctimeMs": 1570737754450.731,
       "birthtimeMs": 1570737754450.731,
-      "atime": "2019-10-15T20:14:44.757Z",
+      "atime": "2019-11-10T11:43:28.737Z",
       "mtime": "2019-10-08T22:21:17.747Z",
       "ctime": "2019-10-10T20:02:34.451Z",
       "birthtime": "2019-10-10T20:02:34.451Z"
@@ -1718,7 +1738,7 @@
       "children": [
         "039283a8-39ff-5a7a-abee-b3728936808c"
       ],
-      "parent": "___SOURCE___",
+      "parent": null,
       "internal": {
         "contentDigest": "dafa9b18caff247b522be3b22ff8eed9",
         "type": "File",
@@ -1733,7 +1753,7 @@
       "size": 50045,
       "prettySize": "50 kB",
       "modifiedTime": "2019-10-08T22:21:17.711Z",
-      "accessTime": "2019-10-15T20:14:44.757Z",
+      "accessTime": "2019-11-10T11:43:28.741Z",
       "changeTime": "2019-10-10T20:02:34.447Z",
       "birthTime": "2019-10-10T20:02:34.447Z",
       "root": "/",
@@ -1751,11 +1771,11 @@
       "blksize": 4096,
       "ino": 21236829,
       "blocks": 104,
-      "atimeMs": 1571170484757.4788,
+      "atimeMs": 1573386208740.6738,
       "mtimeMs": 1570573277710.805,
       "ctimeMs": 1570737754446.731,
       "birthtimeMs": 1570737754446.731,
-      "atime": "2019-10-15T20:14:44.757Z",
+      "atime": "2019-11-10T11:43:28.741Z",
       "mtime": "2019-10-08T22:21:17.711Z",
       "ctime": "2019-10-10T20:02:34.447Z",
       "birthtime": "2019-10-10T20:02:34.447Z"
@@ -1765,7 +1785,7 @@
       "children": [
         "42c35cff-ba6b-562f-848f-6f9c96296881"
       ],
-      "parent": "___SOURCE___",
+      "parent": null,
       "internal": {
         "contentDigest": "adb2fe6d00cd333c24037d8062efebbd",
         "type": "File",
@@ -1780,7 +1800,7 @@
       "size": 50862,
       "prettySize": "50.9 kB",
       "modifiedTime": "2019-10-08T22:21:17.711Z",
-      "accessTime": "2019-10-15T20:14:44.757Z",
+      "accessTime": "2019-11-10T11:43:28.741Z",
       "changeTime": "2019-10-10T20:02:34.447Z",
       "birthTime": "2019-10-10T20:02:34.447Z",
       "root": "/",
@@ -1798,11 +1818,11 @@
       "blksize": 4096,
       "ino": 21236831,
       "blocks": 104,
-      "atimeMs": 1571170484757.4788,
+      "atimeMs": 1573386208740.6738,
       "mtimeMs": 1570573277710.805,
       "ctimeMs": 1570737754446.731,
       "birthtimeMs": 1570737754446.731,
-      "atime": "2019-10-15T20:14:44.757Z",
+      "atime": "2019-11-10T11:43:28.741Z",
       "mtime": "2019-10-08T22:21:17.711Z",
       "ctime": "2019-10-10T20:02:34.447Z",
       "birthtime": "2019-10-10T20:02:34.447Z"
@@ -1812,7 +1832,7 @@
       "children": [
         "1be7513d-0dfa-5ddb-a8fb-e1834810b0df"
       ],
-      "parent": "___SOURCE___",
+      "parent": null,
       "internal": {
         "contentDigest": "886a07bc748ea874e7d4cf0587a26e5c",
         "type": "File",
@@ -1827,7 +1847,7 @@
       "size": 51858,
       "prettySize": "51.9 kB",
       "modifiedTime": "2019-10-08T22:21:17.711Z",
-      "accessTime": "2019-10-15T20:14:44.757Z",
+      "accessTime": "2019-11-10T11:43:28.741Z",
       "changeTime": "2019-10-10T20:02:34.447Z",
       "birthTime": "2019-10-10T20:02:34.447Z",
       "root": "/",
@@ -1845,11 +1865,58 @@
       "blksize": 4096,
       "ino": 21236832,
       "blocks": 104,
-      "atimeMs": 1571170484757.4788,
+      "atimeMs": 1573386208740.6738,
       "mtimeMs": 1570573277710.805,
       "ctimeMs": 1570737754446.731,
       "birthtimeMs": 1570737754446.731,
-      "atime": "2019-10-15T20:14:44.757Z",
+      "atime": "2019-11-10T11:43:28.741Z",
+      "mtime": "2019-10-08T22:21:17.711Z",
+      "ctime": "2019-10-10T20:02:34.447Z",
+      "birthtime": "2019-10-10T20:02:34.447Z"
+    },
+    "4efb8563-b9d4-5cff-80d2-b5cfe0799728": {
+      "id": "4efb8563-b9d4-5cff-80d2-b5cfe0799728",
+      "children": [
+        "47c89790-dc5a-5dbb-adac-1fae46145878"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "bca66d72858eab66f356c7c07bc1bc78",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/assets/careers/gallery/8-careers-gallery-8.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "assets",
+      "absolutePath": "/home/panta/workspaces/thirdwave-network-website/src/assets/careers/gallery/8-careers-gallery-8.jpg",
+      "relativePath": "careers/gallery/8-careers-gallery-8.jpg",
+      "extension": "jpg",
+      "size": 49154,
+      "prettySize": "49.2 kB",
+      "modifiedTime": "2019-10-08T22:21:17.711Z",
+      "accessTime": "2019-11-10T11:43:28.741Z",
+      "changeTime": "2019-10-10T20:02:34.447Z",
+      "birthTime": "2019-10-10T20:02:34.447Z",
+      "root": "/",
+      "dir": "/home/panta/workspaces/thirdwave-network-website/src/assets/careers/gallery",
+      "base": "8-careers-gallery-8.jpg",
+      "ext": ".jpg",
+      "name": "8-careers-gallery-8",
+      "relativeDirectory": "careers/gallery",
+      "dev": 2051,
+      "mode": 33204,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 21236833,
+      "blocks": 104,
+      "atimeMs": 1573386208740.6738,
+      "mtimeMs": 1570573277710.805,
+      "ctimeMs": 1570737754446.731,
+      "birthtimeMs": 1570737754446.731,
+      "atime": "2019-11-10T11:43:28.741Z",
       "mtime": "2019-10-08T22:21:17.711Z",
       "ctime": "2019-10-10T20:02:34.447Z",
       "birthtime": "2019-10-10T20:02:34.447Z"
@@ -1904,59 +1971,22 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
-    "4efb8563-b9d4-5cff-80d2-b5cfe0799728": {
-      "id": "4efb8563-b9d4-5cff-80d2-b5cfe0799728",
-      "children": [
-        "47c89790-dc5a-5dbb-adac-1fae46145878"
-      ],
-      "parent": "___SOURCE___",
+    "47c89790-dc5a-5dbb-adac-1fae46145878": {
+      "id": "47c89790-dc5a-5dbb-adac-1fae46145878",
+      "children": [],
+      "parent": "4efb8563-b9d4-5cff-80d2-b5cfe0799728",
       "internal": {
         "contentDigest": "bca66d72858eab66f356c7c07bc1bc78",
-        "type": "File",
-        "mediaType": "image/jpeg",
-        "description": "File \"src/assets/careers/gallery/8-careers-gallery-8.jpg\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "assets",
-      "absolutePath": "/home/panta/workspaces/thirdwave-network-website/src/assets/careers/gallery/8-careers-gallery-8.jpg",
-      "relativePath": "careers/gallery/8-careers-gallery-8.jpg",
-      "extension": "jpg",
-      "size": 49154,
-      "prettySize": "49.2 kB",
-      "modifiedTime": "2019-10-08T22:21:17.711Z",
-      "accessTime": "2019-10-15T20:14:44.757Z",
-      "changeTime": "2019-10-10T20:02:34.447Z",
-      "birthTime": "2019-10-10T20:02:34.447Z",
-      "root": "/",
-      "dir": "/home/panta/workspaces/thirdwave-network-website/src/assets/careers/gallery",
-      "base": "8-careers-gallery-8.jpg",
-      "ext": ".jpg",
-      "name": "8-careers-gallery-8",
-      "relativeDirectory": "careers/gallery",
-      "dev": 2051,
-      "mode": 33204,
-      "nlink": 1,
-      "uid": 1000,
-      "gid": 1000,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 21236833,
-      "blocks": 104,
-      "atimeMs": 1571170484757.4788,
-      "mtimeMs": 1570573277710.805,
-      "ctimeMs": 1570737754446.731,
-      "birthtimeMs": 1570737754446.731,
-      "atime": "2019-10-15T20:14:44.757Z",
-      "mtime": "2019-10-08T22:21:17.711Z",
-      "ctime": "2019-10-10T20:02:34.447Z",
-      "birthtime": "2019-10-10T20:02:34.447Z"
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
     },
     "3e8806b5-80ca-53b9-b032-7f369489f5a0": {
       "id": "3e8806b5-80ca-53b9-b032-7f369489f5a0",
       "children": [
         "3e928972-e639-5066-98e7-fdb2bb823ae9"
       ],
-      "parent": "___SOURCE___",
+      "parent": null,
       "internal": {
         "contentDigest": "9c996fd283a7b5b81df2b6585174a907",
         "type": "File",
@@ -1971,7 +2001,7 @@
       "size": 87659,
       "prettySize": "87.7 kB",
       "modifiedTime": "2019-10-08T22:21:17.711Z",
-      "accessTime": "2019-10-15T20:14:44.757Z",
+      "accessTime": "2019-11-10T11:43:28.741Z",
       "changeTime": "2019-10-10T20:02:34.447Z",
       "birthTime": "2019-10-10T20:02:34.447Z",
       "root": "/",
@@ -1989,11 +2019,11 @@
       "blksize": 4096,
       "ino": 21236826,
       "blocks": 176,
-      "atimeMs": 1571170484757.4788,
+      "atimeMs": 1573386208740.6738,
       "mtimeMs": 1570573277710.805,
       "ctimeMs": 1570737754446.731,
       "birthtimeMs": 1570737754446.731,
-      "atime": "2019-10-15T20:14:44.757Z",
+      "atime": "2019-11-10T11:43:28.741Z",
       "mtime": "2019-10-08T22:21:17.711Z",
       "ctime": "2019-10-10T20:02:34.447Z",
       "birthtime": "2019-10-10T20:02:34.447Z"
@@ -2003,7 +2033,7 @@
       "children": [
         "dd474860-3c69-5c59-991c-e5c38fbc868f"
       ],
-      "parent": "___SOURCE___",
+      "parent": null,
       "internal": {
         "contentDigest": "26f6cdaf06e9aafc620d910d1fce941a",
         "type": "File",
@@ -2018,7 +2048,7 @@
       "size": 82942,
       "prettySize": "82.9 kB",
       "modifiedTime": "2019-10-08T22:21:17.711Z",
-      "accessTime": "2019-10-15T20:14:44.757Z",
+      "accessTime": "2019-11-10T11:43:28.741Z",
       "changeTime": "2019-10-10T20:02:34.447Z",
       "birthTime": "2019-10-10T20:02:34.447Z",
       "root": "/",
@@ -2036,11 +2066,11 @@
       "blksize": 4096,
       "ino": 21236827,
       "blocks": 168,
-      "atimeMs": 1571170484757.4788,
+      "atimeMs": 1573386208740.6738,
       "mtimeMs": 1570573277710.805,
       "ctimeMs": 1570737754446.731,
       "birthtimeMs": 1570737754446.731,
-      "atime": "2019-10-15T20:14:44.757Z",
+      "atime": "2019-11-10T11:43:28.741Z",
       "mtime": "2019-10-08T22:21:17.711Z",
       "ctime": "2019-10-10T20:02:34.447Z",
       "birthtime": "2019-10-10T20:02:34.447Z"
@@ -2050,7 +2080,7 @@
       "children": [
         "3dedca1a-4dd2-5d4c-8901-a5be06843d8f"
       ],
-      "parent": "___SOURCE___",
+      "parent": null,
       "internal": {
         "contentDigest": "b6871b317e6abf149d3ca2c530083bd8",
         "type": "File",
@@ -2065,7 +2095,7 @@
       "size": 80300,
       "prettySize": "80.3 kB",
       "modifiedTime": "2019-10-08T22:21:17.711Z",
-      "accessTime": "2019-10-15T20:14:44.757Z",
+      "accessTime": "2019-11-10T11:43:28.741Z",
       "changeTime": "2019-10-10T20:02:34.447Z",
       "birthTime": "2019-10-10T20:02:34.447Z",
       "root": "/",
@@ -2083,11 +2113,11 @@
       "blksize": 4096,
       "ino": 21236828,
       "blocks": 160,
-      "atimeMs": 1571170484757.4788,
+      "atimeMs": 1573386208740.6738,
       "mtimeMs": 1570573277710.805,
       "ctimeMs": 1570737754446.731,
       "birthtimeMs": 1570737754446.731,
-      "atime": "2019-10-15T20:14:44.757Z",
+      "atime": "2019-11-10T11:43:28.741Z",
       "mtime": "2019-10-08T22:21:17.711Z",
       "ctime": "2019-10-10T20:02:34.447Z",
       "birthtime": "2019-10-10T20:02:34.447Z"
@@ -2097,7 +2127,7 @@
       "children": [
         "0f1bb921-e114-5ac5-9045-e16495ff6d33"
       ],
-      "parent": "___SOURCE___",
+      "parent": null,
       "internal": {
         "contentDigest": "a8a0e52d7fde00a2ca6a940b0d1ef2b0",
         "type": "File",
@@ -2112,7 +2142,7 @@
       "size": 93649,
       "prettySize": "93.6 kB",
       "modifiedTime": "2019-10-08T22:21:17.711Z",
-      "accessTime": "2019-10-15T20:14:44.757Z",
+      "accessTime": "2019-11-10T11:43:28.741Z",
       "changeTime": "2019-10-10T20:02:34.447Z",
       "birthTime": "2019-10-10T20:02:34.447Z",
       "root": "/",
@@ -2130,24 +2160,14 @@
       "blksize": 4096,
       "ino": 21236830,
       "blocks": 184,
-      "atimeMs": 1571170484757.4788,
+      "atimeMs": 1573386208740.6738,
       "mtimeMs": 1570573277710.805,
       "ctimeMs": 1570737754446.731,
       "birthtimeMs": 1570737754446.731,
-      "atime": "2019-10-15T20:14:44.757Z",
+      "atime": "2019-11-10T11:43:28.741Z",
       "mtime": "2019-10-08T22:21:17.711Z",
       "ctime": "2019-10-10T20:02:34.447Z",
       "birthtime": "2019-10-10T20:02:34.447Z"
-    },
-    "47c89790-dc5a-5dbb-adac-1fae46145878": {
-      "id": "47c89790-dc5a-5dbb-adac-1fae46145878",
-      "children": [],
-      "parent": "4efb8563-b9d4-5cff-80d2-b5cfe0799728",
-      "internal": {
-        "contentDigest": "bca66d72858eab66f356c7c07bc1bc78",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
     },
     "3e928972-e639-5066-98e7-fdb2bb823ae9": {
       "id": "3e928972-e639-5066-98e7-fdb2bb823ae9",
@@ -2194,7 +2214,7 @@
       "children": [
         "b71d1733-a2e3-5996-ad41-04d660370db9"
       ],
-      "parent": "___SOURCE___",
+      "parent": null,
       "internal": {
         "contentDigest": "ee2c8fadd997cd57e186900d79e38dde",
         "type": "File",
@@ -2209,7 +2229,7 @@
       "size": 925056,
       "prettySize": "925 kB",
       "modifiedTime": "2019-10-08T22:21:17.723Z",
-      "accessTime": "2019-10-15T20:14:44.757Z",
+      "accessTime": "2019-11-10T11:43:28.737Z",
       "changeTime": "2019-10-10T20:02:34.451Z",
       "birthTime": "2019-10-10T20:02:34.451Z",
       "root": "/",
@@ -2227,11 +2247,11 @@
       "blksize": 4096,
       "ino": 21236835,
       "blocks": 1808,
-      "atimeMs": 1571170484757.4788,
+      "atimeMs": 1573386208736.6738,
       "mtimeMs": 1570573277722.805,
       "ctimeMs": 1570737754450.731,
       "birthtimeMs": 1570737754450.731,
-      "atime": "2019-10-15T20:14:44.757Z",
+      "atime": "2019-11-10T11:43:28.737Z",
       "mtime": "2019-10-08T22:21:17.723Z",
       "ctime": "2019-10-10T20:02:34.451Z",
       "birthtime": "2019-10-10T20:02:34.451Z"
@@ -2349,10 +2369,18 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "ac626aecb97f6826c5a8293991e41304"
+    "PLUGINS_HASH": "6bf7b16619bdf0b8024e84792a4cf52d"
   },
   "componentDataDependencies": {
     "nodes": {
+      "e047e5c9-00e0-590a-86cc-10f0cf4baf00": [
+        "/contact/",
+        "/"
+      ],
+      "48b65d01-3088-504f-b9fe-e52e60446200": [
+        "/contact/",
+        "/"
+      ],
       "e58b2d44-47a4-5d1d-a436-eb9ca6802169": [
         "/careers/"
       ],
@@ -2412,14 +2440,6 @@
       ],
       "9d7568a3-fb04-5979-86a2-0272afca4d92": [
         "/careers/"
-      ],
-      "e047e5c9-00e0-590a-86cc-10f0cf4baf00": [
-        "/",
-        "/contact/"
-      ],
-      "48b65d01-3088-504f-b9fe-e52e60446200": [
-        "/",
-        "/contact/"
       ]
     },
     "connections": {
@@ -2429,14 +2449,18 @@
     }
   },
   "jsonDataPaths": {
-    "contact-26a": "249/path---contact-26-a-cd9-WAbfDcpnJlIynWac28apoAgYeaw",
-    "careers-9cf": "702/path---careers-9-cf-41d-jSZ5oIdLtvJT0FNdA7ZDnYsRQIc",
     "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
+    "contact-26a": "249/path---contact-26-a-cd9-WAbfDcpnJlIynWac28apoAgYeaw",
+    "index": "91/path---index-6a9-KChkhEdPYRCHJmdKMmfzhUmWvaA",
     "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
     "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
-    "index": "91/path---index-6a9-KChkhEdPYRCHJmdKMmfzhUmWvaA"
+    "careers-9cf": "702/path---careers-9-cf-41d-jSZ5oIdLtvJT0FNdA7ZDnYsRQIc"
   },
   "components": {
+    "/home/panta/workspaces/thirdwave-network-website/.cache/dev-404-page.js": {
+      "query": "",
+      "componentPath": "/home/panta/workspaces/thirdwave-network-website/.cache/dev-404-page.js"
+    },
     "/home/panta/workspaces/thirdwave-network-website/src/pages/404.js": {
       "query": "",
       "componentPath": "/home/panta/workspaces/thirdwave-network-website/src/pages/404.js"
@@ -2452,10 +2476,6 @@
     "/home/panta/workspaces/thirdwave-network-website/src/pages/index.js": {
       "query": "query HomePageQuery {\n  homeMeta: file(name: {regex: \"/narative-meta/\"}) {\n    childImageSharp {\n      fixed(width: 1200, quality: 100) {\n        ...GatsbyImageSharpFixed_noBase64\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFixed_noBase64 on ImageSharpFixed {\n  width\n  height\n  src\n  srcSet\n}\n",
       "componentPath": "/home/panta/workspaces/thirdwave-network-website/src/pages/index.js"
-    },
-    "/home/panta/workspaces/thirdwave-network-website/.cache/dev-404-page.js": {
-      "query": "",
-      "componentPath": "/home/panta/workspaces/thirdwave-network-website/.cache/dev-404-page.js"
     }
   },
   "staticQueryComponents": {}
