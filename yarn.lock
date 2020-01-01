@@ -11371,9 +11371,10 @@ react-testing-library@^4.1.7:
     dom-testing-library "^3.1.0"
     wait-for-expect "^1.0.0"
 
-react-text-mask@^5.4.0:
-  version "5.4.0"
-  resolved "https://registry.yarnpkg.com/react-text-mask/-/react-text-mask-5.4.0.tgz#4472eb2f0b9d8916017a2532c864707d51b98cf1"
+react-text-mask@^5.4.3:
+  version "5.4.3"
+  resolved "https://registry.yarnpkg.com/react-text-mask/-/react-text-mask-5.4.3.tgz#991efb4299e30c2e6c2c46d13f617169463e0d2d"
+  integrity sha1-mR77QpnjDC5sLEbRP2FxaUY+DS0=
   dependencies:
     prop-types "^15.5.6"
 
