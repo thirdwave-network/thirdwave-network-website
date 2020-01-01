@@ -35,7 +35,7 @@
     "gatsby-plugin-styled-components": "next",
     "gatsby-source-filesystem": "next",
     "gatsby-transformer-sharp": "next",
-    "prop-types": "^15.6.1",
+    "prop-types": "^15.7.2",
     "react": "^16.10.2",
     "react-click-outside": "^3.0.1",
     "react-device-detect": "^1.11.14",
