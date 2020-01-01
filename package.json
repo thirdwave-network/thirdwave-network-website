@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "@mdx-js/mdx": "^1.5.1",
-    "@mdx-js/react": "^1.5.1",
+    "@mdx-js/react": "^1.5.3",
     "formik": "^2.0.6",
     "gatsby": "next",
     "gatsby-image": "next",
