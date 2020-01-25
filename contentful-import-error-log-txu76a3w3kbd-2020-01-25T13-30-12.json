@@ -1,0 +1,3593 @@
+[
+  {
+    "ts": "2020-01-25T12:33:51.019Z",
+    "level": "error",
+    "error": {
+      "name": "UnresolvedLinks",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "txu76a3w3kbd"
+            }
+          },
+          "id": "3NJqcM1Ku7A3NNjXNVnJCS",
+          "type": "Entry",
+          "createdAt": "2020-01-25T12:33:09.261Z",
+          "updatedAt": "2020-01-25T12:33:09.261Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "5zmxnoQAC1A0Ha8szhssbs"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "5zmxnoQAC1A0Ha8szhssbs"
+            }
+          },
+          "publishedCounter": 0,
+          "version": 1,
+          "contentType": {
+            "sys": {
+              "type": "Link",
+              "linkType": "ContentType",
+              "id": "articleImage"
+            }
+          }
+        },
+        "fields": {
+          "image": {
+            "en": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "2iTRyZkWAhvItJu3KlbRaj"
+              }
+            }
+          },
+          "align": {
+            "en": "Large"
+          },
+          "showDescription": {
+            "en": false
+          }
+        }
+      },
+      "data": {
+        "status": 422,
+        "statusText": "Unprocessable Entity",
+        "message": "Validation error",
+        "details": {
+          "errors": [
+            {
+              "name": "notResolvable",
+              "link": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "2iTRyZkWAhvItJu3KlbRaj"
+              },
+              "path": [
+                "fields",
+                "image",
+                "en-US"
+              ]
+            }
+          ]
+        },
+        "request": {
+          "url": "https://api.contentful.com:443/spaces/txu76a3w3kbd/environments/master/entries/3NJqcM1Ku7A3NNjXNVnJCS/published",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.cli/1.2.10; feature space-import; sdk contentful-management.js/5.2.1; platform node.js/v12.6.0; os Linux/4.15.0-74-generic;",
+            "Authorization": "Bearer ...t0uQk",
+            "user-agent": "node.js/v12.6.0",
+            "Accept-Encoding": "gzip",
+            "X-Contentful-Version": 1
+          },
+          "method": "put",
+          "payloadData": null
+        },
+        "requestId": "a43c674e96553de01e34600f45e3f787"
+      }
+    }
+  },
+  {
+    "ts": "2020-01-25T12:33:52.047Z",
+    "level": "error",
+    "error": {
+      "name": "UnresolvedLinks",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "txu76a3w3kbd"
+            }
+          },
+          "id": "2rruAVbTOljZNRY7CRRClZ",
+          "type": "Entry",
+          "createdAt": "2020-01-25T12:33:09.411Z",
+          "updatedAt": "2020-01-25T12:33:09.411Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "5zmxnoQAC1A0Ha8szhssbs"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "5zmxnoQAC1A0Ha8szhssbs"
+            }
+          },
+          "publishedCounter": 0,
+          "version": 1,
+          "contentType": {
+            "sys": {
+              "type": "Link",
+              "linkType": "ContentType",
+              "id": "articleImage"
+            }
+          }
+        },
+        "fields": {
+          "image": {
+            "en": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "6IhlJKDuHphfRnaUsMecVr"
+              }
+            }
+          },
+          "align": {
+            "en": "Large"
+          },
+          "showDescription": {
+            "en": false
+          }
+        }
+      },
+      "data": {
+        "status": 422,
+        "statusText": "Unprocessable Entity",
+        "message": "Validation error",
+        "details": {
+          "errors": [
+            {
+              "name": "notResolvable",
+              "link": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "6IhlJKDuHphfRnaUsMecVr"
+              },
+              "path": [
+                "fields",
+                "image",
+                "en-US"
+              ]
+            }
+          ]
+        },
+        "request": {
+          "url": "https://api.contentful.com:443/spaces/txu76a3w3kbd/environments/master/entries/2rruAVbTOljZNRY7CRRClZ/published",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.cli/1.2.10; feature space-import; sdk contentful-management.js/5.2.1; platform node.js/v12.6.0; os Linux/4.15.0-74-generic;",
+            "Authorization": "Bearer ...t0uQk",
+            "user-agent": "node.js/v12.6.0",
+            "Accept-Encoding": "gzip",
+            "X-Contentful-Version": 1
+          },
+          "method": "put",
+          "payloadData": null
+        },
+        "requestId": "d32bf8b2d233a0ee8310f2445069448b"
+      }
+    }
+  },
+  {
+    "ts": "2020-01-25T12:33:59.247Z",
+    "level": "error",
+    "error": {
+      "name": "UnresolvedLinks",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "txu76a3w3kbd"
+            }
+          },
+          "id": "hfAbrbTGIPUpt1MFln9Du",
+          "type": "Entry",
+          "createdAt": "2020-01-25T12:33:10.960Z",
+          "updatedAt": "2020-01-25T12:33:10.960Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "5zmxnoQAC1A0Ha8szhssbs"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "5zmxnoQAC1A0Ha8szhssbs"
+            }
+          },
+          "publishedCounter": 0,
+          "version": 1,
+          "contentType": {
+            "sys": {
+              "type": "Link",
+              "linkType": "ContentType",
+              "id": "articleImage"
+            }
+          }
+        },
+        "fields": {
+          "image": {
+            "en": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "690Ny94C9bq2h9OBOmDllG"
+              }
+            }
+          },
+          "align": {
+            "en": "Large"
+          },
+          "showDescription": {
+            "en": false
+          }
+        }
+      },
+      "data": {
+        "status": 422,
+        "statusText": "Unprocessable Entity",
+        "message": "Validation error",
+        "details": {
+          "errors": [
+            {
+              "name": "notResolvable",
+              "link": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "690Ny94C9bq2h9OBOmDllG"
+              },
+              "path": [
+                "fields",
+                "image",
+                "en-US"
+              ]
+            }
+          ]
+        },
+        "request": {
+          "url": "https://api.contentful.com:443/spaces/txu76a3w3kbd/environments/master/entries/hfAbrbTGIPUpt1MFln9Du/published",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.cli/1.2.10; feature space-import; sdk contentful-management.js/5.2.1; platform node.js/v12.6.0; os Linux/4.15.0-74-generic;",
+            "Authorization": "Bearer ...t0uQk",
+            "user-agent": "node.js/v12.6.0",
+            "Accept-Encoding": "gzip",
+            "X-Contentful-Version": 1
+          },
+          "method": "put",
+          "payloadData": null
+        },
+        "requestId": "e02691de0309b3e55df9a31967430e94"
+      }
+    }
+  },
+  {
+    "ts": "2020-01-25T12:34:04.469Z",
+    "level": "error",
+    "error": {
+      "name": "UnresolvedLinks",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "txu76a3w3kbd"
+            }
+          },
+          "id": "5zgdcYXjlBxgilALrBDOKc",
+          "type": "Entry",
+          "createdAt": "2020-01-25T12:33:11.843Z",
+          "updatedAt": "2020-01-25T12:33:11.843Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "5zmxnoQAC1A0Ha8szhssbs"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "5zmxnoQAC1A0Ha8szhssbs"
+            }
+          },
+          "publishedCounter": 0,
+          "version": 1,
+          "contentType": {
+            "sys": {
+              "type": "Link",
+              "linkType": "ContentType",
+              "id": "articleImage"
+            }
+          }
+        },
+        "fields": {
+          "image": {
+            "en": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "6gq5h6WTiIUlOQFP4DHZAq"
+              }
+            }
+          },
+          "align": {
+            "en": "Regular"
+          },
+          "showDescription": {
+            "en": false
+          }
+        }
+      },
+      "data": {
+        "status": 422,
+        "statusText": "Unprocessable Entity",
+        "message": "Validation error",
+        "details": {
+          "errors": [
+            {
+              "name": "notResolvable",
+              "link": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "6gq5h6WTiIUlOQFP4DHZAq"
+              },
+              "path": [
+                "fields",
+                "image",
+                "en-US"
+              ]
+            }
+          ]
+        },
+        "request": {
+          "url": "https://api.contentful.com:443/spaces/txu76a3w3kbd/environments/master/entries/5zgdcYXjlBxgilALrBDOKc/published",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.cli/1.2.10; feature space-import; sdk contentful-management.js/5.2.1; platform node.js/v12.6.0; os Linux/4.15.0-74-generic;",
+            "Authorization": "Bearer ...t0uQk",
+            "user-agent": "node.js/v12.6.0",
+            "Accept-Encoding": "gzip",
+            "X-Contentful-Version": 1
+          },
+          "method": "put",
+          "payloadData": null
+        },
+        "requestId": "d91c59946a6e1015daed510bd78878e6"
+      }
+    }
+  },
+  {
+    "ts": "2020-01-25T12:34:05.075Z",
+    "level": "error",
+    "error": {
+      "name": "UnresolvedLinks",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "txu76a3w3kbd"
+            }
+          },
+          "id": "7CKC3q2czSh4Vs92RS0qtX",
+          "type": "Entry",
+          "createdAt": "2020-01-25T12:33:12.127Z",
+          "updatedAt": "2020-01-25T12:33:12.127Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "5zmxnoQAC1A0Ha8szhssbs"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "5zmxnoQAC1A0Ha8szhssbs"
+            }
+          },
+          "publishedCounter": 0,
+          "version": 1,
+          "contentType": {
+            "sys": {
+              "type": "Link",
+              "linkType": "ContentType",
+              "id": "articleImage"
+            }
+          }
+        },
+        "fields": {
+          "image": {
+            "en": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "2jqypUtSQDLGPh5e3uuhc4"
+              }
+            }
+          },
+          "align": {
+            "en": "Regular"
+          },
+          "showDescription": {
+            "en": false
+          }
+        }
+      },
+      "data": {
+        "status": 422,
+        "statusText": "Unprocessable Entity",
+        "message": "Validation error",
+        "details": {
+          "errors": [
+            {
+              "name": "notResolvable",
+              "link": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "2jqypUtSQDLGPh5e3uuhc4"
+              },
+              "path": [
+                "fields",
+                "image",
+                "en-US"
+              ]
+            }
+          ]
+        },
+        "request": {
+          "url": "https://api.contentful.com:443/spaces/txu76a3w3kbd/environments/master/entries/7CKC3q2czSh4Vs92RS0qtX/published",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.cli/1.2.10; feature space-import; sdk contentful-management.js/5.2.1; platform node.js/v12.6.0; os Linux/4.15.0-74-generic;",
+            "Authorization": "Bearer ...t0uQk",
+            "user-agent": "node.js/v12.6.0",
+            "Accept-Encoding": "gzip",
+            "X-Contentful-Version": 1
+          },
+          "method": "put",
+          "payloadData": null
+        },
+        "requestId": "455da93a4465bee7dc615909e98b515f"
+      }
+    }
+  },
+  {
+    "ts": "2020-01-25T12:34:05.503Z",
+    "level": "error",
+    "error": {
+      "name": "UnresolvedLinks",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "txu76a3w3kbd"
+            }
+          },
+          "id": "5F97yUJcGI43oz9WaShHIn",
+          "type": "Entry",
+          "createdAt": "2020-01-25T12:33:12.364Z",
+          "updatedAt": "2020-01-25T12:33:12.364Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "5zmxnoQAC1A0Ha8szhssbs"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "5zmxnoQAC1A0Ha8szhssbs"
+            }
+          },
+          "publishedCounter": 0,
+          "version": 1,
+          "contentType": {
+            "sys": {
+              "type": "Link",
+              "linkType": "ContentType",
+              "id": "articleImage"
+            }
+          }
+        },
+        "fields": {
+          "image": {
+            "en": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "6UNi8U4hLk9Fzlq0AJLPcz"
+              }
+            }
+          },
+          "align": {
+            "en": "Regular"
+          },
+          "showDescription": {
+            "en": false
+          }
+        }
+      },
+      "data": {
+        "status": 422,
+        "statusText": "Unprocessable Entity",
+        "message": "Validation error",
+        "details": {
+          "errors": [
+            {
+              "name": "notResolvable",
+              "link": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "6UNi8U4hLk9Fzlq0AJLPcz"
+              },
+              "path": [
+                "fields",
+                "image",
+                "en-US"
+              ]
+            }
+          ]
+        },
+        "request": {
+          "url": "https://api.contentful.com:443/spaces/txu76a3w3kbd/environments/master/entries/5F97yUJcGI43oz9WaShHIn/published",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.cli/1.2.10; feature space-import; sdk contentful-management.js/5.2.1; platform node.js/v12.6.0; os Linux/4.15.0-74-generic;",
+            "Authorization": "Bearer ...t0uQk",
+            "user-agent": "node.js/v12.6.0",
+            "Accept-Encoding": "gzip",
+            "X-Contentful-Version": 1
+          },
+          "method": "put",
+          "payloadData": null
+        },
+        "requestId": "99acd8f42d6bc8be6dec96c14a66f3c8"
+      }
+    }
+  },
+  {
+    "ts": "2020-01-25T12:34:05.989Z",
+    "level": "error",
+    "error": {
+      "name": "UnresolvedLinks",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "txu76a3w3kbd"
+            }
+          },
+          "id": "4hTD2SvnAHVuCamn7xf70H",
+          "type": "Entry",
+          "createdAt": "2020-01-25T12:33:12.366Z",
+          "updatedAt": "2020-01-25T12:33:12.366Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "5zmxnoQAC1A0Ha8szhssbs"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "5zmxnoQAC1A0Ha8szhssbs"
+            }
+          },
+          "publishedCounter": 0,
+          "version": 1,
+          "contentType": {
+            "sys": {
+              "type": "Link",
+              "linkType": "ContentType",
+              "id": "articleImage"
+            }
+          }
+        },
+        "fields": {
+          "image": {
+            "en": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "3KmYrcTaXnyGMOPRpb7VBJ"
+              }
+            }
+          },
+          "align": {
+            "en": "Regular"
+          },
+          "showDescription": {
+            "en": false
+          }
+        }
+      },
+      "data": {
+        "status": 422,
+        "statusText": "Unprocessable Entity",
+        "message": "Validation error",
+        "details": {
+          "errors": [
+            {
+              "name": "notResolvable",
+              "link": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "3KmYrcTaXnyGMOPRpb7VBJ"
+              },
+              "path": [
+                "fields",
+                "image",
+                "en-US"
+              ]
+            }
+          ]
+        },
+        "request": {
+          "url": "https://api.contentful.com:443/spaces/txu76a3w3kbd/environments/master/entries/4hTD2SvnAHVuCamn7xf70H/published",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.cli/1.2.10; feature space-import; sdk contentful-management.js/5.2.1; platform node.js/v12.6.0; os Linux/4.15.0-74-generic;",
+            "Authorization": "Bearer ...t0uQk",
+            "user-agent": "node.js/v12.6.0",
+            "Accept-Encoding": "gzip",
+            "X-Contentful-Version": 1
+          },
+          "method": "put",
+          "payloadData": null
+        },
+        "requestId": "7cce27952845effeb27bfe5d83cf44c8"
+      }
+    }
+  },
+  {
+    "ts": "2020-01-25T12:34:06.419Z",
+    "level": "error",
+    "error": {
+      "name": "UnresolvedLinks",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "txu76a3w3kbd"
+            }
+          },
+          "id": "6iTp8RssVuMJv6xxoeI5ke",
+          "type": "Entry",
+          "createdAt": "2020-01-25T12:33:12.412Z",
+          "updatedAt": "2020-01-25T12:33:12.412Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "5zmxnoQAC1A0Ha8szhssbs"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "5zmxnoQAC1A0Ha8szhssbs"
+            }
+          },
+          "publishedCounter": 0,
+          "version": 1,
+          "contentType": {
+            "sys": {
+              "type": "Link",
+              "linkType": "ContentType",
+              "id": "articleImage"
+            }
+          }
+        },
+        "fields": {
+          "image": {
+            "en": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "6ajjsoMmHLBnczswwYGXcG"
+              }
+            }
+          },
+          "align": {
+            "en": "Regular"
+          },
+          "showDescription": {
+            "en": false
+          }
+        }
+      },
+      "data": {
+        "status": 422,
+        "statusText": "Unprocessable Entity",
+        "message": "Validation error",
+        "details": {
+          "errors": [
+            {
+              "name": "notResolvable",
+              "link": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "6ajjsoMmHLBnczswwYGXcG"
+              },
+              "path": [
+                "fields",
+                "image",
+                "en-US"
+              ]
+            }
+          ]
+        },
+        "request": {
+          "url": "https://api.contentful.com:443/spaces/txu76a3w3kbd/environments/master/entries/6iTp8RssVuMJv6xxoeI5ke/published",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.cli/1.2.10; feature space-import; sdk contentful-management.js/5.2.1; platform node.js/v12.6.0; os Linux/4.15.0-74-generic;",
+            "Authorization": "Bearer ...t0uQk",
+            "user-agent": "node.js/v12.6.0",
+            "Accept-Encoding": "gzip",
+            "X-Contentful-Version": 1
+          },
+          "method": "put",
+          "payloadData": null
+        },
+        "requestId": "23b7cc7e77895e5fb8c18eebf1450ae8"
+      }
+    }
+  },
+  {
+    "ts": "2020-01-25T12:34:06.969Z",
+    "level": "error",
+    "error": {
+      "name": "UnresolvedLinks",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "txu76a3w3kbd"
+            }
+          },
+          "id": "4t9pp5cztKgeaPanzSm9sT",
+          "type": "Entry",
+          "createdAt": "2020-01-25T12:33:13.114Z",
+          "updatedAt": "2020-01-25T12:33:13.114Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "5zmxnoQAC1A0Ha8szhssbs"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "5zmxnoQAC1A0Ha8szhssbs"
+            }
+          },
+          "publishedCounter": 0,
+          "version": 1,
+          "contentType": {
+            "sys": {
+              "type": "Link",
+              "linkType": "ContentType",
+              "id": "articleImage"
+            }
+          }
+        },
+        "fields": {
+          "image": {
+            "en": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "4IU9tPw89g3hBSrRXfVuht"
+              }
+            }
+          },
+          "align": {
+            "en": "Full"
+          },
+          "showDescription": {
+            "en": false
+          }
+        }
+      },
+      "data": {
+        "status": 422,
+        "statusText": "Unprocessable Entity",
+        "message": "Validation error",
+        "details": {
+          "errors": [
+            {
+              "name": "notResolvable",
+              "link": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "4IU9tPw89g3hBSrRXfVuht"
+              },
+              "path": [
+                "fields",
+                "image",
+                "en-US"
+              ]
+            }
+          ]
+        },
+        "request": {
+          "url": "https://api.contentful.com:443/spaces/txu76a3w3kbd/environments/master/entries/4t9pp5cztKgeaPanzSm9sT/published",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.cli/1.2.10; feature space-import; sdk contentful-management.js/5.2.1; platform node.js/v12.6.0; os Linux/4.15.0-74-generic;",
+            "Authorization": "Bearer ...t0uQk",
+            "user-agent": "node.js/v12.6.0",
+            "Accept-Encoding": "gzip",
+            "X-Contentful-Version": 1
+          },
+          "method": "put",
+          "payloadData": null
+        },
+        "requestId": "64d2d9378ba98dbe8c2076ef448c12ce"
+      }
+    }
+  },
+  {
+    "ts": "2020-01-25T12:34:07.393Z",
+    "level": "error",
+    "error": {
+      "name": "UnresolvedLinks",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "txu76a3w3kbd"
+            }
+          },
+          "id": "7nQrRb9U04IhrzmvcyyPFC",
+          "type": "Entry",
+          "createdAt": "2020-01-25T12:33:13.117Z",
+          "updatedAt": "2020-01-25T12:33:13.117Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "5zmxnoQAC1A0Ha8szhssbs"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "5zmxnoQAC1A0Ha8szhssbs"
+            }
+          },
+          "publishedCounter": 0,
+          "version": 1,
+          "contentType": {
+            "sys": {
+              "type": "Link",
+              "linkType": "ContentType",
+              "id": "articleImage"
+            }
+          }
+        },
+        "fields": {
+          "image": {
+            "en": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "4nM56XYi1LHuFsukZtPaMX"
+              }
+            }
+          },
+          "align": {
+            "en": "Large"
+          },
+          "showDescription": {
+            "en": false
+          }
+        }
+      },
+      "data": {
+        "status": 422,
+        "statusText": "Unprocessable Entity",
+        "message": "Validation error",
+        "details": {
+          "errors": [
+            {
+              "name": "notResolvable",
+              "link": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "4nM56XYi1LHuFsukZtPaMX"
+              },
+              "path": [
+                "fields",
+                "image",
+                "en-US"
+              ]
+            }
+          ]
+        },
+        "request": {
+          "url": "https://api.contentful.com:443/spaces/txu76a3w3kbd/environments/master/entries/7nQrRb9U04IhrzmvcyyPFC/published",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.cli/1.2.10; feature space-import; sdk contentful-management.js/5.2.1; platform node.js/v12.6.0; os Linux/4.15.0-74-generic;",
+            "Authorization": "Bearer ...t0uQk",
+            "user-agent": "node.js/v12.6.0",
+            "Accept-Encoding": "gzip",
+            "X-Contentful-Version": 1
+          },
+          "method": "put",
+          "payloadData": null
+        },
+        "requestId": "b59a1e2b4d2bef0fb5e0462db4de3a96"
+      }
+    }
+  },
+  {
+    "ts": "2020-01-25T12:34:07.826Z",
+    "level": "error",
+    "error": {
+      "name": "UnresolvedLinks",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "txu76a3w3kbd"
+            }
+          },
+          "id": "1mJdPoUAy6ha58TfT5cWY9",
+          "type": "Entry",
+          "createdAt": "2020-01-25T12:33:13.140Z",
+          "updatedAt": "2020-01-25T12:33:13.140Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "5zmxnoQAC1A0Ha8szhssbs"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "5zmxnoQAC1A0Ha8szhssbs"
+            }
+          },
+          "publishedCounter": 0,
+          "version": 1,
+          "contentType": {
+            "sys": {
+              "type": "Link",
+              "linkType": "ContentType",
+              "id": "articleImage"
+            }
+          }
+        },
+        "fields": {
+          "image": {
+            "en": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "U84uknCpH3mjON3YBp9VF"
+              }
+            }
+          },
+          "align": {
+            "en": "Regular"
+          },
+          "showDescription": {
+            "en": false
+          }
+        }
+      },
+      "data": {
+        "status": 422,
+        "statusText": "Unprocessable Entity",
+        "message": "Validation error",
+        "details": {
+          "errors": [
+            {
+              "name": "notResolvable",
+              "link": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "U84uknCpH3mjON3YBp9VF"
+              },
+              "path": [
+                "fields",
+                "image",
+                "en-US"
+              ]
+            }
+          ]
+        },
+        "request": {
+          "url": "https://api.contentful.com:443/spaces/txu76a3w3kbd/environments/master/entries/1mJdPoUAy6ha58TfT5cWY9/published",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.cli/1.2.10; feature space-import; sdk contentful-management.js/5.2.1; platform node.js/v12.6.0; os Linux/4.15.0-74-generic;",
+            "Authorization": "Bearer ...t0uQk",
+            "user-agent": "node.js/v12.6.0",
+            "Accept-Encoding": "gzip",
+            "X-Contentful-Version": 1
+          },
+          "method": "put",
+          "payloadData": null
+        },
+        "requestId": "7e3115b2dbb11cd249e19e90b0e39a2b"
+      }
+    }
+  },
+  {
+    "ts": "2020-01-25T12:34:08.367Z",
+    "level": "error",
+    "error": {
+      "name": "UnresolvedLinks",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "txu76a3w3kbd"
+            }
+          },
+          "id": "6T4ZASaTbiBoXbmzXYIkyk",
+          "type": "Entry",
+          "createdAt": "2020-01-25T12:33:13.132Z",
+          "updatedAt": "2020-01-25T12:33:13.132Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "5zmxnoQAC1A0Ha8szhssbs"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "5zmxnoQAC1A0Ha8szhssbs"
+            }
+          },
+          "publishedCounter": 0,
+          "version": 1,
+          "contentType": {
+            "sys": {
+              "type": "Link",
+              "linkType": "ContentType",
+              "id": "articleImage"
+            }
+          }
+        },
+        "fields": {
+          "image": {
+            "en": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "4IU9tPw89g3hBSrRXfVuht"
+              }
+            }
+          },
+          "align": {
+            "en": "Full"
+          },
+          "showDescription": {
+            "en": false
+          }
+        }
+      },
+      "data": {
+        "status": 422,
+        "statusText": "Unprocessable Entity",
+        "message": "Validation error",
+        "details": {
+          "errors": [
+            {
+              "name": "notResolvable",
+              "link": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "4IU9tPw89g3hBSrRXfVuht"
+              },
+              "path": [
+                "fields",
+                "image",
+                "en-US"
+              ]
+            }
+          ]
+        },
+        "request": {
+          "url": "https://api.contentful.com:443/spaces/txu76a3w3kbd/environments/master/entries/6T4ZASaTbiBoXbmzXYIkyk/published",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.cli/1.2.10; feature space-import; sdk contentful-management.js/5.2.1; platform node.js/v12.6.0; os Linux/4.15.0-74-generic;",
+            "Authorization": "Bearer ...t0uQk",
+            "user-agent": "node.js/v12.6.0",
+            "Accept-Encoding": "gzip",
+            "X-Contentful-Version": 1
+          },
+          "method": "put",
+          "payloadData": null
+        },
+        "requestId": "e2d3970b652207094dace6a4cfa8e740"
+      }
+    }
+  },
+  {
+    "ts": "2020-01-25T12:34:08.961Z",
+    "level": "error",
+    "error": {
+      "name": "UnresolvedLinks",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "txu76a3w3kbd"
+            }
+          },
+          "id": "78DcUOnoS6qQXpiDBSLEOo",
+          "type": "Entry",
+          "createdAt": "2020-01-25T12:33:13.158Z",
+          "updatedAt": "2020-01-25T12:33:13.158Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "5zmxnoQAC1A0Ha8szhssbs"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "5zmxnoQAC1A0Ha8szhssbs"
+            }
+          },
+          "publishedCounter": 0,
+          "version": 1,
+          "contentType": {
+            "sys": {
+              "type": "Link",
+              "linkType": "ContentType",
+              "id": "articleImage"
+            }
+          }
+        },
+        "fields": {
+          "image": {
+            "en": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "m88sqZhPLBxWLLqDOFmzf"
+              }
+            }
+          },
+          "align": {
+            "en": "Large"
+          },
+          "showDescription": {
+            "en": false
+          }
+        }
+      },
+      "data": {
+        "status": 422,
+        "statusText": "Unprocessable Entity",
+        "message": "Validation error",
+        "details": {
+          "errors": [
+            {
+              "name": "notResolvable",
+              "link": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "m88sqZhPLBxWLLqDOFmzf"
+              },
+              "path": [
+                "fields",
+                "image",
+                "en-US"
+              ]
+            }
+          ]
+        },
+        "request": {
+          "url": "https://api.contentful.com:443/spaces/txu76a3w3kbd/environments/master/entries/78DcUOnoS6qQXpiDBSLEOo/published",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.cli/1.2.10; feature space-import; sdk contentful-management.js/5.2.1; platform node.js/v12.6.0; os Linux/4.15.0-74-generic;",
+            "Authorization": "Bearer ...t0uQk",
+            "user-agent": "node.js/v12.6.0",
+            "Accept-Encoding": "gzip",
+            "X-Contentful-Version": 1
+          },
+          "method": "put",
+          "payloadData": null
+        },
+        "requestId": "907ecc43145c340995d0c7ca0a56243b"
+      }
+    }
+  },
+  {
+    "ts": "2020-01-25T12:34:09.930Z",
+    "level": "error",
+    "error": {
+      "name": "UnresolvedLinks",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "txu76a3w3kbd"
+            }
+          },
+          "id": "4mGjwEquRPoNESngLZj6N1",
+          "type": "Entry",
+          "createdAt": "2020-01-25T12:33:13.633Z",
+          "updatedAt": "2020-01-25T12:33:13.633Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "5zmxnoQAC1A0Ha8szhssbs"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "5zmxnoQAC1A0Ha8szhssbs"
+            }
+          },
+          "publishedCounter": 0,
+          "version": 1,
+          "contentType": {
+            "sys": {
+              "type": "Link",
+              "linkType": "ContentType",
+              "id": "articleImage"
+            }
+          }
+        },
+        "fields": {
+          "image": {
+            "en": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "1mKZtaqcnkNfePCnHtr98d"
+              }
+            }
+          },
+          "align": {
+            "en": "Large"
+          },
+          "showDescription": {
+            "en": false
+          }
+        }
+      },
+      "data": {
+        "status": 422,
+        "statusText": "Unprocessable Entity",
+        "message": "Validation error",
+        "details": {
+          "errors": [
+            {
+              "name": "notResolvable",
+              "link": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "1mKZtaqcnkNfePCnHtr98d"
+              },
+              "path": [
+                "fields",
+                "image",
+                "en-US"
+              ]
+            }
+          ]
+        },
+        "request": {
+          "url": "https://api.contentful.com:443/spaces/txu76a3w3kbd/environments/master/entries/4mGjwEquRPoNESngLZj6N1/published",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.cli/1.2.10; feature space-import; sdk contentful-management.js/5.2.1; platform node.js/v12.6.0; os Linux/4.15.0-74-generic;",
+            "Authorization": "Bearer ...t0uQk",
+            "user-agent": "node.js/v12.6.0",
+            "Accept-Encoding": "gzip",
+            "X-Contentful-Version": 1
+          },
+          "method": "put",
+          "payloadData": null
+        },
+        "requestId": "defde1005b714cda00067821b78bc385"
+      }
+    }
+  },
+  {
+    "ts": "2020-01-25T12:35:00.436Z",
+    "level": "error",
+    "error": {
+      "name": "UnresolvedLinks",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "txu76a3w3kbd"
+            }
+          },
+          "id": "2PuqYTzN7eky9GUCgHQS0I",
+          "type": "Entry",
+          "createdAt": "2020-01-25T12:33:21.204Z",
+          "updatedAt": "2020-01-25T12:33:21.204Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "5zmxnoQAC1A0Ha8szhssbs"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "5zmxnoQAC1A0Ha8szhssbs"
+            }
+          },
+          "publishedCounter": 0,
+          "version": 1,
+          "contentType": {
+            "sys": {
+              "type": "Link",
+              "linkType": "ContentType",
+              "id": "articleImage"
+            }
+          }
+        },
+        "fields": {
+          "image": {
+            "en": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "2tFntG8XXmPqL8lbfGIIoA"
+              }
+            }
+          },
+          "align": {
+            "en": "Regular"
+          }
+        }
+      },
+      "data": {
+        "status": 422,
+        "statusText": "Unprocessable Entity",
+        "message": "Validation error",
+        "details": {
+          "errors": [
+            {
+              "name": "notResolvable",
+              "link": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "2tFntG8XXmPqL8lbfGIIoA"
+              },
+              "path": [
+                "fields",
+                "image",
+                "en-US"
+              ]
+            }
+          ]
+        },
+        "request": {
+          "url": "https://api.contentful.com:443/spaces/txu76a3w3kbd/environments/master/entries/2PuqYTzN7eky9GUCgHQS0I/published",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.cli/1.2.10; feature space-import; sdk contentful-management.js/5.2.1; platform node.js/v12.6.0; os Linux/4.15.0-74-generic;",
+            "Authorization": "Bearer ...t0uQk",
+            "user-agent": "node.js/v12.6.0",
+            "Accept-Encoding": "gzip",
+            "X-Contentful-Version": 1
+          },
+          "method": "put",
+          "payloadData": null
+        },
+        "requestId": "c9561e6ee2d100c269c99e1f66c60c41"
+      }
+    }
+  },
+  {
+    "ts": "2020-01-25T12:35:00.895Z",
+    "level": "error",
+    "error": {
+      "name": "UnresolvedLinks",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "txu76a3w3kbd"
+            }
+          },
+          "id": "4ehfEXNHVpFkD8M7gXTmXr",
+          "type": "Entry",
+          "createdAt": "2020-01-25T12:33:21.294Z",
+          "updatedAt": "2020-01-25T12:33:21.294Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "5zmxnoQAC1A0Ha8szhssbs"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "5zmxnoQAC1A0Ha8szhssbs"
+            }
+          },
+          "publishedCounter": 0,
+          "version": 1,
+          "contentType": {
+            "sys": {
+              "type": "Link",
+              "linkType": "ContentType",
+              "id": "articleImage"
+            }
+          }
+        },
+        "fields": {
+          "image": {
+            "en": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "7kOIL8IspZzWU820mCXAuO"
+              }
+            }
+          },
+          "align": {
+            "en": "Full"
+          }
+        }
+      },
+      "data": {
+        "status": 422,
+        "statusText": "Unprocessable Entity",
+        "message": "Validation error",
+        "details": {
+          "errors": [
+            {
+              "name": "notResolvable",
+              "link": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "7kOIL8IspZzWU820mCXAuO"
+              },
+              "path": [
+                "fields",
+                "image",
+                "en-US"
+              ]
+            }
+          ]
+        },
+        "request": {
+          "url": "https://api.contentful.com:443/spaces/txu76a3w3kbd/environments/master/entries/4ehfEXNHVpFkD8M7gXTmXr/published",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.cli/1.2.10; feature space-import; sdk contentful-management.js/5.2.1; platform node.js/v12.6.0; os Linux/4.15.0-74-generic;",
+            "Authorization": "Bearer ...t0uQk",
+            "user-agent": "node.js/v12.6.0",
+            "Accept-Encoding": "gzip",
+            "X-Contentful-Version": 1
+          },
+          "method": "put",
+          "payloadData": null
+        },
+        "requestId": "26b353a9e69ac88c569b9db3f6907f59"
+      }
+    }
+  },
+  {
+    "ts": "2020-01-25T12:35:01.420Z",
+    "level": "error",
+    "error": {
+      "name": "UnresolvedLinks",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "txu76a3w3kbd"
+            }
+          },
+          "id": "2HocBdXqWGwdZHyXDSrid3",
+          "type": "Entry",
+          "createdAt": "2020-01-25T12:33:21.326Z",
+          "updatedAt": "2020-01-25T12:33:21.326Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "5zmxnoQAC1A0Ha8szhssbs"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "5zmxnoQAC1A0Ha8szhssbs"
+            }
+          },
+          "publishedCounter": 0,
+          "version": 1,
+          "contentType": {
+            "sys": {
+              "type": "Link",
+              "linkType": "ContentType",
+              "id": "articleImage"
+            }
+          }
+        },
+        "fields": {
+          "image": {
+            "en": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "ovplrUyzvGlVryDa1my4z"
+              }
+            }
+          },
+          "align": {
+            "en": "Large"
+          }
+        }
+      },
+      "data": {
+        "status": 422,
+        "statusText": "Unprocessable Entity",
+        "message": "Validation error",
+        "details": {
+          "errors": [
+            {
+              "name": "notResolvable",
+              "link": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "ovplrUyzvGlVryDa1my4z"
+              },
+              "path": [
+                "fields",
+                "image",
+                "en-US"
+              ]
+            }
+          ]
+        },
+        "request": {
+          "url": "https://api.contentful.com:443/spaces/txu76a3w3kbd/environments/master/entries/2HocBdXqWGwdZHyXDSrid3/published",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.cli/1.2.10; feature space-import; sdk contentful-management.js/5.2.1; platform node.js/v12.6.0; os Linux/4.15.0-74-generic;",
+            "Authorization": "Bearer ...t0uQk",
+            "user-agent": "node.js/v12.6.0",
+            "Accept-Encoding": "gzip",
+            "X-Contentful-Version": 1
+          },
+          "method": "put",
+          "payloadData": null
+        },
+        "requestId": "0b8716e71b3ac8a5c0db57d462218938"
+      }
+    }
+  },
+  {
+    "ts": "2020-01-25T12:35:07.922Z",
+    "level": "error",
+    "error": {
+      "name": "UnresolvedLinks",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "txu76a3w3kbd"
+            }
+          },
+          "id": "2HocBdXqWGwdZHyXDSrid3",
+          "type": "Entry",
+          "createdAt": "2020-01-25T12:33:21.326Z",
+          "updatedAt": "2020-01-25T12:33:21.326Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "5zmxnoQAC1A0Ha8szhssbs"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "5zmxnoQAC1A0Ha8szhssbs"
+            }
+          },
+          "publishedCounter": 0,
+          "version": 1,
+          "contentType": {
+            "sys": {
+              "type": "Link",
+              "linkType": "ContentType",
+              "id": "articleImage"
+            }
+          }
+        },
+        "fields": {
+          "image": {
+            "en": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "ovplrUyzvGlVryDa1my4z"
+              }
+            }
+          },
+          "align": {
+            "en": "Large"
+          }
+        }
+      },
+      "data": {
+        "status": 422,
+        "statusText": "Unprocessable Entity",
+        "message": "Validation error",
+        "details": {
+          "errors": [
+            {
+              "name": "notResolvable",
+              "link": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "ovplrUyzvGlVryDa1my4z"
+              },
+              "path": [
+                "fields",
+                "image",
+                "en-US"
+              ]
+            }
+          ]
+        },
+        "request": {
+          "url": "https://api.contentful.com:443/spaces/txu76a3w3kbd/environments/master/entries/2HocBdXqWGwdZHyXDSrid3/published",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.cli/1.2.10; feature space-import; sdk contentful-management.js/5.2.1; platform node.js/v12.6.0; os Linux/4.15.0-74-generic;",
+            "Authorization": "Bearer ...t0uQk",
+            "user-agent": "node.js/v12.6.0",
+            "Accept-Encoding": "gzip",
+            "X-Contentful-Version": 1
+          },
+          "method": "put",
+          "payloadData": null
+        },
+        "requestId": "567661ba9f2e1ae42d58be20a878bd81"
+      }
+    }
+  },
+  {
+    "ts": "2020-01-25T12:35:08.367Z",
+    "level": "error",
+    "error": {
+      "name": "UnresolvedLinks",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "txu76a3w3kbd"
+            }
+          },
+          "id": "3NJqcM1Ku7A3NNjXNVnJCS",
+          "type": "Entry",
+          "createdAt": "2020-01-25T12:33:09.261Z",
+          "updatedAt": "2020-01-25T12:33:09.261Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "5zmxnoQAC1A0Ha8szhssbs"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "5zmxnoQAC1A0Ha8szhssbs"
+            }
+          },
+          "publishedCounter": 0,
+          "version": 1,
+          "contentType": {
+            "sys": {
+              "type": "Link",
+              "linkType": "ContentType",
+              "id": "articleImage"
+            }
+          }
+        },
+        "fields": {
+          "image": {
+            "en": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "2iTRyZkWAhvItJu3KlbRaj"
+              }
+            }
+          },
+          "align": {
+            "en": "Large"
+          },
+          "showDescription": {
+            "en": false
+          }
+        }
+      },
+      "data": {
+        "status": 422,
+        "statusText": "Unprocessable Entity",
+        "message": "Validation error",
+        "details": {
+          "errors": [
+            {
+              "name": "notResolvable",
+              "link": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "2iTRyZkWAhvItJu3KlbRaj"
+              },
+              "path": [
+                "fields",
+                "image",
+                "en-US"
+              ]
+            }
+          ]
+        },
+        "request": {
+          "url": "https://api.contentful.com:443/spaces/txu76a3w3kbd/environments/master/entries/3NJqcM1Ku7A3NNjXNVnJCS/published",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.cli/1.2.10; feature space-import; sdk contentful-management.js/5.2.1; platform node.js/v12.6.0; os Linux/4.15.0-74-generic;",
+            "Authorization": "Bearer ...t0uQk",
+            "user-agent": "node.js/v12.6.0",
+            "Accept-Encoding": "gzip",
+            "X-Contentful-Version": 1
+          },
+          "method": "put",
+          "payloadData": null
+        },
+        "requestId": "cda23efdb43c775fed3d061e38522c16"
+      }
+    }
+  },
+  {
+    "ts": "2020-01-25T12:35:08.822Z",
+    "level": "error",
+    "error": {
+      "name": "UnresolvedLinks",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "txu76a3w3kbd"
+            }
+          },
+          "id": "2rruAVbTOljZNRY7CRRClZ",
+          "type": "Entry",
+          "createdAt": "2020-01-25T12:33:09.411Z",
+          "updatedAt": "2020-01-25T12:33:09.411Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "5zmxnoQAC1A0Ha8szhssbs"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "5zmxnoQAC1A0Ha8szhssbs"
+            }
+          },
+          "publishedCounter": 0,
+          "version": 1,
+          "contentType": {
+            "sys": {
+              "type": "Link",
+              "linkType": "ContentType",
+              "id": "articleImage"
+            }
+          }
+        },
+        "fields": {
+          "image": {
+            "en": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "6IhlJKDuHphfRnaUsMecVr"
+              }
+            }
+          },
+          "align": {
+            "en": "Large"
+          },
+          "showDescription": {
+            "en": false
+          }
+        }
+      },
+      "data": {
+        "status": 422,
+        "statusText": "Unprocessable Entity",
+        "message": "Validation error",
+        "details": {
+          "errors": [
+            {
+              "name": "notResolvable",
+              "link": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "6IhlJKDuHphfRnaUsMecVr"
+              },
+              "path": [
+                "fields",
+                "image",
+                "en-US"
+              ]
+            }
+          ]
+        },
+        "request": {
+          "url": "https://api.contentful.com:443/spaces/txu76a3w3kbd/environments/master/entries/2rruAVbTOljZNRY7CRRClZ/published",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.cli/1.2.10; feature space-import; sdk contentful-management.js/5.2.1; platform node.js/v12.6.0; os Linux/4.15.0-74-generic;",
+            "Authorization": "Bearer ...t0uQk",
+            "user-agent": "node.js/v12.6.0",
+            "Accept-Encoding": "gzip",
+            "X-Contentful-Version": 1
+          },
+          "method": "put",
+          "payloadData": null
+        },
+        "requestId": "9cc22d645a97cc6dd5abe7363cf5a10f"
+      }
+    }
+  },
+  {
+    "ts": "2020-01-25T12:35:09.354Z",
+    "level": "error",
+    "error": {
+      "name": "UnresolvedLinks",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "txu76a3w3kbd"
+            }
+          },
+          "id": "hfAbrbTGIPUpt1MFln9Du",
+          "type": "Entry",
+          "createdAt": "2020-01-25T12:33:10.960Z",
+          "updatedAt": "2020-01-25T12:33:10.960Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "5zmxnoQAC1A0Ha8szhssbs"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "5zmxnoQAC1A0Ha8szhssbs"
+            }
+          },
+          "publishedCounter": 0,
+          "version": 1,
+          "contentType": {
+            "sys": {
+              "type": "Link",
+              "linkType": "ContentType",
+              "id": "articleImage"
+            }
+          }
+        },
+        "fields": {
+          "image": {
+            "en": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "690Ny94C9bq2h9OBOmDllG"
+              }
+            }
+          },
+          "align": {
+            "en": "Large"
+          },
+          "showDescription": {
+            "en": false
+          }
+        }
+      },
+      "data": {
+        "status": 422,
+        "statusText": "Unprocessable Entity",
+        "message": "Validation error",
+        "details": {
+          "errors": [
+            {
+              "name": "notResolvable",
+              "link": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "690Ny94C9bq2h9OBOmDllG"
+              },
+              "path": [
+                "fields",
+                "image",
+                "en-US"
+              ]
+            }
+          ]
+        },
+        "request": {
+          "url": "https://api.contentful.com:443/spaces/txu76a3w3kbd/environments/master/entries/hfAbrbTGIPUpt1MFln9Du/published",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.cli/1.2.10; feature space-import; sdk contentful-management.js/5.2.1; platform node.js/v12.6.0; os Linux/4.15.0-74-generic;",
+            "Authorization": "Bearer ...t0uQk",
+            "user-agent": "node.js/v12.6.0",
+            "Accept-Encoding": "gzip",
+            "X-Contentful-Version": 1
+          },
+          "method": "put",
+          "payloadData": null
+        },
+        "requestId": "ffbb9b136d3e5349a94145562882a24e"
+      }
+    }
+  },
+  {
+    "ts": "2020-01-25T12:35:09.795Z",
+    "level": "error",
+    "error": {
+      "name": "UnresolvedLinks",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "txu76a3w3kbd"
+            }
+          },
+          "id": "5zgdcYXjlBxgilALrBDOKc",
+          "type": "Entry",
+          "createdAt": "2020-01-25T12:33:11.843Z",
+          "updatedAt": "2020-01-25T12:33:11.843Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "5zmxnoQAC1A0Ha8szhssbs"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "5zmxnoQAC1A0Ha8szhssbs"
+            }
+          },
+          "publishedCounter": 0,
+          "version": 1,
+          "contentType": {
+            "sys": {
+              "type": "Link",
+              "linkType": "ContentType",
+              "id": "articleImage"
+            }
+          }
+        },
+        "fields": {
+          "image": {
+            "en": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "6gq5h6WTiIUlOQFP4DHZAq"
+              }
+            }
+          },
+          "align": {
+            "en": "Regular"
+          },
+          "showDescription": {
+            "en": false
+          }
+        }
+      },
+      "data": {
+        "status": 422,
+        "statusText": "Unprocessable Entity",
+        "message": "Validation error",
+        "details": {
+          "errors": [
+            {
+              "name": "notResolvable",
+              "link": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "6gq5h6WTiIUlOQFP4DHZAq"
+              },
+              "path": [
+                "fields",
+                "image",
+                "en-US"
+              ]
+            }
+          ]
+        },
+        "request": {
+          "url": "https://api.contentful.com:443/spaces/txu76a3w3kbd/environments/master/entries/5zgdcYXjlBxgilALrBDOKc/published",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.cli/1.2.10; feature space-import; sdk contentful-management.js/5.2.1; platform node.js/v12.6.0; os Linux/4.15.0-74-generic;",
+            "Authorization": "Bearer ...t0uQk",
+            "user-agent": "node.js/v12.6.0",
+            "Accept-Encoding": "gzip",
+            "X-Contentful-Version": 1
+          },
+          "method": "put",
+          "payloadData": null
+        },
+        "requestId": "96dc53ce4e8085a586ea04c13364e9a9"
+      }
+    }
+  },
+  {
+    "ts": "2020-01-25T12:35:10.246Z",
+    "level": "error",
+    "error": {
+      "name": "UnresolvedLinks",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "txu76a3w3kbd"
+            }
+          },
+          "id": "7CKC3q2czSh4Vs92RS0qtX",
+          "type": "Entry",
+          "createdAt": "2020-01-25T12:33:12.127Z",
+          "updatedAt": "2020-01-25T12:33:12.127Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "5zmxnoQAC1A0Ha8szhssbs"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "5zmxnoQAC1A0Ha8szhssbs"
+            }
+          },
+          "publishedCounter": 0,
+          "version": 1,
+          "contentType": {
+            "sys": {
+              "type": "Link",
+              "linkType": "ContentType",
+              "id": "articleImage"
+            }
+          }
+        },
+        "fields": {
+          "image": {
+            "en": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "2jqypUtSQDLGPh5e3uuhc4"
+              }
+            }
+          },
+          "align": {
+            "en": "Regular"
+          },
+          "showDescription": {
+            "en": false
+          }
+        }
+      },
+      "data": {
+        "status": 422,
+        "statusText": "Unprocessable Entity",
+        "message": "Validation error",
+        "details": {
+          "errors": [
+            {
+              "name": "notResolvable",
+              "link": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "2jqypUtSQDLGPh5e3uuhc4"
+              },
+              "path": [
+                "fields",
+                "image",
+                "en-US"
+              ]
+            }
+          ]
+        },
+        "request": {
+          "url": "https://api.contentful.com:443/spaces/txu76a3w3kbd/environments/master/entries/7CKC3q2czSh4Vs92RS0qtX/published",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.cli/1.2.10; feature space-import; sdk contentful-management.js/5.2.1; platform node.js/v12.6.0; os Linux/4.15.0-74-generic;",
+            "Authorization": "Bearer ...t0uQk",
+            "user-agent": "node.js/v12.6.0",
+            "Accept-Encoding": "gzip",
+            "X-Contentful-Version": 1
+          },
+          "method": "put",
+          "payloadData": null
+        },
+        "requestId": "9d598ca3fe22a2facd0998c82a3456c9"
+      }
+    }
+  },
+  {
+    "ts": "2020-01-25T12:35:10.693Z",
+    "level": "error",
+    "error": {
+      "name": "UnresolvedLinks",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "txu76a3w3kbd"
+            }
+          },
+          "id": "5F97yUJcGI43oz9WaShHIn",
+          "type": "Entry",
+          "createdAt": "2020-01-25T12:33:12.364Z",
+          "updatedAt": "2020-01-25T12:33:12.364Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "5zmxnoQAC1A0Ha8szhssbs"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "5zmxnoQAC1A0Ha8szhssbs"
+            }
+          },
+          "publishedCounter": 0,
+          "version": 1,
+          "contentType": {
+            "sys": {
+              "type": "Link",
+              "linkType": "ContentType",
+              "id": "articleImage"
+            }
+          }
+        },
+        "fields": {
+          "image": {
+            "en": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "6UNi8U4hLk9Fzlq0AJLPcz"
+              }
+            }
+          },
+          "align": {
+            "en": "Regular"
+          },
+          "showDescription": {
+            "en": false
+          }
+        }
+      },
+      "data": {
+        "status": 422,
+        "statusText": "Unprocessable Entity",
+        "message": "Validation error",
+        "details": {
+          "errors": [
+            {
+              "name": "notResolvable",
+              "link": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "6UNi8U4hLk9Fzlq0AJLPcz"
+              },
+              "path": [
+                "fields",
+                "image",
+                "en-US"
+              ]
+            }
+          ]
+        },
+        "request": {
+          "url": "https://api.contentful.com:443/spaces/txu76a3w3kbd/environments/master/entries/5F97yUJcGI43oz9WaShHIn/published",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.cli/1.2.10; feature space-import; sdk contentful-management.js/5.2.1; platform node.js/v12.6.0; os Linux/4.15.0-74-generic;",
+            "Authorization": "Bearer ...t0uQk",
+            "user-agent": "node.js/v12.6.0",
+            "Accept-Encoding": "gzip",
+            "X-Contentful-Version": 1
+          },
+          "method": "put",
+          "payloadData": null
+        },
+        "requestId": "afd18f0ddbdc84123b50845c674987b8"
+      }
+    }
+  },
+  {
+    "ts": "2020-01-25T12:35:11.331Z",
+    "level": "error",
+    "error": {
+      "name": "UnresolvedLinks",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "txu76a3w3kbd"
+            }
+          },
+          "id": "4hTD2SvnAHVuCamn7xf70H",
+          "type": "Entry",
+          "createdAt": "2020-01-25T12:33:12.366Z",
+          "updatedAt": "2020-01-25T12:33:12.366Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "5zmxnoQAC1A0Ha8szhssbs"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "5zmxnoQAC1A0Ha8szhssbs"
+            }
+          },
+          "publishedCounter": 0,
+          "version": 1,
+          "contentType": {
+            "sys": {
+              "type": "Link",
+              "linkType": "ContentType",
+              "id": "articleImage"
+            }
+          }
+        },
+        "fields": {
+          "image": {
+            "en": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "3KmYrcTaXnyGMOPRpb7VBJ"
+              }
+            }
+          },
+          "align": {
+            "en": "Regular"
+          },
+          "showDescription": {
+            "en": false
+          }
+        }
+      },
+      "data": {
+        "status": 422,
+        "statusText": "Unprocessable Entity",
+        "message": "Validation error",
+        "details": {
+          "errors": [
+            {
+              "name": "notResolvable",
+              "link": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "3KmYrcTaXnyGMOPRpb7VBJ"
+              },
+              "path": [
+                "fields",
+                "image",
+                "en-US"
+              ]
+            }
+          ]
+        },
+        "request": {
+          "url": "https://api.contentful.com:443/spaces/txu76a3w3kbd/environments/master/entries/4hTD2SvnAHVuCamn7xf70H/published",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.cli/1.2.10; feature space-import; sdk contentful-management.js/5.2.1; platform node.js/v12.6.0; os Linux/4.15.0-74-generic;",
+            "Authorization": "Bearer ...t0uQk",
+            "user-agent": "node.js/v12.6.0",
+            "Accept-Encoding": "gzip",
+            "X-Contentful-Version": 1
+          },
+          "method": "put",
+          "payloadData": null
+        },
+        "requestId": "bdcb00dc4de29036e09b82d02ff03b50"
+      }
+    }
+  },
+  {
+    "ts": "2020-01-25T12:35:11.786Z",
+    "level": "error",
+    "error": {
+      "name": "UnresolvedLinks",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "txu76a3w3kbd"
+            }
+          },
+          "id": "6iTp8RssVuMJv6xxoeI5ke",
+          "type": "Entry",
+          "createdAt": "2020-01-25T12:33:12.412Z",
+          "updatedAt": "2020-01-25T12:33:12.412Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "5zmxnoQAC1A0Ha8szhssbs"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "5zmxnoQAC1A0Ha8szhssbs"
+            }
+          },
+          "publishedCounter": 0,
+          "version": 1,
+          "contentType": {
+            "sys": {
+              "type": "Link",
+              "linkType": "ContentType",
+              "id": "articleImage"
+            }
+          }
+        },
+        "fields": {
+          "image": {
+            "en": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "6ajjsoMmHLBnczswwYGXcG"
+              }
+            }
+          },
+          "align": {
+            "en": "Regular"
+          },
+          "showDescription": {
+            "en": false
+          }
+        }
+      },
+      "data": {
+        "status": 422,
+        "statusText": "Unprocessable Entity",
+        "message": "Validation error",
+        "details": {
+          "errors": [
+            {
+              "name": "notResolvable",
+              "link": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "6ajjsoMmHLBnczswwYGXcG"
+              },
+              "path": [
+                "fields",
+                "image",
+                "en-US"
+              ]
+            }
+          ]
+        },
+        "request": {
+          "url": "https://api.contentful.com:443/spaces/txu76a3w3kbd/environments/master/entries/6iTp8RssVuMJv6xxoeI5ke/published",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.cli/1.2.10; feature space-import; sdk contentful-management.js/5.2.1; platform node.js/v12.6.0; os Linux/4.15.0-74-generic;",
+            "Authorization": "Bearer ...t0uQk",
+            "user-agent": "node.js/v12.6.0",
+            "Accept-Encoding": "gzip",
+            "X-Contentful-Version": 1
+          },
+          "method": "put",
+          "payloadData": null
+        },
+        "requestId": "7988b0d58223bdbcc1f1da690d82304a"
+      }
+    }
+  },
+  {
+    "ts": "2020-01-25T12:35:12.242Z",
+    "level": "error",
+    "error": {
+      "name": "UnresolvedLinks",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "txu76a3w3kbd"
+            }
+          },
+          "id": "4t9pp5cztKgeaPanzSm9sT",
+          "type": "Entry",
+          "createdAt": "2020-01-25T12:33:13.114Z",
+          "updatedAt": "2020-01-25T12:33:13.114Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "5zmxnoQAC1A0Ha8szhssbs"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "5zmxnoQAC1A0Ha8szhssbs"
+            }
+          },
+          "publishedCounter": 0,
+          "version": 1,
+          "contentType": {
+            "sys": {
+              "type": "Link",
+              "linkType": "ContentType",
+              "id": "articleImage"
+            }
+          }
+        },
+        "fields": {
+          "image": {
+            "en": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "4IU9tPw89g3hBSrRXfVuht"
+              }
+            }
+          },
+          "align": {
+            "en": "Full"
+          },
+          "showDescription": {
+            "en": false
+          }
+        }
+      },
+      "data": {
+        "status": 422,
+        "statusText": "Unprocessable Entity",
+        "message": "Validation error",
+        "details": {
+          "errors": [
+            {
+              "name": "notResolvable",
+              "link": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "4IU9tPw89g3hBSrRXfVuht"
+              },
+              "path": [
+                "fields",
+                "image",
+                "en-US"
+              ]
+            }
+          ]
+        },
+        "request": {
+          "url": "https://api.contentful.com:443/spaces/txu76a3w3kbd/environments/master/entries/4t9pp5cztKgeaPanzSm9sT/published",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.cli/1.2.10; feature space-import; sdk contentful-management.js/5.2.1; platform node.js/v12.6.0; os Linux/4.15.0-74-generic;",
+            "Authorization": "Bearer ...t0uQk",
+            "user-agent": "node.js/v12.6.0",
+            "Accept-Encoding": "gzip",
+            "X-Contentful-Version": 1
+          },
+          "method": "put",
+          "payloadData": null
+        },
+        "requestId": "c6c85ff8578f1781f59001d466eb9fbb"
+      }
+    }
+  },
+  {
+    "ts": "2020-01-25T12:35:12.691Z",
+    "level": "error",
+    "error": {
+      "name": "UnresolvedLinks",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "txu76a3w3kbd"
+            }
+          },
+          "id": "7nQrRb9U04IhrzmvcyyPFC",
+          "type": "Entry",
+          "createdAt": "2020-01-25T12:33:13.117Z",
+          "updatedAt": "2020-01-25T12:33:13.117Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "5zmxnoQAC1A0Ha8szhssbs"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "5zmxnoQAC1A0Ha8szhssbs"
+            }
+          },
+          "publishedCounter": 0,
+          "version": 1,
+          "contentType": {
+            "sys": {
+              "type": "Link",
+              "linkType": "ContentType",
+              "id": "articleImage"
+            }
+          }
+        },
+        "fields": {
+          "image": {
+            "en": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "4nM56XYi1LHuFsukZtPaMX"
+              }
+            }
+          },
+          "align": {
+            "en": "Large"
+          },
+          "showDescription": {
+            "en": false
+          }
+        }
+      },
+      "data": {
+        "status": 422,
+        "statusText": "Unprocessable Entity",
+        "message": "Validation error",
+        "details": {
+          "errors": [
+            {
+              "name": "notResolvable",
+              "link": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "4nM56XYi1LHuFsukZtPaMX"
+              },
+              "path": [
+                "fields",
+                "image",
+                "en-US"
+              ]
+            }
+          ]
+        },
+        "request": {
+          "url": "https://api.contentful.com:443/spaces/txu76a3w3kbd/environments/master/entries/7nQrRb9U04IhrzmvcyyPFC/published",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.cli/1.2.10; feature space-import; sdk contentful-management.js/5.2.1; platform node.js/v12.6.0; os Linux/4.15.0-74-generic;",
+            "Authorization": "Bearer ...t0uQk",
+            "user-agent": "node.js/v12.6.0",
+            "Accept-Encoding": "gzip",
+            "X-Contentful-Version": 1
+          },
+          "method": "put",
+          "payloadData": null
+        },
+        "requestId": "e8fd9bfecfe4bfc8a9c33eb102bbc6cf"
+      }
+    }
+  },
+  {
+    "ts": "2020-01-25T12:35:13.253Z",
+    "level": "error",
+    "error": {
+      "name": "UnresolvedLinks",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "txu76a3w3kbd"
+            }
+          },
+          "id": "1mJdPoUAy6ha58TfT5cWY9",
+          "type": "Entry",
+          "createdAt": "2020-01-25T12:33:13.140Z",
+          "updatedAt": "2020-01-25T12:33:13.140Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "5zmxnoQAC1A0Ha8szhssbs"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "5zmxnoQAC1A0Ha8szhssbs"
+            }
+          },
+          "publishedCounter": 0,
+          "version": 1,
+          "contentType": {
+            "sys": {
+              "type": "Link",
+              "linkType": "ContentType",
+              "id": "articleImage"
+            }
+          }
+        },
+        "fields": {
+          "image": {
+            "en": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "U84uknCpH3mjON3YBp9VF"
+              }
+            }
+          },
+          "align": {
+            "en": "Regular"
+          },
+          "showDescription": {
+            "en": false
+          }
+        }
+      },
+      "data": {
+        "status": 422,
+        "statusText": "Unprocessable Entity",
+        "message": "Validation error",
+        "details": {
+          "errors": [
+            {
+              "name": "notResolvable",
+              "link": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "U84uknCpH3mjON3YBp9VF"
+              },
+              "path": [
+                "fields",
+                "image",
+                "en-US"
+              ]
+            }
+          ]
+        },
+        "request": {
+          "url": "https://api.contentful.com:443/spaces/txu76a3w3kbd/environments/master/entries/1mJdPoUAy6ha58TfT5cWY9/published",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.cli/1.2.10; feature space-import; sdk contentful-management.js/5.2.1; platform node.js/v12.6.0; os Linux/4.15.0-74-generic;",
+            "Authorization": "Bearer ...t0uQk",
+            "user-agent": "node.js/v12.6.0",
+            "Accept-Encoding": "gzip",
+            "X-Contentful-Version": 1
+          },
+          "method": "put",
+          "payloadData": null
+        },
+        "requestId": "4243aab0df679ec5cb3d76772213b1fe"
+      }
+    }
+  },
+  {
+    "ts": "2020-01-25T12:35:13.719Z",
+    "level": "error",
+    "error": {
+      "name": "UnresolvedLinks",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "txu76a3w3kbd"
+            }
+          },
+          "id": "6T4ZASaTbiBoXbmzXYIkyk",
+          "type": "Entry",
+          "createdAt": "2020-01-25T12:33:13.132Z",
+          "updatedAt": "2020-01-25T12:33:13.132Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "5zmxnoQAC1A0Ha8szhssbs"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "5zmxnoQAC1A0Ha8szhssbs"
+            }
+          },
+          "publishedCounter": 0,
+          "version": 1,
+          "contentType": {
+            "sys": {
+              "type": "Link",
+              "linkType": "ContentType",
+              "id": "articleImage"
+            }
+          }
+        },
+        "fields": {
+          "image": {
+            "en": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "4IU9tPw89g3hBSrRXfVuht"
+              }
+            }
+          },
+          "align": {
+            "en": "Full"
+          },
+          "showDescription": {
+            "en": false
+          }
+        }
+      },
+      "data": {
+        "status": 422,
+        "statusText": "Unprocessable Entity",
+        "message": "Validation error",
+        "details": {
+          "errors": [
+            {
+              "name": "notResolvable",
+              "link": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "4IU9tPw89g3hBSrRXfVuht"
+              },
+              "path": [
+                "fields",
+                "image",
+                "en-US"
+              ]
+            }
+          ]
+        },
+        "request": {
+          "url": "https://api.contentful.com:443/spaces/txu76a3w3kbd/environments/master/entries/6T4ZASaTbiBoXbmzXYIkyk/published",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.cli/1.2.10; feature space-import; sdk contentful-management.js/5.2.1; platform node.js/v12.6.0; os Linux/4.15.0-74-generic;",
+            "Authorization": "Bearer ...t0uQk",
+            "user-agent": "node.js/v12.6.0",
+            "Accept-Encoding": "gzip",
+            "X-Contentful-Version": 1
+          },
+          "method": "put",
+          "payloadData": null
+        },
+        "requestId": "e5f247c7bde9af700faca7be096df4ac"
+      }
+    }
+  },
+  {
+    "ts": "2020-01-25T12:35:14.163Z",
+    "level": "error",
+    "error": {
+      "name": "UnresolvedLinks",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "txu76a3w3kbd"
+            }
+          },
+          "id": "78DcUOnoS6qQXpiDBSLEOo",
+          "type": "Entry",
+          "createdAt": "2020-01-25T12:33:13.158Z",
+          "updatedAt": "2020-01-25T12:33:13.158Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "5zmxnoQAC1A0Ha8szhssbs"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "5zmxnoQAC1A0Ha8szhssbs"
+            }
+          },
+          "publishedCounter": 0,
+          "version": 1,
+          "contentType": {
+            "sys": {
+              "type": "Link",
+              "linkType": "ContentType",
+              "id": "articleImage"
+            }
+          }
+        },
+        "fields": {
+          "image": {
+            "en": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "m88sqZhPLBxWLLqDOFmzf"
+              }
+            }
+          },
+          "align": {
+            "en": "Large"
+          },
+          "showDescription": {
+            "en": false
+          }
+        }
+      },
+      "data": {
+        "status": 422,
+        "statusText": "Unprocessable Entity",
+        "message": "Validation error",
+        "details": {
+          "errors": [
+            {
+              "name": "notResolvable",
+              "link": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "m88sqZhPLBxWLLqDOFmzf"
+              },
+              "path": [
+                "fields",
+                "image",
+                "en-US"
+              ]
+            }
+          ]
+        },
+        "request": {
+          "url": "https://api.contentful.com:443/spaces/txu76a3w3kbd/environments/master/entries/78DcUOnoS6qQXpiDBSLEOo/published",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.cli/1.2.10; feature space-import; sdk contentful-management.js/5.2.1; platform node.js/v12.6.0; os Linux/4.15.0-74-generic;",
+            "Authorization": "Bearer ...t0uQk",
+            "user-agent": "node.js/v12.6.0",
+            "Accept-Encoding": "gzip",
+            "X-Contentful-Version": 1
+          },
+          "method": "put",
+          "payloadData": null
+        },
+        "requestId": "bf545b081f80a69cd2b8f42d2892f6c2"
+      }
+    }
+  },
+  {
+    "ts": "2020-01-25T12:35:14.611Z",
+    "level": "error",
+    "error": {
+      "name": "UnresolvedLinks",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "txu76a3w3kbd"
+            }
+          },
+          "id": "4mGjwEquRPoNESngLZj6N1",
+          "type": "Entry",
+          "createdAt": "2020-01-25T12:33:13.633Z",
+          "updatedAt": "2020-01-25T12:33:13.633Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "5zmxnoQAC1A0Ha8szhssbs"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "5zmxnoQAC1A0Ha8szhssbs"
+            }
+          },
+          "publishedCounter": 0,
+          "version": 1,
+          "contentType": {
+            "sys": {
+              "type": "Link",
+              "linkType": "ContentType",
+              "id": "articleImage"
+            }
+          }
+        },
+        "fields": {
+          "image": {
+            "en": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "1mKZtaqcnkNfePCnHtr98d"
+              }
+            }
+          },
+          "align": {
+            "en": "Large"
+          },
+          "showDescription": {
+            "en": false
+          }
+        }
+      },
+      "data": {
+        "status": 422,
+        "statusText": "Unprocessable Entity",
+        "message": "Validation error",
+        "details": {
+          "errors": [
+            {
+              "name": "notResolvable",
+              "link": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "1mKZtaqcnkNfePCnHtr98d"
+              },
+              "path": [
+                "fields",
+                "image",
+                "en-US"
+              ]
+            }
+          ]
+        },
+        "request": {
+          "url": "https://api.contentful.com:443/spaces/txu76a3w3kbd/environments/master/entries/4mGjwEquRPoNESngLZj6N1/published",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.cli/1.2.10; feature space-import; sdk contentful-management.js/5.2.1; platform node.js/v12.6.0; os Linux/4.15.0-74-generic;",
+            "Authorization": "Bearer ...t0uQk",
+            "user-agent": "node.js/v12.6.0",
+            "Accept-Encoding": "gzip",
+            "X-Contentful-Version": 1
+          },
+          "method": "put",
+          "payloadData": null
+        },
+        "requestId": "abb8c488fdc6051c6a2a0f505f8e19c6"
+      }
+    }
+  },
+  {
+    "ts": "2020-01-25T12:35:15.076Z",
+    "level": "error",
+    "error": {
+      "name": "UnresolvedLinks",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "txu76a3w3kbd"
+            }
+          },
+          "id": "2PuqYTzN7eky9GUCgHQS0I",
+          "type": "Entry",
+          "createdAt": "2020-01-25T12:33:21.204Z",
+          "updatedAt": "2020-01-25T12:33:21.204Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "5zmxnoQAC1A0Ha8szhssbs"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "5zmxnoQAC1A0Ha8szhssbs"
+            }
+          },
+          "publishedCounter": 0,
+          "version": 1,
+          "contentType": {
+            "sys": {
+              "type": "Link",
+              "linkType": "ContentType",
+              "id": "articleImage"
+            }
+          }
+        },
+        "fields": {
+          "image": {
+            "en": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "2tFntG8XXmPqL8lbfGIIoA"
+              }
+            }
+          },
+          "align": {
+            "en": "Regular"
+          }
+        }
+      },
+      "data": {
+        "status": 422,
+        "statusText": "Unprocessable Entity",
+        "message": "Validation error",
+        "details": {
+          "errors": [
+            {
+              "name": "notResolvable",
+              "link": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "2tFntG8XXmPqL8lbfGIIoA"
+              },
+              "path": [
+                "fields",
+                "image",
+                "en-US"
+              ]
+            }
+          ]
+        },
+        "request": {
+          "url": "https://api.contentful.com:443/spaces/txu76a3w3kbd/environments/master/entries/2PuqYTzN7eky9GUCgHQS0I/published",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.cli/1.2.10; feature space-import; sdk contentful-management.js/5.2.1; platform node.js/v12.6.0; os Linux/4.15.0-74-generic;",
+            "Authorization": "Bearer ...t0uQk",
+            "user-agent": "node.js/v12.6.0",
+            "Accept-Encoding": "gzip",
+            "X-Contentful-Version": 1
+          },
+          "method": "put",
+          "payloadData": null
+        },
+        "requestId": "afb27654d366aa7eb84a9f6e08466ee3"
+      }
+    }
+  },
+  {
+    "ts": "2020-01-25T12:35:15.513Z",
+    "level": "error",
+    "error": {
+      "name": "UnresolvedLinks",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "txu76a3w3kbd"
+            }
+          },
+          "id": "4ehfEXNHVpFkD8M7gXTmXr",
+          "type": "Entry",
+          "createdAt": "2020-01-25T12:33:21.294Z",
+          "updatedAt": "2020-01-25T12:33:21.294Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "5zmxnoQAC1A0Ha8szhssbs"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "5zmxnoQAC1A0Ha8szhssbs"
+            }
+          },
+          "publishedCounter": 0,
+          "version": 1,
+          "contentType": {
+            "sys": {
+              "type": "Link",
+              "linkType": "ContentType",
+              "id": "articleImage"
+            }
+          }
+        },
+        "fields": {
+          "image": {
+            "en": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "7kOIL8IspZzWU820mCXAuO"
+              }
+            }
+          },
+          "align": {
+            "en": "Full"
+          }
+        }
+      },
+      "data": {
+        "status": 422,
+        "statusText": "Unprocessable Entity",
+        "message": "Validation error",
+        "details": {
+          "errors": [
+            {
+              "name": "notResolvable",
+              "link": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "7kOIL8IspZzWU820mCXAuO"
+              },
+              "path": [
+                "fields",
+                "image",
+                "en-US"
+              ]
+            }
+          ]
+        },
+        "request": {
+          "url": "https://api.contentful.com:443/spaces/txu76a3w3kbd/environments/master/entries/4ehfEXNHVpFkD8M7gXTmXr/published",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.cli/1.2.10; feature space-import; sdk contentful-management.js/5.2.1; platform node.js/v12.6.0; os Linux/4.15.0-74-generic;",
+            "Authorization": "Bearer ...t0uQk",
+            "user-agent": "node.js/v12.6.0",
+            "Accept-Encoding": "gzip",
+            "X-Contentful-Version": 1
+          },
+          "method": "put",
+          "payloadData": null
+        },
+        "requestId": "60bfbbfc707a2f70876952d889b122a0"
+      }
+    }
+  },
+  {
+    "ts": "2020-01-25T12:35:15.513Z",
+    "level": "error",
+    "error": "Could not publish the following entities: 2HocBdXqWGwdZHyXDSrid3, 4ehfEXNHVpFkD8M7gXTmXr, 2PuqYTzN7eky9GUCgHQS0I, 4mGjwEquRPoNESngLZj6N1, 78DcUOnoS6qQXpiDBSLEOo, 6T4ZASaTbiBoXbmzXYIkyk, 1mJdPoUAy6ha58TfT5cWY9, 7nQrRb9U04IhrzmvcyyPFC, 4t9pp5cztKgeaPanzSm9sT, 6iTp8RssVuMJv6xxoeI5ke, 4hTD2SvnAHVuCamn7xf70H, 5F97yUJcGI43oz9WaShHIn, 7CKC3q2czSh4Vs92RS0qtX, 5zgdcYXjlBxgilALrBDOKc, hfAbrbTGIPUpt1MFln9Du, 2rruAVbTOljZNRY7CRRClZ, 3NJqcM1Ku7A3NNjXNVnJCS"
+  }
+]
