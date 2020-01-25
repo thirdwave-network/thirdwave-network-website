@@ -25,7 +25,7 @@ const validate = values => {
 
   if (!values.email) {
     errors.email = "This one's important!"
-  } else if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(values.email)) {
+  } else if (!/\S+@\S+\.\S+/.test(values.email)) {
     errors.email = 'Forgot a character?'
   }
 
@@ -91,7 +91,7 @@ function ContactForm({ baseDelay }: { baseDelay: number }) {
             <SocialLinks fill="black" />
           </SocialLinksContainer>
           <CopyRightContainer>
-            © {new Date().getFullYear()} Narative Studio Inc.
+            © {new Date().getFullYear()} thirdwave.network
           </CopyRightContainer>
         </SubmittedScreen>
       ) : (
