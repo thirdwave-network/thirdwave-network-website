@@ -242,7 +242,7 @@ function HomeServices() {
                     style={calcOpacity(entering, boundingClientRect.top)}
                   >
                     <LargeHeading ref={heading}>
-                      Narative helps you brand, build and grow.
+                      Third wave helps you adapt and grow with decentralization wave.
                     </LargeHeading>
                   </HeadingBackground>
                 </animated.div>

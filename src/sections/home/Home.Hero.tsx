@@ -28,8 +28,8 @@ function HomeHero() {
                 <TextContainer>
                   <Transitions.CSS.FadeIn>
                     <Heading.h1>
-                      Narative brands, builds and markets products on behalf of
-                      growth-minded companies.
+                      Third wave brands, builds and markets products on behalf of
+                      adaptable-minded companies.
                     </Heading.h1>
                     <MainText>
                       We’re a team with senior startup experience here to help

@@ -63,7 +63,7 @@ const HomeAbout = () => {
             top={140}
             height="682px"
             disableOnMobile
-            render={() => <AboutHeading>The Narative Approach</AboutHeading>}
+            render={() => <AboutHeading>The Third Wave Approach</AboutHeading>}
           />
           <div>
             {aboutNarativeText.map((text, index) => (
