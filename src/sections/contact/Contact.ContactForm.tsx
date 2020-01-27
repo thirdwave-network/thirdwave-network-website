@@ -2,7 +2,7 @@ import React, { useState, useContext, useEffect } from 'react'
 import styled, { css, keyframes } from 'styled-components'
 import { Formik, Form as FormikForm, Field } from 'formik'
 
-import Button from '@components/Button'
+import { Button } from '@components/Button/Button'
 import ButtonArrow from '@components/Button/Button.Arrow'
 import { CopyToClipboard } from '@components/CopyToClipboard/CopyToClipboard'
 import Heading from '@components/Heading'

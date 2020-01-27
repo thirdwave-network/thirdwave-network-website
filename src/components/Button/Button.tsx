@@ -7,13 +7,11 @@ interface ButtonProps {
   isSubmitting?: boolean
 }
 
-const Button = ({ text, type, isSubmitting }: ButtonProps) => (
+export const  Button = ({ text, type, isSubmitting }: ButtonProps) => (
   <StyledButton type={type || 'submit'} role="button" aria-label={text}>
     {isSubmitting ? <Spinner /> : text}
   </StyledButton>
 )
-
-export default Button
 
 const blink = keyframes`
   0% { opacity: .2; }
