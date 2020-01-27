@@ -3,7 +3,7 @@ import styled, { keyframes } from 'styled-components'
 import { StaticQuery, graphql } from 'gatsby'
 
 import ButtonArrow from '@components/Button/Button.Arrow'
-import CopyToClipboard from '@components/CopyToClipboard'
+import { CopyToClipboard } from '@components/CopyToClipboard/CopyToClipboard'
 
 import media from '@styles/media'
 

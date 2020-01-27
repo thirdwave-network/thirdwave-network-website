@@ -4,7 +4,7 @@ import { Formik, Form as FormikForm, Field } from 'formik'
 
 import Button from '@components/Button'
 import ButtonArrow from '@components/Button/Button.Arrow'
-import CopyToClipboard from '@components/CopyToClipboard'
+import { CopyToClipboard } from '@components/CopyToClipboard/CopyToClipboard'
 import Heading from '@components/Heading'
 import Hidden from '@components/Hidden'
 import Form from '@components/Form'

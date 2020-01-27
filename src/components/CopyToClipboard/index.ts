@@ -1,1 +1,1 @@
-export { default } from '@components/CopyToClipboard/CopyToClipboard'
+export * from '@components/CopyToClipboard/CopyToClipboard'

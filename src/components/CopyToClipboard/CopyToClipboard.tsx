@@ -10,7 +10,7 @@ interface CopyToClipboardProps {
   children: React.ReactNodeArray | React.ReactNode
 }
 
-class CopyToClipboard extends Component<
+export class CopyToClipboard extends Component<
   CopyToClipboardProps,
   { copied: false }
 > {
@@ -55,8 +55,6 @@ class CopyToClipboard extends Component<
     )
   }
 }
-
-export default CopyToClipboard
 
 const CopyIconContainer = styled.div`
   position: relative;
