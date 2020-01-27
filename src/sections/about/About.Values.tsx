@@ -2,7 +2,6 @@ import React, { useContext, useEffect, useState, useRef } from 'react'
 import styled from 'styled-components'
 import { graphql, useStaticQuery } from 'gatsby'
 import SVG from 'react-inlinesvg'
-import { Motion, spring } from 'react-motion'
 
 import ButtonPill from '@components/Button/Button.Pill'
 import Heading from '@components/Heading/Heading'

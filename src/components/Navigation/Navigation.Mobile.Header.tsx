@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { Link } from 'gatsby'
 
-import SocialLinks from '@components/SocialLinks'
+import SocialLinks from '@components/SocialLinks/SocialLinks'
 import media from '@styles/media'
 
 const mobileLinks = [

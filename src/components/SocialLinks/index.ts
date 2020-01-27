@@ -1,1 +1,1 @@
-export { default } from '@components/SocialLinks/SocialLinks'
+export * from '@components/SocialLinks/SocialLinks'

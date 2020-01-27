@@ -9,7 +9,7 @@ import Heading from '@components/Heading/Heading'
 import { Hidden } from '@components/Hidden/Hidden'
 import Form from '@components/Form'
 import { Section } from '@components/Section/Section'
-import SocialLinks from '@components/SocialLinks'
+import SocialLinks from '@components/SocialLinks/SocialLinks'
 import { ContactContext } from '@components/Contact/Contact.Context'
 
 import media from '@styles/media'
