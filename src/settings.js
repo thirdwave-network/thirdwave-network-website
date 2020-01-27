@@ -11,7 +11,7 @@ module.exports.urls = {
   linkedin: 'https://www.linkedin.com/company/narative',
   instagram: 'http://instagram.com/narative.co',
   dribbble: 'http://dribbble.com/narativestudio',
-  twitter: 'https://twitter.com/narative',
+  twitter: 'https://twitter.com/thirdwave_',
   facebook: 'https://www.facebook.com/narative.co',
 }
 
