@@ -14,7 +14,7 @@ import { RichText } from '@components/Media'
 import withDarkMode from '@components/DarkMode'
 import Progress from '@components/Progress'
 import ProgressMobile from '@components/Progress/Progress.Mobile'
-import Section from '@components/Section'
+import { Section } from '@components/Section/Section'
 import NavigationFooter from '@components/Navigation/Navigation.Footer'
 
 import media from '@styles/media'

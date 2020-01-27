@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import { Link, graphql, useStaticQuery } from 'gatsby'
 import SVG from 'react-inlinesvg'
 
-import Section from '@components/Section'
+import { Section } from '@components/Section/Section'
 import media from '@styles/media'
 
 const articlesQuotesQuery = graphql`

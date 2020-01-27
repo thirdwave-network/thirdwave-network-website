@@ -2,7 +2,7 @@ import React, { useContext, useRef, useEffect, useState } from 'react'
 import styled from 'styled-components'
 import throttle from 'lodash/throttle'
 
-import Section from '@components/Section'
+import { Section } from '@components/Section/Section'
 import ButtonPill from '@components/Button/Button.Pill'
 import { ContactContext } from '@components/Contact/Contact.Context'
 

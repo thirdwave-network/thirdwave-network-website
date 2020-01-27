@@ -4,7 +4,7 @@ import { Link, StaticQuery, graphql } from 'gatsby'
 import throttle from 'lodash/throttle'
 
 import Heading from '@components/Heading/Heading'
-import Section from '@components/Section'
+import { Section } from '@components/Section/Section'
 import HorizontalScroll from '@components/HorizontalScroll'
 import Image from '@components/Image'
 

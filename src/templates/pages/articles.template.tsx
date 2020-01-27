@@ -4,7 +4,7 @@ import styled from 'styled-components'
 
 import Footer from '@components/Navigation/Navigation.Footer'
 import Paginator from '@components/Navigation/Navigation.Paginator'
-import Section from '@components/Section'
+import { Section } from '@components/Section/Section'
 import SEO from '@components/SEO'
 import Layout from '@components/Layout'
 

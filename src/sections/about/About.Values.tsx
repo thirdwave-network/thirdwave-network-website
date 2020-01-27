@@ -7,7 +7,7 @@ import { Motion, spring } from 'react-motion'
 import ButtonPill from '@components/Button/Button.Pill'
 import Heading from '@components/Heading/Heading'
 import Image from '@components/Image'
-import Section from '@components/Section'
+import { Section } from '@components/Section/Section'
 import Sticky, { StickyState } from '@components/Sticky'
 import { ContactContext } from '@components/Contact/Contact.Context'
 

@@ -4,7 +4,7 @@ import { graphql } from 'gatsby'
 
 import Layout from '@components/Layout'
 import LayoutHeroMobile from '@components/Layout/Layout.Hero.Mobile'
-import Section from '@components/Section'
+import { Section } from '@components/Section/Section'
 import SEO from '@components/SEO'
 import Image from '@components/Image'
 

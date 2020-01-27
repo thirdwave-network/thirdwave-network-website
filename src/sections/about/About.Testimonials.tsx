@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import { graphql, useStaticQuery } from 'gatsby'
 import SVG from 'react-inlinesvg'
 
-import Section from '@components/Section'
+import { Section } from '@components/Section/Section'
 import Sticky, { StickyState } from '@components/Sticky'
 import HorizontalScroll from '@components/HorizontalScroll'
 import media from '@styles/media'

@@ -4,7 +4,7 @@ import { ellipsis } from 'polished'
 import styled from 'styled-components'
 import { Link } from 'gatsby'
 
-import Section from '@components/Section'
+import { Section } from '@components/Section/Section'
 import media from '@styles/media'
 import { clamp } from '@utils'
 import { ExIcon } from '../../icons/ui'

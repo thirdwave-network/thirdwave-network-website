@@ -5,7 +5,7 @@ import { Link, graphql } from 'gatsby'
 import Logo from '@components/Logo'
 import IntersectionObserver from '@components/IntersectionObserver'
 import Footer from '@components/Navigation/Navigation.Footer'
-import Section from '@components/Section'
+import { Section } from '@components/Section/Section'
 import MediaQuery from '@components/MediaQuery'
 import { ContactContext } from '@components/Contact/Contact.Context'
 

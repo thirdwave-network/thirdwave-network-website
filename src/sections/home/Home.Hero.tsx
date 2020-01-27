@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 import ButtonArrow from '@components/Button/Button.Arrow'
 import Heading from '@components/Heading/Heading'
-import Section from '@components/Section'
+import { Section } from '@components/Section/Section'
 import ScrollIndicator from '@components/ScrollIndicator'
 import ShapeShifter from '@components/ShapeShifter'
 import IntersectionObserver from '@components/IntersectionObserver'

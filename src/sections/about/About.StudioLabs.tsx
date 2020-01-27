@@ -5,7 +5,7 @@ import { Link, useStaticQuery, graphql, navigate } from 'gatsby'
 import OutsideClickHandler from 'react-outside-click-handler'
 
 import Heading from '@components/Heading/Heading'
-import Section from '@components/Section'
+import { Section } from '@components/Section/Section'
 import Image from '@components/Image'
 
 import media from '@styles/media'

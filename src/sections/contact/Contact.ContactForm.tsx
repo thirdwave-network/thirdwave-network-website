@@ -8,7 +8,7 @@ import { CopyToClipboard } from '@components/CopyToClipboard/CopyToClipboard'
 import Heading from '@components/Heading/Heading'
 import { Hidden } from '@components/Hidden/Hidden'
 import Form from '@components/Form'
-import Section from '@components/Section'
+import { Section } from '@components/Section/Section'
 import SocialLinks from '@components/SocialLinks'
 import { ContactContext } from '@components/Contact/Contact.Context'
 

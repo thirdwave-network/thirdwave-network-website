@@ -6,7 +6,7 @@ import CareersAccordian from '@components/CareersAccordian'
 import CareersGraph from '@components/CareersGraph'
 import CareersImages from '@components/CareersImages'
 import Perks from '@components/Perks'
-import Section from '@components/Section'
+import { Section } from '@components/Section/Section'
 import media from '@styles/media'
 
 import CareersRow from './Careers.Row'

@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { useStaticQuery, graphql } from 'gatsby'
 
-import Section from '@components/Section'
+import { Section } from '@components/Section/Section'
 import Heading from '@components/Heading/Heading'
 import Sticky from '@components/Sticky'
 import Image from '@components/Image'

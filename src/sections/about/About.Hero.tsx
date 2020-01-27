@@ -3,7 +3,7 @@ import { graphql, StaticQuery } from 'gatsby'
 import styled, { css, keyframes } from 'styled-components'
 
 import Heading from '@components/Heading/Heading'
-import Section from '@components/Section'
+import { Section } from '@components/Section/Section'
 import Image from '@components/Image'
 import ScrollIndicator from '@components/ScrollIndicator'
 import LayoutHeroMobile from '@components/Layout/Layout.Hero.Mobile'

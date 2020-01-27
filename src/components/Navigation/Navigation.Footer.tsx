@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 import styled from 'styled-components'
 import { Link } from 'gatsby'
 
-import Section from '@components/Section'
+import { Section } from '@components/Section/Section'
 import SocialLinks from '@components/SocialLinks'
 import Logo from '@components/Logo'
 import { ContactContext } from '@components/Contact/Contact.Context'

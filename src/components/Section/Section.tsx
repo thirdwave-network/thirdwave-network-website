@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 import media from '@styles/media'
 
-const Section = styled.section<{
+export const Section = styled.section<{
   relative?: string
   hideOnDesktop?: boolean
   hideOverflow?: boolean
@@ -34,5 +34,3 @@ const Section = styled.section<{
     ${p => p.hideOverflow && `overflow: hidden`};
   `};
 `
-
-export default Section
