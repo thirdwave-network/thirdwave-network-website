@@ -7,7 +7,7 @@ import { Section } from '@components/Section/Section'
 import { Img as Image } from '@components/Image/Image'
 import { ScrollIndicator } from '@components/ScrollIndicator/ScrollIndicator'
 import LayoutHeroMobile from '@components/Layout/Layout.Hero.Mobile'
-import Pill from '@components/Pill'
+import { Pill } from '@components/Pill/Pill'
 import Transitions from '@components/Transitions'
 
 import media from '@styles/media'

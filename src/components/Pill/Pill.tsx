@@ -1,14 +1,12 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Pill = ({ text }: { text: string }) => (
+export const Pill = ({ text }: { text: string }) => (
   <Frame>
     <Heading>{text}</Heading>
     <PillOutline aria-hidden="true" />
   </Frame>
 )
-
-export default Pill
 
 const Frame = styled.div`
   display: inline-block;
