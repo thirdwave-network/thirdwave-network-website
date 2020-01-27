@@ -136,8 +136,8 @@ function AboutTeam() {
 
   const people: Person[] = [
     {
-      name: `Thiago Costa`,
-      role: `Brand and Design`,
+      name: `Tomasz Waszczyk`,
+      role: `Founder`,
       illustrationInactive: illustrations.thiagoInactive,
       illustration: illustrations.thiago,
       signature: illustrations.thiagoSig.publicURL,
@@ -147,82 +147,11 @@ function AboutTeam() {
         `At Narative, we don’t simply design products. We design the circumstances for success, for ourselves and everyone we partner with.`,
       ],
       social: [
-        `https://twitter.com/tcosta_co`,
-        `https://dribbble.com/tcosta`,
-        `https://www.linkedin.com/in/tcosta-co/`,
-        `https://www.instagram.com/tcosta.co/`,
+        `https://twitter.com/pantarheipl`,
+        `https://github.com/tomaszwaszczyk`,
+        `https://www.linkedin.com/in/tomaszwaszczyk/`
       ],
-    },
-    {
-      name: `Brad Tiller`,
-      role: `Marketing and Growth`,
-      illustrationInactive: illustrations.bradInactive,
-      illustration: illustrations.brad,
-      signature: illustrations.bradSig.publicURL,
-      about: [
-        `In marketing everything from children’s toys to point of sale software to office space, I’ve noticed that the most consistent obstacles to success come from putting the business’s needs ahead of the customer’s.`,
-        `It can be tempting to chase metrics that make short-term growth feel exponential, or create features to fill a strategic gap. But products can succeed and scale only after earning their place in customers’ lives. To generate ongoing value, you first have to deliver it.`,
-        `We build everything around an understanding of what success looks like — for both customers and company — and how to tie the two together.`,
-      ],
-      social: [
-        `https://twitter.com/bradtiller`,
-        `https://www.linkedin.com/in/bradtiller/`,
-      ],
-    },
-    {
-      name: `Dennis Brotzky`,
-      role: `Frontend Engineering`,
-      illustrationInactive: illustrations.dennisInactive,
-      illustration: illustrations.dennis,
-      signature: illustrations.dennisSig.publicURL,
-      about: [
-        `I never expected I’d be an engineer. As a psychology major in university, I was more interested in the inner workings of people than machines.`,
-        `It was only when I developed something for myself that I learned first-hand the true potential of code; to not simply take an idea and bring it to digital life, but to expand the kinds of creations that are possible in the first place. To amplify the inner workings of the mind.`,
-        `At Narative, there’s no “hand-off” between design and engineering; engineering is design. That’s why we all work in parallel on every project, from start to finish, to expand and explore the possibilities.`,
-      ],
-      social: [
-        `https://twitter.com/_brotzky`,
-        `https://dribbble.com/brotzky`,
-        `https://github.com/brotzky`,
-        `https://www.linkedin.com/in/dennis-brotzky/`,
-      ],
-    },
-
-    {
-      name: `Dan Le Van`,
-      role: `Backend Engineering`,
-      illustrationInactive: illustrations.danInactive,
-      illustration: illustrations.dan,
-      signature: illustrations.danSig.publicURL,
-      about: [
-        `Having worked in software development for over 15 years, I’ve seen countless frameworks and methodologies come and go. To me, their greatest impact is not in what they make technically possible; it’s in how they force us to approach challenges from a new perspective.`,
-        `But when we idealize a particular way of working — whether in how we design systems, write code or even collaborate together — we lose sight of the truth that there’s always a better way, yet to be discovered.`,
-        `While we leverage our experience as a team, we also pause to reflect and critique what we know, in service of creating something truly new.`,
-      ],
-      social: [
-        `https://twitter.com/8lueberry `,
-        `https://github.com/8lueberry`,
-        `https://www.instagram.com/_blu38erry/`,
-        `https://www.linkedin.com/in/levan/`,
-      ],
-    },
-    {
-      name: `Mack Mansouri`,
-      role: `Operations and Partnerships`,
-      illustrationInactive: illustrations.mackInactive,
-      illustration: illustrations.mack,
-      signature: illustrations.mackSig.publicURL,
-      about: [
-        `Every company is built upon a foundation of connections — with colleagues, with customers, with supporters and even with other businesses. The stronger those connections, the firmer the foundation.`,
-        `That’s why, in the articles we publish, the open source projects we maintain, and in our conversations with other founders and teams, we put honesty and transparency at the center of everything we do. Because only by building trust can we spread and strengthen those bonds.`,
-        `Our mission at Narative goes beyond building products we believe in; it’s to help everyone else do the same.`,
-      ],
-      social: [
-        `https://twitter.com/macknarative`,
-        `https://www.linkedin.com/in/mackmansouri`,
-        `https://www.instagram.com/mack_os`,
-      ],
-    },
+    }
   ]
 
   const [childRef, setChildRef] = useState()

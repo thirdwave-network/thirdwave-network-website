@@ -82,7 +82,7 @@ function AboueValues() {
     <AboueValuesContainer>
       <HeadingContainer>
         <AboutHeading
-          heading="Who we choose to be"
+          heading="What does third wave mean for technology and world?"
           text="A company’s culture isn’t something we think should be passed down as commandments, or enforced like law. It’s the choices we make every day that define who we are — as individuals, and as a team. These are our choices."
         />
       </HeadingContainer>
