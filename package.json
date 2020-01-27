@@ -7,6 +7,7 @@
     "thirdwave.network",
     "website"
   ],
+  "license": "UNLICENSED",
   "scripts": {
     "start": "run-p start:**",
     "start:app": "./node_modules/.bin/gatsby develop -p 8001 --prefix-paths",
