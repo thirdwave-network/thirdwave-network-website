@@ -2,7 +2,7 @@ import React from 'react'
 import { graphql, Link, useStaticQuery } from 'gatsby'
 import styled from 'styled-components'
 
-import Image from '@components/Image'
+import { Img as Image } from '@components/Image/Image'
 import media from '@styles/media'
 
 const previewQuery = graphql`

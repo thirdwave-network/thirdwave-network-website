@@ -22,7 +22,7 @@ import throttle from 'lodash/throttle'
 import { useStaticQuery, graphql } from 'gatsby'
 import { isSafari, isFireFox } from 'react-device-detect'
 
-import Image from '@components/Image'
+import { Img as Image } from '@components/Image/Image'
 import media from '@styles/media'
 
 // The SVG shapes and data required to properly morph and place them

@@ -5,7 +5,7 @@ import { useStaticQuery, graphql } from 'gatsby'
 import { Section } from '@components/Section/Section'
 import Heading from '@components/Heading/Heading'
 import Sticky from '@components/Sticky'
-import Image from '@components/Image'
+import { Img as Image } from '@components/Image/Image'
 
 import media from '@styles/media'
 

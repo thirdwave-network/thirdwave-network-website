@@ -29,7 +29,7 @@ const StyledGatsbyImag = styled(GatsbyImg)`
  * <Img src="https://..." />
  *
  */
-const Img: React.SFC<IImg> = ({ src, alt, ...props }) => {
+export const Img: React.SFC<IImg> = ({ src, alt, ...props }) => {
   // we’re going to build our final component's props dynamically.
   // So create a nice default set of props that are relevant to Gatsby and non Gatsby images
   const imgProps = {
@@ -64,5 +64,3 @@ const Img: React.SFC<IImg> = ({ src, alt, ...props }) => {
   // Retrun either the GatsbyImg component or a regular img tag with the spread props
   return isGatsby ? <Compontent {...imgProps} /> : <img {...imgProps} />
 }
-
-export default Img

@@ -4,7 +4,7 @@ import { graphql, useStaticQuery } from 'gatsby'
 
 import ButtonPill from '@components/Button/Button.Pill'
 import Heading from '@components/Heading/Heading'
-import Image from '@components/Image'
+import { Img as Image } from '@components/Image/Image'
 import { Section } from '@components/Section/Section'
 import { ContactContext } from '@components/Contact/Contact.Context'
 

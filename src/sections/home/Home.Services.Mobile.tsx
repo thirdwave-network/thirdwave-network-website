@@ -6,7 +6,7 @@ import throttle from 'lodash/throttle'
 import Heading from '@components/Heading/Heading'
 import { Section } from '@components/Section/Section'
 import HorizontalScroll from '@components/HorizontalScroll'
-import Image from '@components/Image'
+import { Img as Image } from '@components/Image/Image'
 
 import { services } from './Home.Services'
 import media from '@styles/media'

@@ -4,7 +4,7 @@ import styled, { css, keyframes } from 'styled-components'
 
 import Heading from '@components/Heading/Heading'
 import { Section } from '@components/Section/Section'
-import Image from '@components/Image'
+import { Img as Image } from '@components/Image/Image'
 import ScrollIndicator from '@components/ScrollIndicator'
 import LayoutHeroMobile from '@components/Layout/Layout.Hero.Mobile'
 import Pill from '@components/Pill'

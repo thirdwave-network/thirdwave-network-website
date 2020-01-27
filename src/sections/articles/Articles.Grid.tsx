@@ -4,7 +4,7 @@ import { Link } from 'gatsby'
 
 import Heading from '@components/Heading/Heading'
 import ButtonArrow from '@components/Button/Button.Arrow'
-import Image from '@components/Image'
+import { Img as Image } from '@components/Image/Image'
 
 import media from '@styles/media'
 

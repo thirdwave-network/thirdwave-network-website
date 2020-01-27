@@ -6,7 +6,7 @@ import OutsideClickHandler from 'react-outside-click-handler'
 
 import Heading from '@components/Heading/Heading'
 import { Section } from '@components/Section/Section'
-import Image from '@components/Image'
+import { Img as Image } from '@components/Image/Image'
 
 import media from '@styles/media'
 import { bodyScroll } from '@utils'

@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import Image from '@components/Image'
+import { Img as Image } from '@components/Image/Image'
 import media from '@styles/media'
 
 const ArticlePreview = ({ product }) => (

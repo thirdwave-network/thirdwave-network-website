@@ -4,7 +4,7 @@ import { graphql, useStaticQuery } from 'gatsby'
 import { useInView } from 'react-intersection-observer'
 import { useSpring, animated } from 'react-spring'
 
-import Image from '@components/Image'
+import { Img as Image } from '@components/Image/Image'
 import Sticky, { StickyState } from '@components/Sticky'
 
 import media from '@styles/media'

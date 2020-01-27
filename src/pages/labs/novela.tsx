@@ -6,7 +6,7 @@ import Layout from '@components/Layout'
 import LayoutHeroMobile from '@components/Layout/Layout.Hero.Mobile'
 import { Section } from '@components/Section/Section'
 import SEO from '@components/SEO'
-import Image from '@components/Image'
+import { Img as Image } from '@components/Image/Image'
 
 import media from '@styles/media'
 

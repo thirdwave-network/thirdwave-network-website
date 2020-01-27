@@ -8,7 +8,7 @@ import OutsideClickHandler from 'react-outside-click-handler'
 import Heading from '@components/Heading/Heading'
 import { Section } from '@components/Section/Section'
 import Sticky, { StickyState } from '@components/Sticky'
-import Image from '@components/Image'
+import { Img as Image } from '@components/Image/Image'
 import SocialLinksDynamic from '@components/SocialLinks/SocialLinks.Dynamic'
 
 import media from '@styles/media'

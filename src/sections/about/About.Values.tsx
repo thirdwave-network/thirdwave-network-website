@@ -5,7 +5,7 @@ import SVG from 'react-inlinesvg'
 
 import ButtonPill from '@components/Button/Button.Pill'
 import Heading from '@components/Heading/Heading'
-import Image from '@components/Image'
+import { Img as Image } from '@components/Image/Image'
 import { Section } from '@components/Section/Section'
 import Sticky, { StickyState } from '@components/Sticky'
 import { ContactContext } from '@components/Contact/Contact.Context'
