@@ -1,1 +1,1 @@
-export { default } from '@components/Heading/Heading'
+export *  from '@components/Heading/Heading'

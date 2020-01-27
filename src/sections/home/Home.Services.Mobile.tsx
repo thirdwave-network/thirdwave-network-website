@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import { Link, StaticQuery, graphql } from 'gatsby'
 import throttle from 'lodash/throttle'
 
-import Heading from '@components/Heading'
+import Heading from '@components/Heading/Heading'
 import Section from '@components/Section'
 import HorizontalScroll from '@components/HorizontalScroll'
 import Image from '@components/Image'

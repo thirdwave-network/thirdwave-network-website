@@ -5,7 +5,7 @@ import { useStaticQuery, graphql } from 'gatsby'
 import SVG from 'react-inlinesvg'
 import OutsideClickHandler from 'react-outside-click-handler'
 
-import Heading from '@components/Heading'
+import Heading from '@components/Heading/Heading'
 import Section from '@components/Section'
 import Sticky, { StickyState } from '@components/Sticky'
 import Image from '@components/Image'

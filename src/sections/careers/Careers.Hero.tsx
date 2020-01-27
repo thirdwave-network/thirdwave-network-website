@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { graphql, StaticQuery } from 'gatsby'
 import styled, { css, keyframes } from 'styled-components'
 
-import Heading from '@components/Heading'
+import Heading from '@components/Heading/Heading'
 import Section from '@components/Section'
 import Image from '@components/Image'
 import ScrollIndicator from '@components/ScrollIndicator'

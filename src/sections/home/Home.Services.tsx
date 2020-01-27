@@ -4,7 +4,7 @@ import { graphql, useStaticQuery } from 'gatsby'
 import { useSpring, animated } from 'react-spring'
 import throttle from 'lodash/throttle'
 
-import Heading from '@components/Heading'
+import Heading from '@components/Heading/Heading'
 import Section from '@components/Section'
 import IntersectionObserver from '@components/IntersectionObserver'
 import Sticky, { StickyState } from '@components/Sticky'

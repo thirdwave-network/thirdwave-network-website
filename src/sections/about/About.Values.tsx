@@ -5,7 +5,7 @@ import SVG from 'react-inlinesvg'
 import { Motion, spring } from 'react-motion'
 
 import ButtonPill from '@components/Button/Button.Pill'
-import Heading from '@components/Heading'
+import Heading from '@components/Heading/Heading'
 import Image from '@components/Image'
 import Section from '@components/Section'
 import Sticky, { StickyState } from '@components/Sticky'

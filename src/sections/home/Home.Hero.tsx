@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 import styled from 'styled-components'
 
 import ButtonArrow from '@components/Button/Button.Arrow'
-import Heading from '@components/Heading'
+import Heading from '@components/Heading/Heading'
 import Section from '@components/Section'
 import ScrollIndicator from '@components/ScrollIndicator'
 import ShapeShifter from '@components/ShapeShifter'

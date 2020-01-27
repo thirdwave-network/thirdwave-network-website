@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { isMobile } from 'react-device-detect'
 
-import Heading from '@components/Heading'
+import Heading from '@components/Heading/Heading'
 import IntersectionObserver from '@components/IntersectionObserver'
 import Section from '@components/Section'
 import ScrollIndicator from '@components/ScrollIndicator'

@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import { graphql, useStaticQuery } from 'gatsby'
 
 import ButtonPill from '@components/Button/Button.Pill'
-import Heading from '@components/Heading'
+import Heading from '@components/Heading/Heading'
 import Image from '@components/Image'
 import Section from '@components/Section'
 import { ContactContext } from '@components/Contact/Contact.Context'

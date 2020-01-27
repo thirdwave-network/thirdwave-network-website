@@ -3,7 +3,7 @@ import { graphql, StaticQuery } from 'gatsby'
 import styled from 'styled-components'
 
 import Section from '@components/Section'
-import Heading from '@components/Heading'
+import Heading from '@components/Heading/Heading'
 import ScrollIndicator from '@components/ScrollIndicator'
 import Image from '@components/Image'
 import Pill from '@components/Pill'

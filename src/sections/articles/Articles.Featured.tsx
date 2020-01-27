@@ -2,7 +2,7 @@ import React from 'react'
 import styled, { css } from 'styled-components'
 import { Link, navigate } from 'gatsby'
 
-import Heading from '@components/Heading'
+import Heading from '@components/Heading/Heading'
 import ButtonArrow from '@components/Button/Button.Arrow'
 import Image from '@components/Image'
 
