@@ -175,14 +175,14 @@ function LabsPage({ data, location }) {
               <div />
               <Transitions.CSS.FadeIn>
                 <TextContainer>
-                  <Pill text="Labs" />
+                  <Pill text="Research" />
                   <Heading.h2 styles="h1">
                     Whether with our clients or all by ourselves, we’re always
                     busy building something new.
                   </Heading.h2>
                   <MainText>
                     Take a peek at the products we’re creating in-house at
-                    Narative.
+                    thirdwave.network.
                   </MainText>
                 </TextContainer>
               </Transitions.CSS.FadeIn>
