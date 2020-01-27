@@ -8,7 +8,7 @@ import { Section } from '@components/Section/Section'
 import Heading from '@components/Heading/Heading'
 import LayoutHeroMobile from '@components/Layout/Layout.Hero.Mobile'
 import { Img as Image } from '@components/Image/Image'
-import ScrollIndicator from '@components/ScrollIndicator'
+import { ScrollIndicator } from '@components/ScrollIndicator/ScrollIndicator'
 import Pill from '@components/Pill'
 import Transitions from '@components/Transitions'
 

@@ -1,1 +1,1 @@
-export { default } from './ScrollIndicator'
+export * from './ScrollIndicator'

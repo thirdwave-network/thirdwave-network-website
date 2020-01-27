@@ -4,7 +4,7 @@ import styled from 'styled-components'
 
 import { Section } from '@components/Section/Section'
 import Heading from '@components/Heading/Heading'
-import ScrollIndicator from '@components/ScrollIndicator'
+import { ScrollIndicator } from '@components/ScrollIndicator/ScrollIndicator'
 import { Img as Image } from '@components/Image/Image'
 import Pill from '@components/Pill'
 import LayoutHeroMobile from '@components/Layout/Layout.Hero.Mobile'

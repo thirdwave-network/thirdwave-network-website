@@ -33,7 +33,7 @@ function useWindowOffset() {
   return windowOffset
 }
 
-const ScrollIndicator = ({
+export const ScrollIndicator = ({
   mode,
   disableScrollAnimation,
 }: {
@@ -75,8 +75,6 @@ const ScrollIndicator = ({
     </Frame>
   )
 }
-
-export default ScrollIndicator
 
 const Frame = styled.div`
   position: relative;

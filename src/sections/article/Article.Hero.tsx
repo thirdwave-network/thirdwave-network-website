@@ -5,7 +5,7 @@ import { isMobile } from 'react-device-detect'
 import Heading from '@components/Heading/Heading'
 import IntersectionObserver from '@components/IntersectionObserver'
 import { Section } from '@components/Section/Section'
-import ScrollIndicator from '@components/ScrollIndicator'
+import { ScrollIndicator } from '@components/ScrollIndicator/ScrollIndicator'
 import { Img as Image } from '@components/Image/Image'
 
 import media from '@styles/media'
