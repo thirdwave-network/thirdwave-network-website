@@ -6,7 +6,7 @@ import Transition from 'react-transition-group/Transition'
 import Section from '@components/Section'
 import Layout from '@components/Layout'
 import SEO from '@components/SEO'
-import Hidden from '@components/Hidden'
+import { Hidden } from '@components/Hidden/Hidden'
 
 import transitions from '@styles/transitions'
 import media from '@styles/media'

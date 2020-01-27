@@ -2,7 +2,7 @@ import React, { useEffect, useContext } from 'react'
 import styled from 'styled-components'
 import Transition from 'react-transition-group/Transition'
 
-import Hidden from '@components/Hidden'
+import { Hidden } from '@components/Hidden/Hidden'
 import { ContactContext } from '@components/Contact/Contact.Context'
 
 import media from '@styles/media'

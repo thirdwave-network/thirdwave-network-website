@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import throttle from 'lodash/throttle'
 
 import IntersectionObserver from '@components/IntersectionObserver'
-import Hidden from '@components/Hidden'
+import { Hidden } from '@components/Hidden/Hidden'
 
 import media from '@styles/media'
 

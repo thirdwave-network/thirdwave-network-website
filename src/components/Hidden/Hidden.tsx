@@ -1,11 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Hidden = ({ children }: { children: React.ReactChild }) => (
+export const Hidden = ({ children }: { children: React.ReactChild }) => (
   <HiddenElement>{children}</HiddenElement>
 )
-
-export default Hidden
 
 const HiddenElement = styled.div`
   height: 1px;
