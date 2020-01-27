@@ -34,10 +34,10 @@ function AboutContact() {
             <MobileLogo aria-hidden="true" />
           </MobileLogoContainer>
           <Heading inView={inView}>
-            That’s our story. <Grey>What's yours?</Grey>
+            That’s the third wave. <Grey>Are you going to leverage possibilities or slowly die in technologies world?</Grey>
           </Heading>
           <ButtonContainer>
-            <ButtonPill text="Contact us" onClick={toggleContact} mode="dark" />
+            <ButtonPill text="Contact" onClick={toggleContact} mode="dark" />
           </ButtonContainer>
         </Section>
       </Container>

@@ -49,7 +49,7 @@ function AboutHero() {
                       <TextContainer>
                         <Pill text="About" />
                         <Heading.h2 styles="h1">
-                          Narative is a tight-knit team with senior experience
+                          thirdwave.network is a tight-knit team with senior experience
                           in every digital discipline.
                         </Heading.h2>
                         <MainText>

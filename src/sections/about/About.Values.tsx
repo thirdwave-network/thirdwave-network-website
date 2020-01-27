@@ -140,9 +140,9 @@ function AboueValues() {
       <HeadingContainer ref={headingRef}>
         <AboutHeading
           heading={`
-              <span class="AboutValues__MobileBreak">Who we</span> choose to be
+              <span class="AboutValues__MobileBreak">What does</span> third wave mean for technology?
           `}
-          text="A company’s culture isn’t something we think should be passed down as commandments, or enforced like law. It’s the choices we make every day that define who we are — as individuals, and as a team. These are our choices."
+          text="A company’s culture isn’t something we think should be passed down as commandments, or enforced like law. It’s the choices we make every day that define who we are — as individuals, and as a tea"
         />
       </HeadingContainer>
       <Desktop>
