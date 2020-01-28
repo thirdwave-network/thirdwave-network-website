@@ -11,7 +11,7 @@ let server = app.listen(process.env.PORT || 5000, function(){
   console.info("Server started at http://localhost:%s", port);
 });
 
-app.use(cors());
+app.options("*", cors());
 
 app.use(bodyParser.urlencoded({extended: true}));
 
