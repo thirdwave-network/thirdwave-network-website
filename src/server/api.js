@@ -26,10 +26,10 @@ app.use(function(req, res, next) {
 app.use(bodyParser.json());
 
 
-app.post('/api/contact/proposal', function (req, res) {
+app.get('/api/contact/proposal', cors(),function (req, res) {
 
   res.setHeader('Access-Control-Allow-Origin', 'https://www.thirdwave.network');
-  
+
   console.log('req', req)
 
   console.log('res', res)
