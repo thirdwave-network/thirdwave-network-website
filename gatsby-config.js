@@ -3,8 +3,8 @@ require('dotenv').config()
 const proxy = require('http-proxy-middleware')
 
 exports.siteMetadata = {
-  title: 'Narative',
-  siteUrl: 'https://narative.co',
+  title: 'thirdwave.network',
+  siteUrl: 'https://thirdwave.network',
   pathPrefix: `/`,
 }
 
@@ -44,8 +44,8 @@ exports.plugins = [
   {
     resolve: 'gatsby-plugin-manifest',
     options: {
-      name: 'Narative',
-      short_name: 'Narative',
+      name: 'thirdwave.network',
+      short_name: 'thirdwave.network',
       start_url: '/',
       background_color: '#111216',
       theme_color: '#111216',
@@ -56,8 +56,8 @@ exports.plugins = [
   {
     resolve: 'gatsby-plugin-robots-txt',
     options: {
-      host: 'https://narative.co',
-      sitemap: 'https://narative.co/sitemap.xml',
+      host: 'https://thirdwave.network',
+      sitemap: 'https://thirdwave.network/sitemap.xml',
       policy: [
         { userAgent: '*', disallow: ['/.netlify/', '/articles/preview/'] },
       ],

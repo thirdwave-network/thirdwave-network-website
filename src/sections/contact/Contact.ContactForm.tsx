@@ -55,6 +55,8 @@ function ContactForm({ baseDelay }: { baseDelay: number }) {
   const handleSubmit = async (values, { setSubmitting }) => {
     const { company, details, email, name } = values
 
+    console.log('info', values)
+
     const method = 'post'
     const endpoint = '/contact/proposal'
     const data = {
