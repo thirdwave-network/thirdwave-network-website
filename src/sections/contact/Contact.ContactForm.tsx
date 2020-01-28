@@ -20,7 +20,7 @@ const validate = values => {
   let errors = {}
 
   if (!values.name) {
-    errors.name = 'Hi, we’re Narative. What’s your name?'
+    errors.name = 'Hi, we’re thirdwave.network. What’s your name?'
   }
 
   if (!values.email) {
@@ -82,7 +82,7 @@ function ContactForm({ baseDelay }: { baseDelay: number }) {
           <SubmittedCheckIcon />
           <SubmittedHeader>Thank you, {firstName}</SubmittedHeader>
           <SubmittedText>
-            A member of the Narative team will be in touch with you soon.
+            A member of the thirdwave.network team will be in touch with you soon.
           </SubmittedText>
           <SubmittedBackButton onClick={toggleContact}>
             Go back
@@ -146,7 +146,7 @@ function ContactForm({ baseDelay }: { baseDelay: number }) {
                     isSubmitting={props.isSubmitting}
                     color="black"
                     type="submit"
-                    text="Send to narative"
+                    text="Send to us"
                   />
                 </ButtonContainer>
                 <MobileButtonContainer
@@ -155,7 +155,7 @@ function ContactForm({ baseDelay }: { baseDelay: number }) {
                 >
                   <Button
                     isSubmitting={props.isSubmitting}
-                    text="Send to narative"
+                    text="Send to us"
                   />
                 </MobileButtonContainer>
                 <ContactByEmail animation={animation} delay={baseDelay + 610} />
@@ -175,24 +175,24 @@ const ContactByEmail = ({ animation, delay }) => (
     <ContactWithEmail animation={animation} delay={delay}>
       <ContactWithEmailText>
         <CopyToClipboard
-          copyOnClick="careers@narative.co"
+          copyOnClick="tomek@thirdwave.network"
           iconFill="rgba(0,0,0,0.3)"
         >
-          Looking to be part of Narative? Say hello at{' '}
+          Looking to be part of thirdwave.network? Say hello at{' '}
           <button>
-            careers@narative.co{' '}
-            <Hidden>Copy careers@narative.co go clipboard.</Hidden>
+          tomek@thirdwave.network{' '}
+            <Hidden>Copy tomek@thirdwave.network go clipboard.</Hidden>
           </button>
         </CopyToClipboard>
       </ContactWithEmailText>
     </ContactWithEmail>
     <MobileContactWithEmail
-      href="mailto:contact@narative.co"
+      href="mailto:tomek@thirdwave.network"
       animation={animation}
       delay={delay}
     >
-      Looking to be part of Narative? <br />
-      Say hello at <span>careers@narative.co</span>
+      Looking to be part of thirdwave.network? <br />
+      Say hello at <span>tomek@thirdwave.network</span>
     </MobileContactWithEmail>
   </>
 )
