@@ -56,6 +56,8 @@ git push
 
 ```git subtree push --prefix src/server/ heroku master```
 
+heroku logs --tail
+
 ## License
 
 BSD 3-Clause, see the [LICENSE](./LICENSE) file.
