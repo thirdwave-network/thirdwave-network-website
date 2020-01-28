@@ -11,6 +11,15 @@ let server = app.listen(process.env.PORT || 5000, function(){
 });
 
 app.use(bodyParser.urlencoded({extended: true}));
+
+app.use(function(req, res, next) {
+  res.header("Access-Control-Allow-Origin", '*');
+  res.header("Access-Control-Allow-Credentials", true);
+  res.header('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE,OPTIONS');
+  res.header("Access-Control-Allow-Headers", 'Origin,X-Requested-With,Content-Type,Accept,content-type,application/json');
+  next();
+});
+
 app.use(bodyParser.json());
 
 
@@ -19,11 +28,6 @@ app.post('/api/contact/proposal', function (req, res) {
   console.log('req', req)
 
   console.log('res', res)
-
-  res.header("Access-Control-Allow-Origin", '*');
-  res.header("Access-Control-Allow-Credentials", true);
-  res.header('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE,OPTIONS');
-  res.header("Access-Control-Allow-Headers", 'Origin,X-Requested-With,Content-Type,Accept,content-type,application/json');
 
   let transporter = nodeMailer.createTransport({
       host: 'smtp.gmail.com',
