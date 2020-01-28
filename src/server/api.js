@@ -15,6 +15,12 @@ app.use(bodyParser.json());
 
 
 app.post('/api/contact/proposal', function (req, res) {
+
+  console.log('req', req)
+
+  console.log('res', res)
+
+
   let transporter = nodeMailer.createTransport({
       host: 'smtp.gmail.com',
       port: 465,
