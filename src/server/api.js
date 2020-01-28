@@ -20,10 +20,10 @@ app.post('/api/contact/proposal', function (req, res) {
 
   console.log('res', res)
 
-  res.headers.Accept = 'application/json'
-  res.headers.credentials = 'same-origin'
-  res.headers['Access-Control-Allow-Origin'] = true
-  res.headers['Content-Type'] = 'application/json'
+  res.header("Access-Control-Allow-Origin", '*');
+  res.header("Access-Control-Allow-Credentials", true);
+  res.header('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE,OPTIONS');
+  res.header("Access-Control-Allow-Headers", 'Origin,X-Requested-With,Content-Type,Accept,content-type,application/json');
 
   let transporter = nodeMailer.createTransport({
       host: 'smtp.gmail.com',
