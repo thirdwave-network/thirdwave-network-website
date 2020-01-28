@@ -48,19 +48,13 @@ Deployments are done using [Netlify](https://app.netlify.com/). You must be adde
 git push
 ```
 
-### Branching
+### Heroku
 
-#### `[your-branch]`
+#### Deploy
 
-Working on your feature branch can be previewed after every push.
+```heroku git:remote -a thirdwave-network-mailer```
 
-#### `dev`
-
-Before deploying to narative.co, double check your code on `dev` branch.
-
-#### `master`
-
-To deploy to narative.co merge your code into master.
+```git subtree push --prefix src/utils/ heroku master```
 
 ## License
 
