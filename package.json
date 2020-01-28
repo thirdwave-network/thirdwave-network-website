@@ -3,6 +3,7 @@
   "description": "thirdwave.network's website",
   "version": "1.0.0",
   "author": "Tomasz Waszczyk <tomek@thirdwave.network>",
+  "proxy": "https://thirdwave-network-mailer.herokuapp.com/",
   "keywords": [
     "thirdwave.network",
     "website"
