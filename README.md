@@ -54,7 +54,7 @@ git push
 
 ```heroku git:remote -a thirdwave-network-mailer```
 
-```git subtree push --prefix src/utils/ heroku master```
+```git subtree push --prefix src/server/ heroku master```
 
 ## License
 
