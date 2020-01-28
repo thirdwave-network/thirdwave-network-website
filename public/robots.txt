@@ -1,5 +1,0 @@
-User-agent: *
-Disallow: /.netlify/
-Disallow: /articles/preview/
-Sitemap: https://thirdwave.network/sitemap.xml
-Host: https://thirdwave.network
