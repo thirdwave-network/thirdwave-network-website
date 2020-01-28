@@ -4,7 +4,7 @@ import styled from 'styled-components'
 import Transition from 'react-transition-group/Transition'
 
 import { Section } from '@components/Section/Section'
-import Layout from '@components/Layout'
+import Layout from '@components/Layout/Layout'
 import SEO from '@components/SEO'
 import { Hidden } from '@components/Hidden/Hidden'
 

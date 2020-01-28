@@ -3,7 +3,7 @@ import { graphql, Link } from 'gatsby'
 import styled from 'styled-components'
 
 import SEO from '@components/SEO'
-import Layout from '@components/Layout'
+import Layout from '@components/Layout/Layout'
 import { Section } from '@components/Section/Section'
 import Heading from '@components/Heading/Heading'
 import LayoutHeroMobile from '@components/Layout/Layout.Hero.Mobile'

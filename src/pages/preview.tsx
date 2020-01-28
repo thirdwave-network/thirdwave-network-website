@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { mergeDeepRight } from 'ramda'
 import styled from 'styled-components'
 
-import Layout from '@components/Layout'
+import Layout from '@components/Layout/Layout'
 import Logo from '@components/Logo'
 import Heading from '@components/Heading/Heading'
 import media from '@styles/media'

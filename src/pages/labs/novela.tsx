@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react'
 import styled, { ThemeProvider } from 'styled-components'
 import { graphql } from 'gatsby'
 
-import Layout from '@components/Layout'
+import Layout from '@components/Layout/Layout'
 import LayoutHeroMobile from '@components/Layout/Layout.Hero.Mobile'
 import { Section } from '@components/Section/Section'
 import SEO from '@components/SEO'

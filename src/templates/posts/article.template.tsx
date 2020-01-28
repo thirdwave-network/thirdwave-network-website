@@ -9,7 +9,7 @@ import React, { Component } from 'react'
 import styled from 'styled-components'
 import throttle from 'lodash/throttle'
 
-import Layout from '@components/Layout'
+import Layout from '@components/Layout/Layout'
 import { RichText } from '@components/Media'
 import withDarkMode from '@components/DarkMode'
 import Progress from '@components/Progress'

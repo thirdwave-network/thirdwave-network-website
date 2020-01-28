@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import { graphql, useStaticQuery } from 'gatsby'
 
 import Divider from '@components/Divider'
-import Layout from '@components/Layout'
+import Layout from '@components/Layout/Layout'
 import SEO from '@components/SEO'
 
 import media from '@styles/media'

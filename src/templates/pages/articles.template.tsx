@@ -6,7 +6,7 @@ import Footer from '@components/Navigation/Navigation.Footer'
 import Paginator from '@components/Navigation/Navigation.Paginator'
 import { Section } from '@components/Section/Section'
 import SEO from '@components/SEO'
-import Layout from '@components/Layout'
+import Layout from '@components/Layout/Layout'
 
 import ArticlesHero from '../../sections/articles/Articles.Hero'
 import ArticlesGrid from '../../sections/articles/Articles.Grid'
