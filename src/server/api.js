@@ -1,7 +1,8 @@
 let express = require("express"),
     path = require('path'),
     bodyParser = require('body-parser'),
-    nodeMailer = require('node-mailer');
+    nodeMailer = require('node-mailer'),
+    cors = require('cors');
 
 let app = express();
 
@@ -9,6 +10,8 @@ let server = app.listen(process.env.PORT || 5000, function(){
   let port = server.address().port;
   console.info("Server started at http://localhost:%s", port);
 });
+
+app.use(cors());
 
 app.use(bodyParser.urlencoded({extended: true}));
 
