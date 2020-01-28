@@ -25,6 +25,9 @@ app.use(function(req, res, next) {
 
 app.use(bodyParser.json());
 
+app.get('/', cors(), (req, res, next) => {
+  res.json({ msg: 'WHOAH with CORS it works! 🔝 🎉' })
+})
 
 app.get('/api/contact/proposal', cors(),function (req, res) {
 
