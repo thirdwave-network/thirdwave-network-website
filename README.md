@@ -2,30 +2,14 @@
 
 <br />
 
-# Narative.co
+# thirdwave.network
 
 Narative builds brands, websites and products for growth-minded companies.. <br />
 We’re a team with senior startup experience here to help your business take the next step.
 
 #### Technology
 
-Narative.co is powered by [Gatsby](gatsbyjs.org) that pulls data from [Contentful](https://www.contentful.com) and is hosted on [Netlify's](https://netlify.com). Apart from that, we aim to keep things as barebones as we can.
-
-#### Installation
-
-```sh
-# Go to your favourite directory and clone
-git clone git@github.com:narative/narative.co.git && cd narative.co
-
-# Install all depedencies
-yarn
-
-# 🎉 that’s it, you've installed repo locally. One last step!
-```
-
-### Enviroment Variables
-
-This project uses [Contentful](https://www.contentful.com) to pull in some copy and images. To get this variables you can go to a couple different locations. First, you can log directly into Narative's Contentful account and look for the API keys. Second, you can check [Netlify's](https://netlify.com) deploy settings for the variables.
+thirdwave.network is powered by [Gatsby](gatsbyjs.org) that pulls data from [Contentful](https://www.contentful.com) and is hosted on [Netlify's](https://netlify.com). Apart from that, we aim to keep things as barebones as we can.
 
 #### Running the code locally
 
