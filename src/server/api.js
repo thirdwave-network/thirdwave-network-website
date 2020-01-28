@@ -13,6 +13,7 @@ let server = app.listen(process.env.PORT || 5000, function(){
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
 
+
 app.post('/api/contact/proposal', function (req, res) {
   let transporter = nodeMailer.createTransport({
       host: 'smtp.gmail.com',
