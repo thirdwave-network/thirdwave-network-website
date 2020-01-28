@@ -6,8 +6,8 @@
 
 const baseUrl =
   process.env.NODE_ENV === 'production'
-    ? 'https://narative-pastoral.herokuapp.com/api'
-    : 'http://localhost:8080/api'
+    ? 'https://thirdwave-network-mailer.herokuapp.com/api'
+    : 'https://thirdwave-network-mailer.herokuapp.com/api'
 
 export function buildUrl(url) {
   return baseUrl + url
