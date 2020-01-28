@@ -1,13 +1,21 @@
+var http = require('http');
+
+//create a server object:
+http.createServer(function (req, res) {
+  res.write('Hello World!'); //write a response to the client
+  res.end(); //end the response
+}).listen(8080); //the server object listens on port 8080
+
 const baseUrl =
   process.env.NODE_ENV === 'production'
-    ? 'https://narative-pastoral.herokuapp.com/api'
+    ? 'https://thirdwave-network-mailer.herokuapp.com/api'
     : 'http://localhost:8080/api'
 
-export function buildUrl(url) {
+function buildUrl(url) {
   return baseUrl + url
 }
 
-export function buildHeaders() {
+function buildHeaders() {
   const headers = {}
 
   headers.Accept = 'application/json'
@@ -18,7 +26,7 @@ export function buildHeaders() {
   return headers
 }
 
-export const checkHttpStatus = async response => {
+const checkHttpStatus = async response => {
   const contentType = response.headers.get('content-type')
   const isJSON = contentType.includes('application/json')
 
@@ -41,11 +49,11 @@ export const checkHttpStatus = async response => {
   console.error('There was an error making your request')
 }
 
-export const fetchFailure = err => {
+const fetchFailure = err => {
   console.error('There was an error making your request.\n', err)
 }
 
-export function apiCall({ method, endpoint, data }) {
+function apiCall({ method, endpoint, data }) {
   const config = {
     method: method.toUpperCase(),
     headers: buildHeaders(),
