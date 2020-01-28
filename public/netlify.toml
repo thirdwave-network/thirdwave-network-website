@@ -1,0 +1,11 @@
+[build]
+  Command = "yarn build"
+  Functions = "functions"
+  Publish = "public"
+
+[[redirects]]
+  from = "/api"
+  to = "https://thirdwave-network-mailer.herokuapp.com/api/"
+  status = 200
+  force = true
+  headers = {X-From = "Netlify"}

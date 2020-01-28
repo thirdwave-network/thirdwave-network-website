@@ -1,0 +1,134 @@
+## Created with gatsby-plugin-netlify
+
+/*
+  X-Frame-Options: DENY
+  X-XSS-Protection: 1; mode=block
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+/component---src-templates-posts-author-template-tsx-c4bbc865de9c497eccee.js
+  Cache-Control: public, max-age=31536000, immutable
+/commons-4e3731c155a6fdf39f08.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-templates-pages-articles-template-tsx-342ad3d198af95c53c07.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-templates-posts-article-template-tsx-5d474560bb18e81a01f9.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-404-tsx-65d6bba6fd2fd3115a5b.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-about-tsx-3d27d83c73ea5ac804a4.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-careers-tsx-34dd1676a01f753c4f5c.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-contact-tsx-f3a9ce9f326925b2132d.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-index-tsx-99b6eed4f97ad577a681.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-labs-index-tsx-9f0776806e3e42848659.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-labs-novela-tsx-177f0e2c4bd65cb518c4.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-preview-tsx-f73da5e37be308ace2fe.js
+  Cache-Control: public, max-age=31536000, immutable
+/webpack-runtime-79766d22178210d9e43e.js
+  Cache-Control: public, max-age=31536000, immutable
+/app-cbfe60d19073280f2c45.js
+  Cache-Control: public, max-age=31536000, immutable
+/static/*
+  Cache-Control: public, max-age=31536000, immutable
+/sw.js
+  Cache-Control: no-cache
+/authors/undefined
+  Link: </webpack-runtime-79766d22178210d9e43e.js>; rel=preload; as=script
+  Link: </commons-4e3731c155a6fdf39f08.js>; rel=preload; as=script
+  Link: </app-cbfe60d19073280f2c45.js>; rel=preload; as=script
+  Link: </component---src-templates-posts-author-template-tsx-c4bbc865de9c497eccee.js>; rel=preload; as=script
+/articles
+  Link: </webpack-runtime-79766d22178210d9e43e.js>; rel=preload; as=script
+  Link: </commons-4e3731c155a6fdf39f08.js>; rel=preload; as=script
+  Link: </app-cbfe60d19073280f2c45.js>; rel=preload; as=script
+  Link: </commons-4e3731c155a6fdf39f08.js>; rel=preload; as=script
+  Link: </component---src-templates-pages-articles-template-tsx-342ad3d198af95c53c07.js>; rel=preload; as=script
+/articles/why-todays-trading-journals-suck
+  Link: </webpack-runtime-79766d22178210d9e43e.js>; rel=preload; as=script
+  Link: </commons-4e3731c155a6fdf39f08.js>; rel=preload; as=script
+  Link: </app-cbfe60d19073280f2c45.js>; rel=preload; as=script
+  Link: </commons-4e3731c155a6fdf39f08.js>; rel=preload; as=script
+  Link: </component---src-templates-posts-article-template-tsx-5d474560bb18e81a01f9.js>; rel=preload; as=script
+/articles/understanding-the-gatsby-lifecycle
+  Link: </webpack-runtime-79766d22178210d9e43e.js>; rel=preload; as=script
+  Link: </commons-4e3731c155a6fdf39f08.js>; rel=preload; as=script
+  Link: </app-cbfe60d19073280f2c45.js>; rel=preload; as=script
+  Link: </commons-4e3731c155a6fdf39f08.js>; rel=preload; as=script
+  Link: </component---src-templates-posts-article-template-tsx-5d474560bb18e81a01f9.js>; rel=preload; as=script
+/articles/building-the-new-hopper-com
+  Link: </webpack-runtime-79766d22178210d9e43e.js>; rel=preload; as=script
+  Link: </commons-4e3731c155a6fdf39f08.js>; rel=preload; as=script
+  Link: </app-cbfe60d19073280f2c45.js>; rel=preload; as=script
+  Link: </commons-4e3731c155a6fdf39f08.js>; rel=preload; as=script
+  Link: </component---src-templates-posts-article-template-tsx-5d474560bb18e81a01f9.js>; rel=preload; as=script
+/articles/how-figma-changed-the-way-we-design
+  Link: </webpack-runtime-79766d22178210d9e43e.js>; rel=preload; as=script
+  Link: </commons-4e3731c155a6fdf39f08.js>; rel=preload; as=script
+  Link: </app-cbfe60d19073280f2c45.js>; rel=preload; as=script
+  Link: </commons-4e3731c155a6fdf39f08.js>; rel=preload; as=script
+  Link: </component---src-templates-posts-article-template-tsx-5d474560bb18e81a01f9.js>; rel=preload; as=script
+/articles/why-narative-loves-gatsby
+  Link: </webpack-runtime-79766d22178210d9e43e.js>; rel=preload; as=script
+  Link: </commons-4e3731c155a6fdf39f08.js>; rel=preload; as=script
+  Link: </app-cbfe60d19073280f2c45.js>; rel=preload; as=script
+  Link: </commons-4e3731c155a6fdf39f08.js>; rel=preload; as=script
+  Link: </component---src-templates-posts-article-template-tsx-5d474560bb18e81a01f9.js>; rel=preload; as=script
+/404/
+  Link: </webpack-runtime-79766d22178210d9e43e.js>; rel=preload; as=script
+  Link: </commons-4e3731c155a6fdf39f08.js>; rel=preload; as=script
+  Link: </app-cbfe60d19073280f2c45.js>; rel=preload; as=script
+  Link: </commons-4e3731c155a6fdf39f08.js>; rel=preload; as=script
+  Link: </component---src-pages-404-tsx-65d6bba6fd2fd3115a5b.js>; rel=preload; as=script
+/about/
+  Link: </webpack-runtime-79766d22178210d9e43e.js>; rel=preload; as=script
+  Link: </commons-4e3731c155a6fdf39f08.js>; rel=preload; as=script
+  Link: </app-cbfe60d19073280f2c45.js>; rel=preload; as=script
+  Link: </commons-4e3731c155a6fdf39f08.js>; rel=preload; as=script
+  Link: </component---src-pages-about-tsx-3d27d83c73ea5ac804a4.js>; rel=preload; as=script
+/careers/
+  Link: </webpack-runtime-79766d22178210d9e43e.js>; rel=preload; as=script
+  Link: </commons-4e3731c155a6fdf39f08.js>; rel=preload; as=script
+  Link: </app-cbfe60d19073280f2c45.js>; rel=preload; as=script
+  Link: </commons-4e3731c155a6fdf39f08.js>; rel=preload; as=script
+  Link: </component---src-pages-careers-tsx-34dd1676a01f753c4f5c.js>; rel=preload; as=script
+/contact/
+  Link: </webpack-runtime-79766d22178210d9e43e.js>; rel=preload; as=script
+  Link: </commons-4e3731c155a6fdf39f08.js>; rel=preload; as=script
+  Link: </app-cbfe60d19073280f2c45.js>; rel=preload; as=script
+  Link: </commons-4e3731c155a6fdf39f08.js>; rel=preload; as=script
+  Link: </component---src-pages-contact-tsx-f3a9ce9f326925b2132d.js>; rel=preload; as=script
+/
+  Link: </webpack-runtime-79766d22178210d9e43e.js>; rel=preload; as=script
+  Link: </commons-4e3731c155a6fdf39f08.js>; rel=preload; as=script
+  Link: </app-cbfe60d19073280f2c45.js>; rel=preload; as=script
+  Link: </commons-4e3731c155a6fdf39f08.js>; rel=preload; as=script
+  Link: </component---src-pages-index-tsx-99b6eed4f97ad577a681.js>; rel=preload; as=script
+/labs/
+  Link: </webpack-runtime-79766d22178210d9e43e.js>; rel=preload; as=script
+  Link: </commons-4e3731c155a6fdf39f08.js>; rel=preload; as=script
+  Link: </app-cbfe60d19073280f2c45.js>; rel=preload; as=script
+  Link: </commons-4e3731c155a6fdf39f08.js>; rel=preload; as=script
+  Link: </component---src-pages-labs-index-tsx-9f0776806e3e42848659.js>; rel=preload; as=script
+/labs/novela/
+  Link: </webpack-runtime-79766d22178210d9e43e.js>; rel=preload; as=script
+  Link: </commons-4e3731c155a6fdf39f08.js>; rel=preload; as=script
+  Link: </app-cbfe60d19073280f2c45.js>; rel=preload; as=script
+  Link: </commons-4e3731c155a6fdf39f08.js>; rel=preload; as=script
+  Link: </component---src-pages-labs-novela-tsx-177f0e2c4bd65cb518c4.js>; rel=preload; as=script
+/404.html
+  Link: </webpack-runtime-79766d22178210d9e43e.js>; rel=preload; as=script
+  Link: </commons-4e3731c155a6fdf39f08.js>; rel=preload; as=script
+  Link: </app-cbfe60d19073280f2c45.js>; rel=preload; as=script
+  Link: </commons-4e3731c155a6fdf39f08.js>; rel=preload; as=script
+  Link: </component---src-pages-404-tsx-65d6bba6fd2fd3115a5b.js>; rel=preload; as=script
+/articles/preview/
+  Link: </webpack-runtime-79766d22178210d9e43e.js>; rel=preload; as=script
+  Link: </commons-4e3731c155a6fdf39f08.js>; rel=preload; as=script
+  Link: </app-cbfe60d19073280f2c45.js>; rel=preload; as=script
+  Link: </commons-4e3731c155a6fdf39f08.js>; rel=preload; as=script
+  Link: </component---src-pages-preview-tsx-f73da5e37be308ace2fe.js>; rel=preload; as=script

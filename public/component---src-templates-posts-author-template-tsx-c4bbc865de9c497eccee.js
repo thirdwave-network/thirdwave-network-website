@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[12],{AnD0:function(n,t,e){"use strict";e.r(t);var u=e("q1tI"),o=e.n(u);t.default=function(){return o.a.createElement("div",null,"Authors")}}}]);
+//# sourceMappingURL=component---src-templates-posts-author-template-tsx-c4bbc865de9c497eccee.js.map

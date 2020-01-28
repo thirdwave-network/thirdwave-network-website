@@ -6,8 +6,8 @@
 
 const baseUrl =
   process.env.NODE_ENV === 'production'
-    ? 'https://thirdwave-network-mailer.herokuapp.com/api'
-    : 'https://thirdwave-network-mailer.herokuapp.com/api'
+    ? 'https://thirdwave.network/api'
+    : 'https://thirdwave.network/api'
 
 export function buildUrl(url) {
   return baseUrl + url
