@@ -18,8 +18,8 @@ export function buildHeaders() {
 
   headers.Accept = 'application/json'
   headers.credentials = 'same-origin'
-  // headers['Access-Control-Allow-Origin'] = true
-  // headers['Content-Type'] = 'application/json'
+  headers['Access-Control-Allow-Origin'] = true
+  headers['Content-Type'] = 'application/json'
 
   return headers
 }
