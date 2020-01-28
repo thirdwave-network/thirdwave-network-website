@@ -20,6 +20,10 @@ app.post('/api/contact/proposal', function (req, res) {
 
   console.log('res', res)
 
+  res.headers.Accept = 'application/json'
+  res.headers.credentials = 'same-origin'
+  res.headers['Access-Control-Allow-Origin'] = true
+  res.headers['Content-Type'] = 'application/json'
 
   let transporter = nodeMailer.createTransport({
       host: 'smtp.gmail.com',
