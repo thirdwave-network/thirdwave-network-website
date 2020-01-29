@@ -29,9 +29,7 @@ app.get('/', cors(), (req, res, next) => {
   res.json({ msg: 'WHOAH with CORS it works! 🔝 🎉' })
 })
 
-app.get('/api/contact/proposal', cors(),function (req, res) {
-
-  res.setHeader('Access-Control-Allow-Origin', 'https://www.thirdwave.network');
+app.post('/api/contact/proposal', cors(),function (req, res) {
 
   console.log('req', req)
 

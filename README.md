@@ -38,6 +38,8 @@ git push
 
 ```heroku git:remote -a thirdwave-network-mailer```
 
+```heroku git:remote -a thirdwave-network-mailer```
+
 ```git subtree push --prefix src/server/ heroku master```
 
 heroku logs --tail
