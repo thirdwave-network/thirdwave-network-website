@@ -1,7 +1,7 @@
 let express = require("express"),
     path = require('path'),
     bodyParser = require('body-parser'),
-    nodeMailer = require('node-mailer'),
+    nodeMailer = require('nodemailer'),
     cors = require('cors');
 
 let app = express();
