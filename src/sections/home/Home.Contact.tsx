@@ -93,8 +93,7 @@ function HomeCallToAction() {
             <TextContainer>
               <TextBackground>
                 <Text>
-                  Together, let’s discover what your company is truly capable
-                  of.
+                  Together, let’s discover how your company can leverage digitalisation and tokenization.
                 </Text>
               </TextBackground>
               <MobileAction to="/contact">Get in touch</MobileAction>
