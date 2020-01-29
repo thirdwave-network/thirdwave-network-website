@@ -53,7 +53,7 @@ app.post('/api/contact/proposal', function (req, res) {
       }
       console.log('Message %s sent: %s', info.messageId, info.response);
   });
-  res.writeHead(301, { Location: 'index.html' });
+  res.writeHead(200, {'Content-Type': 'text/plain'});
   res.end();
 });
 
