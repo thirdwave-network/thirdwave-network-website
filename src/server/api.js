@@ -25,29 +25,25 @@ app.use(function(req, res, next) {
 
 app.use(bodyParser.json());
 
-app.get('/', cors(), (req, res, next) => {
-  res.json({ msg: 'WHOAH with CORS it works! 🔝 🎉' })
-})
-
-app.post('/api/contact/proposal', cors(),function (req, res) {
+app.post('/api/contact/proposal', function (req, res) {
 
   console.log('req', req)
 
   console.log('res', res)
 
   let transporter = nodeMailer.createTransport({
-      host: 'smtp.gmail.com',
-      port: 465,
+      host: process.env.TRANSPORTER_SMTP_HOST,
+      port: process.env.TRANSPORTER_SMTP_PORT,
       secure: true,
       auth: {
           // should be replaced with real sender's account
-          user: 'hello@gmail.com',
-          pass: 'test'
+          user: process.env.TRANSPORTER_SMTP_USER,
+          pass: process.env.TRANSPORTER_SMTP_PASSWORD
       }
   });
   let mailOptions = {
       // should be replaced with real recipient's account
-      to: 'info@gmail.com',
+      to: 'tomek@thirdwave.network',
       subject: req.body.subject,
       text: req.body.message
   };
