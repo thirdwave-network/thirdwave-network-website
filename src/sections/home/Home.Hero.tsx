@@ -28,7 +28,7 @@ function HomeHero() {
                 <TextContainer>
                   <Transitions.CSS.FadeIn>
                     <Heading.h1>
-                      Third wave brands, builds and markets products on behalf of
+                      thirdwave.network brands, builds and markets products on behalf of
                       adaptable-minded companies.
                     </Heading.h1>
                     <MainText>
