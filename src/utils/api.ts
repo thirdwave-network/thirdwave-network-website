@@ -6,8 +6,8 @@
 
 const baseUrl =
   process.env.NODE_ENV === 'production'
-    ? 'https://thirdwave.network/api'
-    : 'https://thirdwave.network/api'
+    ? 'https://www.thirdwave.network/api'
+    : 'https://www.thirdwave.network/api'
 
 export function buildUrl(url) {
   return baseUrl + url
