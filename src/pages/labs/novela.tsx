@@ -11,7 +11,7 @@ import { Img as Image } from '@components/Image/Image'
 import media from '@styles/media'
 
 /**
- * The home page of Narative.co!
+ * The home page of thirdave.network!
  */
 function NovealPage({ data, location }) {
   const contentful = data.allContentfulPage.edges[0].node

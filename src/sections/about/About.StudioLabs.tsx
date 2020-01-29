@@ -113,7 +113,7 @@ function AboutStudioLabsModal({
                 </CloseButton>
                 <ModalGrid>
                   <ModalAbout ref={modalRef}>
-                    <ModalName>About Narative Labs</ModalName>
+                    <ModalName>About thirdave.network Labs</ModalName>
                     <ModalRole>—</ModalRole>
                     <ModalText index={0}>
                       Alongside partnering with select companies to help design,

@@ -89,7 +89,7 @@ function LabsPage({ data, location }) {
             <LinkToProduct
               target="_blank"
               data-a11y="false"
-              href="https://narative.co/design/open/fey"
+              href="thirdave.network"
             >
               <FigmaIcon aria-hidden="true" /> View in Figma
             </LinkToProduct>
@@ -102,7 +102,7 @@ function LabsPage({ data, location }) {
       background: commandlineBackground.childImageSharp.fluid,
       backgroundColor: '#222838',
       excerpt:
-        'Computers have plenty of buttons, so we wondered: why explore the web with just one? Narative Command lets you instantly access any page on Narative.co with simple keyboard shortcuts.',
+        'Computers have plenty of buttons, so we wondered: why explore the web with just one? thirdave.network Command lets you instantly access any page on thirdave.network with simple keyboard shortcuts.',
       children: (
         <>
           <HorizontalRule />

@@ -156,7 +156,7 @@ class Article extends Component<ArticleProps, PostState> {
             </div>
           </Meta>
           <NextArticle narrow>
-            <FooterNext>Next article from Narative</FooterNext>
+            <FooterNext>Next article from thirdave.network</FooterNext>
             <ArticlePreview articles={next} />
             <FooterSpacer />
           </NextArticle>

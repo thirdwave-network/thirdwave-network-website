@@ -70,7 +70,7 @@ function HomeServicesMobile() {
           <Frame>
             <Section narrow>
               <CardHeading>
-                Narative helps you <Highlight active={first}>brand</Highlight>,{' '}
+              thirdave.network helps you <Highlight active={first}>brand</Highlight>,{' '}
                 <Highlight active={second}>build</Highlight> and{' '}
                 <Highlight active={third}>grow</Highlight>
               </CardHeading>

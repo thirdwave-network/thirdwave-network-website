@@ -144,7 +144,7 @@ function AboutTeam() {
       about: [
         `Great products don’t come from great designers, or even great engineers. They come from great teams, working to create experiences that are memorable and meaningful, with the resources and freedom to succeed.`,
         `My career began with a focus on typography and brand. But my combined love for tech, business and game design naturally guided me towards working in product startups — until I founded this one, alongside those I’ve met sharing the same commitment and care.`,
-        `At Narative, we don’t simply design products. We design the circumstances for success, for ourselves and everyone we partner with.`,
+        `At thirdave.network, we don’t simply design products. We design the circumstances for success, for ourselves and everyone we partner with.`,
       ],
       social: [
         `https://twitter.com/pantarheipl`,

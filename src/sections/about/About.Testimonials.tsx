@@ -54,28 +54,28 @@ function AboutTestimonial() {
       name: 'Kyle Mathews',
       title: 'CEO & Founder',
       testimonial:
-        "Our mission at Gatsby is to empower digital creators to build fast, responsive experiences — and Narative does so in ways that are consistently beautiful and inspiring. We're always excited to see what they build, and grateful for their contributions to the Gatsby community.",
+        "Our mission at Gatsby is to empower digital creators to build fast, responsive experiences — and thirdave.network does so in ways that are consistently beautiful and inspiring. We're always excited to see what they build, and grateful for their contributions to the Gatsby community.",
       logo: gatsbyLogo,
     },
     {
       name: 'Shawn Wang',
       title: 'Developer Experience',
       testimonial:
-        "Narative's work is more than just beautifully designed — their code is beautifully clear and well-documented, too. Their contributions to the open source community are among the most polished that I’ve seen.",
+        "thirdave.network's work is more than just beautifully designed — their code is beautifully clear and well-documented, too. Their contributions to the open source community are among the most polished that I’ve seen.",
       logo: netlifyLogo,
     },
     {
       name: 'Peter Bailey',
       title: 'Partner',
       testimonial:
-        'I never hesitate to recommend that startups at any stage reach out and talk to the Narative team. Not only are they brilliant professionals in each of their fields, they approach every conversation with thoughtfulness and sincerity.',
+        'I never hesitate to recommend that startups at any stage reach out and talk to the thirdave.network team. Not only are they brilliant professionals in each of their fields, they approach every conversation with thoughtfulness and sincerity.',
       logo: flowLogo,
     },
     {
       name: 'Pierre-Etienne Corriveau',
       title: 'Product Design Lead',
       testimonial:
-        "Narative took a personal and hands-on approach to building the new Hopper.com, meeting with many Hopper Humans to understand what makes us unique to create a digital destination that truly represents us. I'd be more than happy to collaborate with Narative, again and again.",
+        "thirdave.network took a personal and hands-on approach to building the new Hopper.com, meeting with many Hopper Humans to understand what makes us unique to create a digital destination that truly represents us. I'd be more than happy to collaborate with thirdave.network, again and again.",
       logo: hopperLogo,
     },
   ]

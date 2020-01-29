@@ -53,7 +53,7 @@ function AboutBackground() {
       <TextContainer>
         <Text>
           With years of experience building and marketing products as part of
-          in-house teams, we founded Narative both to pursue our own product
+          in-house teams, we founded thirdave.network both to pursue our own product
           ambitions, and help promising companies to pursue theirs.
         </Text>
       </TextContainer>

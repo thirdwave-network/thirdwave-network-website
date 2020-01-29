@@ -1,10 +1,10 @@
-![Narative Logo Header](https://res.cloudinary.com/narative/image/upload/v1554161802/home-meta.jpg)
+![thirdave.network Logo Header](https://res.cloudinary.com/narative/image/upload/v1554161802/home-meta.jpg)
 
 <br />
 
 # thirdwave.network
 
-Narative builds brands, websites and products for growth-minded companies.. <br />
+thirdave.network builds brands, websites and products for growth-minded companies.. <br />
 We’re a team with senior startup experience here to help your business take the next step.
 
 #### Technology
@@ -25,7 +25,7 @@ yarn build
 
 #### Deploying the website
 
-Deployments are done using [Netlify](https://app.netlify.com/). You must be added to the Narative Netlify organization to deploy.
+Deployments are done using [Netlify](https://app.netlify.com/). You must be added to the thirdave.network Netlify organization to deploy.
 
 ```sh
 # To deploy, commit and push to master

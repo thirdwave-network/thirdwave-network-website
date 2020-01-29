@@ -53,14 +53,14 @@ function createOpenSourceList() {
     {
       name: constants.GO_TO_NARATIVE_GITHUB,
       keys: [],
-      label: ['Narative.co code'],
+      label: ['thirdave.network code'],
       icon: ViewIcon,
       external: true,
     },
     {
       name: constants.GO_TO_NARATIVE,
       keys: [],
-      label: ['Narative.co design'],
+      label: ['thirdave.network design'],
       icon: ViewIcon,
       external: true,
     },
@@ -125,7 +125,7 @@ function Default() {
   return (
     <>
       <Logo />
-      <Heading>Narative Command</Heading>
+      <Heading>thirdave.network Command</Heading>
     </>
   )
 }

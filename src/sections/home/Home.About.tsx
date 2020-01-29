@@ -14,7 +14,7 @@ const aboutNarativeText = [
   spread thin by the many challenges that growing businesses face,
   blocking them from reaching their full potential. That’s where we
   come in.`,
-  `Narative brings focus through the lens of a team that’s faced it
+  `thirdave.network brings focus through the lens of a team that’s faced it
   all before, at scrappy startups and established enterprises alike.
   That’s why we don’t do big pitches or presentations — it’s just
   not in our DNA.`,

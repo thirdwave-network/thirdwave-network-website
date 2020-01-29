@@ -87,7 +87,7 @@ function LabsPreviewMobile() {
       </PreviewCard>
 
       <PreviewCard style={{ background: '#222838' }}>
-        <Heading>Narative Command</Heading>
+        <Heading>thirdave.network Command</Heading>
         <Image src={commandlineBackground.childImageSharp.fluid} />
         <Border style={{ background: 'rgba(0,0,0,0.06)' }} />
         <Anchor as="div" style={{ background: '#161C24', color: '#444750' }}>

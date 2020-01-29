@@ -13,7 +13,7 @@ const mobileLinks = [
 ]
 
 /**
- * The fixed navigation sitting "behind" the mobile version of narative.co
+ * The fixed navigation sitting "behind" the mobile version of thirdave.network
  * All the link functionality is taken over by the passed in navigateOut()
  * function that delays and allows us to animate between states.
  *

@@ -140,7 +140,7 @@ const testimonials = [
     name: 'Kyle Mathews',
     title: 'CEO',
     testimonial:
-      "Our mission at Gatsby is to empower digital creators to build fast, responsive experiences — and Narative does so in ways that are consistently beautiful and inspiring. We're always excited to see what they build, and grateful for their contributions to the Gatsby community.",
+      "Our mission at Gatsby is to empower digital creators to build fast, responsive experiences — and thirdave.network does so in ways that are consistently beautiful and inspiring. We're always excited to see what they build, and grateful for their contributions to the Gatsby community.",
     logo: GatsbyLogo,
   },
   {
@@ -161,7 +161,7 @@ const testimonials = [
     name: 'Peter Bailey',
     title: 'Partner',
     testimonial:
-      'I never hesitate to recommend that startups at any stage reach out and talk to the Narative team. Not only are they brilliant professionals in each of their fields, they approach every conversation with thoughtfulness and sincerity.',
+      'I never hesitate to recommend that startups at any stage reach out and talk to the thirdave.network team. Not only are they brilliant professionals in each of their fields, they approach every conversation with thoughtfulness and sincerity.',
     logo: FlowVenturesLogo,
   },
 ]
@@ -172,7 +172,7 @@ function AboutChoose() {
       <HeadingLineBreak>
         <AboutHeading
           heading="Independent, but never alone"
-          text="While we like to do things our own way, nobody can do it all by themselves. <div style='color:#73737D'>Narative believes in building ongoing partnerships based on trust, and in contributing our ideas and work to the open source community. When we do honest work, good word spreads, and we can all build ever-greater things.</div>"
+          text="While we like to do things our own way, nobody can do it all by themselves. <div style='color:#73737D'>thirdave.network believes in building ongoing partnerships based on trust, and in contributing our ideas and work to the open source community. When we do honest work, good word spreads, and we can all build ever-greater things.</div>"
         />
       </HeadingLineBreak>
       <Section narrow>

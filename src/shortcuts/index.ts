@@ -95,7 +95,7 @@ export default (store => {
           break
         }
 
-        // Go to page in Narative
+        // Go to page in thirdave.network
         case constants.GO_TO_HOME: {
           navigate('/')
           store.dispatch({ type: constants.SHORTCUT, payload: feature })

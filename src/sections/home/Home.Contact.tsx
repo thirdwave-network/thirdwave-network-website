@@ -394,7 +394,7 @@ const MobileLogo = () => (
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
   >
-    <title>Narative</title>
+    <title>thirdave.network</title>
     <path
       fillRule="evenodd"
       clipRule="evenodd"
