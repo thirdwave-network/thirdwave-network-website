@@ -34,7 +34,7 @@ app.post('/api/contact/proposal', function (req, res) {
   let transporter = nodeMailer.createTransport({
       host: process.env.TRANSPORTER_SMTP_HOST,
       port: process.env.TRANSPORTER_SMTP_PORT,
-      secure: true,
+      secure: false,
       auth: {
           // should be replaced with real sender's account
           user: process.env.TRANSPORTER_SMTP_USER,
