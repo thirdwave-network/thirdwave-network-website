@@ -7,7 +7,7 @@ import throttle from 'lodash/throttle'
 import Heading from '@components/Heading/Heading'
 import { Section } from '@components/Section/Section'
 import IntersectionObserver from '@components/IntersectionObserver'
-import Sticky, { StickyState } from '@components/Sticky'
+import Sticky, { StickyState } from '@components/Sticky/Sticky'
 import { Img as Image } from '@components/Image/Image'
 import { ContactContext } from '@components/Contact/Contact.Context'
 

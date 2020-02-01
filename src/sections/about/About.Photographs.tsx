@@ -5,7 +5,7 @@ import { useInView } from 'react-intersection-observer'
 import { useSpring, animated } from 'react-spring'
 
 import { Img as Image } from '@components/Image/Image'
-import Sticky, { StickyState } from '@components/Sticky'
+import Sticky, { StickyState } from '@components/Sticky/Sticky'
 
 import media from '@styles/media'
 import { clamp, useResize } from '@utils'

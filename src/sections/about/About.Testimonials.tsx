@@ -4,7 +4,7 @@ import { graphql, useStaticQuery } from 'gatsby'
 import SVG from 'react-inlinesvg'
 
 import { Section } from '@components/Section/Section'
-import Sticky, { StickyState } from '@components/Sticky'
+import Sticky, { StickyState } from '@components/Sticky/Sticky'
 import HorizontalScroll from '@components/HorizontalScroll'
 import media from '@styles/media'
 import { clamp, useResize } from '@utils'

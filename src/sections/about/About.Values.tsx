@@ -7,7 +7,7 @@ import ButtonPill from '@components/Button/Button.Pill'
 import Heading from '@components/Heading/Heading'
 import { Img as Image } from '@components/Image/Image'
 import { Section } from '@components/Section/Section'
-import Sticky, { StickyState } from '@components/Sticky'
+import Sticky, { StickyState } from '@components/Sticky/Sticky'
 import { ContactContext } from '@components/Contact/Contact.Context'
 
 import media from '@styles/media'
