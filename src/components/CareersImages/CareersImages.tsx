@@ -74,7 +74,7 @@ class CareersImages extends Component {
     const offset = activeIndex * 72 * -1
 
     return (
-      <Fragment>
+      <>
         <CareersImagesContainer>
           <IntersectionObserver
             render={({ visiblePercentage }) => {
@@ -137,7 +137,7 @@ class CareersImages extends Component {
             )}
           />
         </CareersImagesContainerMobile>
-      </Fragment>
+      </>
     )
   }
 }

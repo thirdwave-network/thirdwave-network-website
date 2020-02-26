@@ -70,7 +70,7 @@ class ContactPage extends Component<{}, { animation: string }> {
 
     return (
       <Layout nav={navConfig} background="#08080b" withFooter={false}>
-        <Fragment>
+        <>
           <SEO
             title="Contact"
             pathname={this.props.location.pathname}
@@ -105,7 +105,7 @@ class ContactPage extends Component<{}, { animation: string }> {
           <CloseContainer onClick={this.exitContactPage} animation={animation}>
             <ExIcon />
           </CloseContainer>
-        </Fragment>
+        </>
       </Layout>
     )
   }
