@@ -35,7 +35,11 @@ function HomeHero() {
                       We’re a team with senior startup experience here to help
                       your business take the next step.
                     </MainText>
-                    <ButtonArrow onClick={toggleContact} text="Get in touch" />
+                    <ButtonArrow
+                      as="button"
+                      onClick={toggleContact} 
+                      text="Get in touch"
+                    />
                   </Transitions.CSS.FadeIn>
                 </TextContainer>
                 <ShapeShifter />
