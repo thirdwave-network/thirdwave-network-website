@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 import styled from 'styled-components'
 import settings from '../../settings'
 
@@ -6,7 +6,7 @@ import * as SocialIcons from '../../icons/social'
 import media from '@styles/media'
 
 const SocialLinks = ({ fill = 'white' }: { fill: string }) => (
-  <Fragment>
+  <>
     <SocialIconContainer
       target="_blank"
       rel="noopener"
@@ -16,6 +16,7 @@ const SocialLinks = ({ fill = 'white' }: { fill: string }) => (
     >
       <SocialIcons.TwitterIcon fill={fill} />
     </SocialIconContainer>
+
     <SocialIconContainer
       target="_blank"
       rel="noopener"
@@ -23,8 +24,11 @@ const SocialLinks = ({ fill = 'white' }: { fill: string }) => (
       aria-label="Link to Dribbble"
       href={settings.urls.dribbble}
     >
-      <SocialIcons.DribbbleIcon fill={fill} />
+
+    {/* <SocialIcons.DribbbleIcon fill={fill} /> */}
+
     </SocialIconContainer>
+
     <SocialIconContainer
       target="_blank"
       rel="noopener"
@@ -32,8 +36,11 @@ const SocialLinks = ({ fill = 'white' }: { fill: string }) => (
       aria-label="Link to Instagram"
       href={settings.urls.instagram}
     >
-      <SocialIcons.InstagramIcon fill={fill} />
+
+    {/* <SocialIcons.InstagramIcon fill={fill} /> */}
+
     </SocialIconContainer>
+
     <SocialIconContainer
       target="_blank"
       rel="noopener"
@@ -41,9 +48,11 @@ const SocialLinks = ({ fill = 'white' }: { fill: string }) => (
       aria-label="Link to LinkedIn"
       href={settings.urls.linkedin}
     >
-      <SocialIcons.LinkedInIcon fill={fill} />
+
+    {/* <SocialIcons.LinkedInIcon fill={fill} /> */}
+
     </SocialIconContainer>
-  </Fragment>
+  </>
 )
 
 export default SocialLinks
