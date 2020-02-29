@@ -137,14 +137,14 @@ function AboutTeam() {
   const people: Person[] = [
     {
       name: `Tomasz Waszczyk`,
-      role: `Founder`,
+      role: `Founder and Software Engineer`,
       illustrationInactive: illustrations.thiagoInactive,
       illustration: illustrations.thiago,
       signature: illustrations.thiagoSig.publicURL,
       about: [
-        `Great products don’t come from great designers, or even great engineers. They come from great teams, working to create experiences that are memorable and meaningful, with the resources and freedom to succeed.`,
-        `My career began with a focus on typography and brand. But my combined love for tech, business and game design naturally guided me towards working in product startups — until I founded this one, alongside those I’ve met sharing the same commitment and care.`,
-        `At thirdave.network, we don’t simply design products. We design the circumstances for success, for ourselves and everyone we partner with.`,
+        `Software engineer with background of working in hedge funds. I am a fan of Tezos platform and STO.`,
+        `My career began with a focus on programming and creation of solutions for finance. Having combined history and technology and how finance will evolve I have been understoond that in the future belongs to digitalization of tokenisation.`,
+        `At thirdave.network, I want to show and help people to take advantage of digitalization of the world in responsible way.`,
       ],
       social: [
         `https://twitter.com/pantarheipl`,
@@ -273,9 +273,14 @@ function AboutTeam() {
               return (
                 <Section narrow>
                   <TeamCardsContainer
+                    // for more than one team member
+                    // style={{
+                    //   transform: `translate3d(-${prog *
+                    //     horizontalOffset}px, 0, 0)`,
+                    //   width: `${horizontalOffset}px`,
+                    // }}
                     style={{
-                      transform: `translate3d(-${prog *
-                        horizontalOffset}px, 0, 0)`,
+                      transform: `translate3d(0px, 0, 0)`,
                       width: `${horizontalOffset}px`,
                     }}
                   >
@@ -318,11 +323,11 @@ function AboutTeam() {
                       })}
                     </Cards>
                   </TeamCardsContainer>
-                  <Progress>
+                  {/* <Progress>
                     <Value
                       style={{ transform: `translate3d(${prog * 437}%, 0, 0)` }}
                     />
-                  </Progress>
+                  </Progress> */}
                 </Section>
               )
             }}
