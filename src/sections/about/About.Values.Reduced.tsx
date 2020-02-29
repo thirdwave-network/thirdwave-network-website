@@ -53,27 +53,27 @@ function AboueValues() {
 
   const values = [
     {
-      heading: 'Be kind',
+      heading: 'Digitalization',
       text:
-        'Communicate honestly but sensitively; act with positive intent; and trust others to do the same.',
+        'Blockchain history and foundations, conensus, crypto fundamentals and DeFi.',
       illullstration: kind.childImageSharp.fluid,
     },
     {
-      heading: 'Be creative',
+      heading: 'Tokenization',
       text:
-        'Push beyond best practices and by-the-numbers design to discover valuable new ideas.',
+        'Issue own token on top of Tezos and/or Ethereum, get technical knowledge about the platforms.',
       illullstration: creative.childImageSharp.fluid,
     },
     {
-      heading: 'Be adaptable',
+      heading: 'Analysis and tokenomics',
       text:
-        'Strive to grow from every challenge and change, even when it means changing your mind.',
+        'Get deep analysis of given project including tokenomics, business model including Python scripts.',
       illullstration: adaptable.childImageSharp.fluid,
     },
     {
-      heading: 'Be yourself',
+      heading: 'Security and introduction',
       text:
-        'Work and live the way that uniquely suits you, free of rigid hierarchies and arbitrary expectations.',
+        'Training for beginners which wants to understand and make first steps in world with tokens.',
       illullstration: yourself.childImageSharp.fluid,
     },
   ]
@@ -105,7 +105,7 @@ function AboueValues() {
           ))}
         </ValuesGrid>
         <ButtonContainer>
-          <ButtonPill text="Work with our team" onClick={toggleContact} />
+          <ButtonPill text="Let's talk and get estimate" onClick={toggleContact} />
         </ButtonContainer>
       </Section>
     </AboueValuesContainer>
