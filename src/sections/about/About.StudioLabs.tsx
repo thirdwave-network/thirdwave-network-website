@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react'
 import styled, { keyframes } from 'styled-components'
 import usePortal from 'react-useportal'
-import { Link, useStaticQuery, graphql, navigate } from 'gatsby'
+import { useStaticQuery, graphql, navigate } from 'gatsby'
 import OutsideClickHandler from 'react-outside-click-handler'
 
 import Heading from '@components/Heading/Heading'
@@ -35,13 +35,13 @@ function AboutStudioLabs() {
             <Block>
               <BlockInner>
                 <NarativeStudioLogo />
-                <p>Product design, development and marketing services</p>
+                <p>Product design, software development and tokenizing</p>
               </BlockInner>
             </Block>
             <Block pad>
               <BlockInner>
                 <NarativeLabsLogo />
-                <p>Internal product incubator exploring untapped markets</p>
+                <p>Statistical models and methods for digital assets evaluation</p>
               </BlockInner>
             </Block>
             <ButtonMobile onClick={() => setIsOpen(true)}>
@@ -113,7 +113,7 @@ function AboutStudioLabsModal({
                 </CloseButton>
                 <ModalGrid>
                   <ModalAbout ref={modalRef}>
-                    <ModalName>About thirdave.network Labs</ModalName>
+                    <ModalName>About thirdave research</ModalName>
                     <ModalRole>—</ModalRole>
                     <ModalText index={0}>
                       Alongside partnering with select companies to help design,
@@ -205,7 +205,7 @@ const Block = styled.div<{ pad: boolean }>`
   p {
     font-size: 22px;
     color: ${p => p.theme.colors.grey};
-    margin-top: -40px;
+    margin-top: -60px;
   }
 
   &:first-child {
