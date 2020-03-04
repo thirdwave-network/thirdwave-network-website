@@ -100,7 +100,7 @@ function AboutTestimonial() {
                 <HeadingLineBreak>
                   <AboutHeading
                     heading="<span>Independent,<br /> but never alone</span>"
-                    text={`<span${textStyles}>While we like to do things our own way, nobody can do it all by themselves. <span style="color:#73737D">Narative believes in building ongoing partnerships based on trust, and in contributing our ideas and work to the open source community. When we do honest work, good word spreads, and we can all build ever-greater things.</span></span>`}
+                    text={`<span${textStyles}>While we like to do things our own way, nobody can do it all by themselves. <span style="color:#73737D">thirdwave.network believes in building ongoing partnerships based on trust, and in contributing our ideas and work to the open source community. When we do honest work, good word spreads, and we can all build ever-greater things.</span></span>`}
                   />
                 </HeadingLineBreak>
                 <Section narrow>
@@ -192,7 +192,7 @@ function AboutTestimonial() {
         <HeadingLineBreak>
           <AboutHeading
             heading="Independent,<br /> but never alone"
-            text={`While we like to do things our own way, nobody can do it all by themselves. <span style="color:#73737D">Narative believes in building ongoing partnerships based on trust, and in contributing our ideas and work to the open source community. When we do honest work, good word spreads, and we can all build ever-greater things.</span></span>`}
+            text={`While we like to do things our own way, nobody can do it all by themselves. <span style="color:#73737D">thirdwave.network believes in building ongoing partnerships based on trust, and in contributing our ideas and work to the open source community. When we do honest work, good word spreads, and we can all build ever-greater things.</span></span>`}
           />
         </HeadingLineBreak>
         <Section narrow>

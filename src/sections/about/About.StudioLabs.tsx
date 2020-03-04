@@ -113,7 +113,7 @@ function AboutStudioLabsModal({
                 </CloseButton>
                 <ModalGrid>
                   <ModalAbout ref={modalRef}>
-                    <ModalName>About thirdave research</ModalName>
+                    <ModalName>thirdwave research</ModalName>
                     <ModalRole>—</ModalRole>
                     <ModalText index={0}>
                       Alongside partnering with select companies to help design,
@@ -134,9 +134,9 @@ function AboutStudioLabsModal({
                       potential of everything we create — no matter who it’s
                       for.
                     </ModalText>
-                    <ModalLink onClick={handleLabsLink}>
+                    {/* <ModalLink onClick={handleLabsLink}>
                       See our products <InternalLinkIcon />
-                    </ModalLink>
+                    </ModalLink> */}
                   </ModalAbout>
                   <MediaAnimator>
                     <Image src={labsHero.childImageSharp.fluid} />
