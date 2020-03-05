@@ -1893,7 +1893,7 @@
         "id": "code",
         "type": "ContentType",
         "createdAt": "2020-02-24T16:50:11.174Z",
-        "updatedAt": "2020-02-24T16:57:16.717Z",
+        "updatedAt": "2020-03-05T19:17:53.261Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -1901,8 +1901,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 9,
-        "publishedAt": "2020-02-24T16:57:16.717Z",
+        "publishedVersion": 11,
+        "publishedAt": "2020-03-05T19:17:53.261Z",
         "firstPublishedAt": "2020-02-24T16:50:11.700Z",
         "createdBy": {
           "sys": {
@@ -1918,8 +1918,8 @@
             "id": "5zmxnoQAC1A0Ha8szhssbs"
           }
         },
-        "publishedCounter": 5,
-        "version": 10,
+        "publishedCounter": 6,
+        "version": 12,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -1928,7 +1928,7 @@
           }
         }
       },
-      "displayField": "language",
+      "displayField": "name",
       "name": "Code",
       "description": "",
       "fields": [
@@ -1956,6 +1956,17 @@
           "type": "Text",
           "localized": false,
           "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "name",
+          "name": "Entry title",
+          "type": "Symbol",
+          "localized": true,
+          "required": false,
           "validations": [
           ],
           "disabled": false,
@@ -3616,7 +3627,7 @@
             "linkType": "Space"
           }
         },
-        "version": 10,
+        "version": 12,
         "createdAt": "2020-02-24T16:50:11.778Z",
         "createdBy": {
           "sys": {
@@ -3625,7 +3636,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2020-02-24T16:57:17.253Z",
+        "updatedAt": "2020-03-05T19:17:53.739Z",
         "updatedBy": {
           "sys": {
             "id": "5zmxnoQAC1A0Ha8szhssbs",
@@ -3658,6 +3669,11 @@
           "fieldId": "code",
           "widgetId": "markdown",
           "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "name",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
         }
       ]
     }
@@ -3675,7 +3691,7 @@
         "id": "zvkSThb3naugKE2cYaMw0",
         "type": "Entry",
         "createdAt": "2020-01-25T12:33:01.487Z",
-        "updatedAt": "2020-01-25T12:35:07.303Z",
+        "updatedAt": "2020-03-05T19:58:48.682Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -3683,8 +3699,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 1,
-        "publishedAt": "2020-01-25T12:35:07.303Z",
+        "publishedVersion": 18,
+        "publishedAt": "2020-03-05T19:58:48.682Z",
         "firstPublishedAt": "2020-01-25T12:35:07.303Z",
         "createdBy": {
           "sys": {
@@ -3700,8 +3716,8 @@
             "id": "5zmxnoQAC1A0Ha8szhssbs"
           }
         },
-        "publishedCounter": 1,
-        "version": 2,
+        "publishedCounter": 2,
+        "version": 19,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -3719,10 +3735,10 @@
       },
       "fields": {
         "title": {
-          "en": "Careers – Narative"
+          "en": "Careers – thirdwave.network"
         },
         "description": {
-          "en": "Narative is a tight-knit team from across the world building great things. We’re enthusiastic about partnering with and creating brands worth believing in."
+          "en": "thirdwave.network is a tight-knit team from across the world building great things. We’re enthusiastic about partnering with and creating brands worth believing in."
         },
         "image": {
           "en": {
@@ -3885,7 +3901,7 @@
         "id": "338oIchO6c0ikkCcYE0iY0",
         "type": "Entry",
         "createdAt": "2020-01-25T12:33:01.607Z",
-        "updatedAt": "2020-01-25T13:49:54.704Z",
+        "updatedAt": "2020-03-05T18:56:39.483Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -3893,8 +3909,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 41,
-        "publishedAt": "2020-01-25T13:49:54.704Z",
+        "publishedVersion": 46,
+        "publishedAt": "2020-03-05T18:56:39.483Z",
         "firstPublishedAt": "2020-01-25T12:33:22.317Z",
         "createdBy": {
           "sys": {
@@ -3910,8 +3926,8 @@
             "id": "5zmxnoQAC1A0Ha8szhssbs"
           }
         },
-        "publishedCounter": 2,
-        "version": 42,
+        "publishedCounter": 3,
+        "version": 47,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -3932,7 +3948,7 @@
           "en": "thirdwave.network – adapt to the decentralization of the internet"
         },
         "description": {
-          "en": "Narative brands, builds and markets products on behalf of growth-minded companies. Like yours."
+          "en": "Brands, builds and markets products on behalf of growth-minded companies. Like yours."
         },
         "image": {
           "en": {
@@ -3957,7 +3973,7 @@
         "id": "zi3M9TCLg4QgSC64A648m",
         "type": "Entry",
         "createdAt": "2020-01-25T12:33:01.609Z",
-        "updatedAt": "2020-01-25T13:18:55.663Z",
+        "updatedAt": "2020-03-05T18:57:27.186Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -3965,8 +3981,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 7,
-        "publishedAt": "2020-01-25T13:18:55.663Z",
+        "publishedVersion": 13,
+        "publishedAt": "2020-03-05T18:57:27.186Z",
         "firstPublishedAt": "2020-01-25T12:35:06.701Z",
         "createdBy": {
           "sys": {
@@ -3982,8 +3998,8 @@
             "id": "5zmxnoQAC1A0Ha8szhssbs"
           }
         },
-        "publishedCounter": 2,
-        "version": 8,
+        "publishedCounter": 4,
+        "version": 14,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -4010,7 +4026,7 @@
           }
         },
         "text": {
-          "en": "Third wave brands, builds and markets products on behalf of growth-minded companies."
+          "en": "Thirdwave brands, builds and markets products on behalf of growth-minded companies."
         }
       }
     },
@@ -4095,7 +4111,7 @@
         "id": "7jh1fS9rw3Qe4N9jNqySEj",
         "type": "Entry",
         "createdAt": "2020-01-25T12:33:02.420Z",
-        "updatedAt": "2020-02-25T14:10:08.254Z",
+        "updatedAt": "2020-03-05T19:34:24.039Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -4103,8 +4119,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 224,
-        "publishedAt": "2020-02-25T14:10:08.254Z",
+        "publishedVersion": 304,
+        "publishedAt": "2020-03-05T19:34:24.039Z",
         "firstPublishedAt": "2020-01-25T12:33:23.414Z",
         "createdBy": {
           "sys": {
@@ -4120,8 +4136,8 @@
             "id": "5zmxnoQAC1A0Ha8szhssbs"
           }
         },
-        "publishedCounter": 41,
-        "version": 225,
+        "publishedCounter": 45,
+        "version": 305,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -4142,7 +4158,7 @@
           "en": "2020-01-30T00:00-08:00"
         },
         "title": {
-          "en": "Tezos Architecture Overview"
+          "en": "Tezos architecture overview and why the world needs contracts"
         },
         "excerpt": {
           "en": "A dive into Tezos technology for deploying a blockchain capable of modifying its own set of rules with minimal disruption to the network through an on-chain governance model."
@@ -4209,7 +4225,7 @@
           "en": "tezos-architecture-overview"
         },
         "shortUrl": {
-          "en": "tezos-architecture"
+          "en": "tezos-architecture-overview"
         },
         "canonical": {
           "en": "https://www.thirdwave.network/articles/tezos-architecture-overview"
@@ -4273,11 +4289,41 @@
                     },
                     "marks": [
                     ],
+                    "value": "",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
                     "value": "Why Tezos",
                     "nodeType": "text"
                   }
                 ],
                 "nodeType": "heading-2"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
               },
               {
                 "data": {
@@ -4466,11 +4512,41 @@
                     },
                     "marks": [
                     ],
-                    "value": "1. Upgrades",
+                    "value": "",
                     "nodeType": "text"
                   }
                 ],
-                "nodeType": "heading-3"
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Upgrades",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "heading-2"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
               },
               {
                 "data": {
@@ -4541,11 +4617,41 @@
                     },
                     "marks": [
                     ],
-                    "value": "2. Performance",
+                    "value": "",
                     "nodeType": "text"
                   }
                 ],
-                "nodeType": "heading-3"
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Performance",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "heading-2"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
               },
               {
                 "data": {
@@ -4892,11 +4998,26 @@
                     },
                     "marks": [
                     ],
-                    "value": "3. Tezos Architecture Overview",
+                    "value": "",
                     "nodeType": "text"
                   }
                 ],
-                "nodeType": "heading-3"
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Tezos Architecture Overview",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "heading-2"
               },
               {
                 "data": {
@@ -5063,8 +5184,239 @@
                 "data": {
                 },
                 "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Ligo programming language",
+                    "nodeType": "text"
+                  }
                 ],
-                "nodeType": "hr"
+                "nodeType": "heading-2"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                      "uri": "https://ligolang.org/"
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "marks": [
+                        ],
+                        "value": "LIGO",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "hyperlink"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": " is a statically-typed, high-level language that compiles down to Michelson. The syntaxes currently supported are ",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                      {
+                        "type": "bold"
+                      }
+                    ],
+                    "value": "PascaLIGO",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": " (pascal-like syntax) and ",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                      {
+                        "type": "bold"
+                      }
+                    ],
+                    "value": "CameLIGO",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": " (caml-like syntax).",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Similar to SmartPy, it is still in development. The ",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                      "uri": "https://ligolang.org/docs/contributors/philosophy/"
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "marks": [
+                        ],
+                        "value": "idea",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "hyperlink"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": " is to offer a secure and simple tool. In the long term, the plan is to support ",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                      "uri": "https://ligolang.org/docs/contributors/road-map/long-term/"
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "marks": [
+                        ],
+                        "value": "many different syntaxes",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "hyperlink"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": ".",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "The ",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                      "uri": "https://ligolang.org/docs/intro/installation/"
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "marks": [
+                        ],
+                        "value": "installation",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "hyperlink"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": " is easy. Since we have previously worked with Docker, let us also use it for LIGO:",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                  "target": {
+                    "sys": {
+                      "id": "1nUv31gwPNoaFxRF999tFd",
+                      "type": "Link",
+                      "linkType": "Entry"
+                    }
+                  }
+                },
+                "content": [
+                ],
+                "nodeType": "embedded-entry-block"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Although other syntaxes will be supported in the future, here we want\n to introduce two which are already quite advanced in their development.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
               },
               {
                 "data": {
@@ -5085,7 +5437,7 @@
                 "data": {
                   "target": {
                     "sys": {
-                      "id": "zYhxnedbgdYD7Y1TSdTr0",
+                      "id": "4WTLZN75h9AwEtIWFn97jv",
                       "type": "Link",
                       "linkType": "Entry"
                     }
@@ -5149,7 +5501,310 @@
                     },
                     "marks": [
                     ],
+                    "value": "",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                      "uri": "https://pl.wikipedia.org/wiki/Ludwik_XVI"
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "marks": [
+                        ],
+                        "value": "https://pl.wikipedia.org/wiki/Ludwik_XVI",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "hyperlink"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                      "uri": "https://medium.com/@Melt_Dem/the-tezos-experiment-b97e124e5b38"
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "marks": [
+                        ],
+                        "value": "The Tezos Experiment - Meltem Demirors - Medium",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "hyperlink"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                      "uri": "https://github.com/stove-labs/tzip-12-tutorial"
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "marks": [
+                        ],
+                        "value": "https://github.com/stove-labs/tzip-12-tutorial",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "hyperlink"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                      "uri": "https://medium.com/tezos/introducing-ligo-a-new-smart-contract-language-for-tezos-233fa17f21c7"
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "marks": [
+                        ],
+                        "value": "https://medium.com/tezos/introducing-ligo-a-new-smart-contract-language-for-tezos-233fa17f21c7",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "hyperlink"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
                     "value": "\n",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "https://medium.com/tezos/the-forgotten-contracts-68a0c1d2f3de",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "\nhttps://medium.com/tezos/introducing-ligo-a-new-smart-contract-language-for-tezos-233fa17f21c7",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "\nhttps://medium.com/tezoscommons/security-tokens-on-tezos-why-tezos-4a7065f49a06",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                      "uri": "https://medium.com/tezos/marigold-layer-2-scaling-for-tezos-7445b5a3b7be"
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "marks": [
+                        ],
+                        "value": "https://medium.com/tezos/marigold-layer-2-scaling-for-tezos-7445b5a3b7be",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "hyperlink"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                      "uri": "https://tezos.gitlab.io/whitedoc/proof_of_stake.html"
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "marks": [
+                        ],
+                        "value": "https://tezos.gitlab.io/whitedoc/proof_of_stake.html",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "hyperlink"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                      "uri": "https://ligolang.org/"
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "marks": [
+                        ],
+                        "value": "https://ligolang.org/",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "hyperlink"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "",
                     "nodeType": "text"
                   }
                 ],
@@ -5420,79 +6075,7 @@
         "id": "j1XXjN4n00IYYLoDzQ2RA",
         "type": "Entry",
         "createdAt": "2020-01-25T12:33:05.405Z",
-        "updatedAt": "2020-01-25T12:33:35.439Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 1,
-        "publishedAt": "2020-01-25T12:33:35.439Z",
-        "firstPublishedAt": "2020-01-25T12:33:35.439Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "5zmxnoQAC1A0Ha8szhssbs"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "5zmxnoQAC1A0Ha8szhssbs"
-          }
-        },
-        "publishedCounter": 1,
-        "version": 2,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "5zmxnoQAC1A0Ha8szhssbs"
-          }
-        },
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "seo"
-          }
-        }
-      },
-      "fields": {
-        "title": {
-          "en": "Novela by Narative"
-        },
-        "description": {
-          "en": "With minimal styling and maximum features — including multiple homepage layouts, built-in social sharing and dark mode — Novela makes it easy to start publishing beautiful articles and stories with Gatsby."
-        },
-        "image": {
-          "en": {
-            "sys": {
-              "type": "Link",
-              "linkType": "Asset",
-              "id": "1IqeNruAf5BXbnOULsFyoZ"
-            }
-          }
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "txu76a3w3kbd"
-          }
-        },
-        "id": "4BkXifmmkqqLSAFqD1ULpX",
-        "type": "Entry",
-        "createdAt": "2020-01-25T12:33:05.523Z",
-        "updatedAt": "2020-02-26T21:35:31.390Z",
+        "updatedAt": "2020-02-29T17:55:01.193Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -5501,8 +6084,8 @@
           }
         },
         "publishedVersion": 10,
-        "publishedAt": "2020-02-26T21:35:31.390Z",
-        "firstPublishedAt": "2020-01-25T12:33:36.022Z",
+        "publishedAt": "2020-02-29T17:55:01.193Z",
+        "firstPublishedAt": "2020-01-25T12:33:35.439Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -5530,23 +6113,95 @@
           "sys": {
             "type": "Link",
             "linkType": "ContentType",
+            "id": "seo"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en": "Novela by thirdwave.network"
+        },
+        "description": {
+          "en": "With minimal styling and maximum features — including multiple homepage layouts, built-in social sharing and dark mode — Novela makes it easy to start publishing beautiful articles and stories with Gatsby."
+        },
+        "image": {
+          "en": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "1IqeNruAf5BXbnOULsFyoZ"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "txu76a3w3kbd"
+          }
+        },
+        "id": "4BkXifmmkqqLSAFqD1ULpX",
+        "type": "Entry",
+        "createdAt": "2020-01-25T12:33:05.523Z",
+        "updatedAt": "2020-02-29T17:54:39.666Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 29,
+        "publishedAt": "2020-02-29T17:54:39.666Z",
+        "firstPublishedAt": "2020-01-25T12:33:36.022Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5zmxnoQAC1A0Ha8szhssbs"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5zmxnoQAC1A0Ha8szhssbs"
+          }
+        },
+        "publishedCounter": 3,
+        "version": 30,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5zmxnoQAC1A0Ha8szhssbs"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
             "id": "articleQuote"
           }
         }
       },
       "fields": {
         "quote": {
-          "en": "Our mission is to empower digital creators to build fast, responsive experiences — and thirdwave.network does so in ways that are always consistently beautiful and inspiring."
+          "en": "Smart contracts had to be secure as they would handle an insane amount of money. Which is one of the reasons why Tezos focuses so heavily on security and formal verification."
         },
         "company": {
-          "en": "Gatsby"
+          "en": "Tezos"
         },
         "article": {
           "en": {
             "sys": {
               "type": "Link",
               "linkType": "Entry",
-              "id": "7LyDRJZi5FKMvN2CPrZeRE"
+              "id": "7jh1fS9rw3Qe4N9jNqySEj"
             }
           }
         },
@@ -5771,7 +6426,7 @@
         "id": "3BqALhCPnEkfnIdhadzcYQ",
         "type": "Entry",
         "createdAt": "2020-01-25T12:33:06.623Z",
-        "updatedAt": "2020-01-25T12:33:41.832Z",
+        "updatedAt": "2020-03-05T18:55:30.462Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -5779,8 +6434,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 1,
-        "publishedAt": "2020-01-25T12:33:41.832Z",
+        "publishedVersion": 10,
+        "publishedAt": "2020-03-05T18:55:30.462Z",
         "firstPublishedAt": "2020-01-25T12:33:41.832Z",
         "createdBy": {
           "sys": {
@@ -5796,8 +6451,8 @@
             "id": "5zmxnoQAC1A0Ha8szhssbs"
           }
         },
-        "publishedCounter": 1,
-        "version": 2,
+        "publishedCounter": 2,
+        "version": 11,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -5824,7 +6479,7 @@
           "en": "Remote"
         },
         "description": {
-          "en": "Narative is an independent studio that brands, builds and markets digital products. We're a small, tight-knit team with senior experience working within and alongside growing startups and enterprises, and we're hoping you'll join us as our first backend engineer.\n\nYou won't just write code to spec. You'll lead our approach to handling data and integrations on every project, working with the services, databases and APIs that our company and clients use today, and developing all-new ones designed to solve unique problems at every scale.\n\nWe currently work with Python and Node.js on Google Cloud, but we'll be looking to you to pick the best approach for our internal and client projects, even if that means changing things up. \n\nAs an all-remote team, Narative allows you the freedom to work from anywhere, and anytime you see fit. We'll provide you with a competitive salary and a machine of your choice. In addition to 4 weeks vacation, we'll trust you to set a schedule that best lets you lead your work, collaborate with us daily, and live a real life. \n\nIf you're excited by the role and are confident you have the skills to succeed, we want to hear from you, no matter your current experience or background."
+          "en": "thirdwave.network is an independent studio that brands, builds and markets digital products. We're a small, tight-knit team with senior experience working within and alongside growing startups and enterprises, and we're hoping you'll join us as our first backend engineer.\n\nYou won't just write code to spec. You'll lead our approach to handling data and integrations on every project, working with the services, databases and APIs that our company and clients use today, and developing all-new ones designed to solve unique problems at every scale.\n\nWe currently work with Python and Node.js on Google Cloud, but we'll be looking to you to pick the best approach for our internal and client projects, even if that means changing things up. \n\nAs an all-remote team, Narative allows you the freedom to work from anywhere, and anytime you see fit. We'll provide you with a competitive salary and a machine of your choice. In addition to 4 weeks vacation, we'll trust you to set a schedule that best lets you lead your work, collaborate with us daily, and live a real life. \n\nIf you're excited by the role and are confident you have the skills to succeed, we want to hear from you, no matter your current experience or background."
         }
       }
     },
@@ -7088,7 +7743,7 @@
         "id": "7LyDRJZi5FKMvN2CPrZeRE",
         "type": "Entry",
         "createdAt": "2020-01-25T12:33:21.149Z",
-        "updatedAt": "2020-02-02T15:34:41.576Z",
+        "updatedAt": "2020-02-29T18:09:26.104Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -7096,8 +7751,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 24,
-        "publishedAt": "2020-02-02T15:34:41.576Z",
+        "publishedVersion": 37,
+        "publishedAt": "2020-02-29T18:09:26.104Z",
         "firstPublishedAt": "2020-01-25T12:34:59.761Z",
         "createdBy": {
           "sys": {
@@ -7113,8 +7768,8 @@
             "id": "5zmxnoQAC1A0Ha8szhssbs"
           }
         },
-        "publishedCounter": 4,
-        "version": 25,
+        "publishedCounter": 5,
+        "version": 38,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -7951,69 +8606,6 @@
             "id": "txu76a3w3kbd"
           }
         },
-        "id": "zYhxnedbgdYD7Y1TSdTr0",
-        "type": "Entry",
-        "createdAt": "2020-02-24T16:55:59.595Z",
-        "updatedAt": "2020-02-24T16:58:51.566Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 9,
-        "publishedAt": "2020-02-24T16:58:51.566Z",
-        "firstPublishedAt": "2020-02-24T16:58:51.566Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "5zmxnoQAC1A0Ha8szhssbs"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "5zmxnoQAC1A0Ha8szhssbs"
-          }
-        },
-        "publishedCounter": 1,
-        "version": 10,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "5zmxnoQAC1A0Ha8szhssbs"
-          }
-        },
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "code"
-          }
-        }
-      },
-      "fields": {
-        "language": {
-          "en": "js"
-        },
-        "code": {
-          "en": "// logger.ts\nimport winston from \"winston\";\nimport { argv } from \"./parseArgs\";\n\nexport const logger = winston.createLogger({\n  level: argv.verbosity, // this is undefined!\n});\n"
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "txu76a3w3kbd"
-          }
-        },
         "id": "65jm9ZDynoHMIlfkHPAGJh",
         "type": "Entry",
         "createdAt": "2020-02-29T12:02:48.877Z",
@@ -8143,7 +8735,7 @@
         "id": "5cBgF8n4BGkNxD6TxD9Mwk",
         "type": "Entry",
         "createdAt": "2020-02-29T13:33:05.574Z",
-        "updatedAt": "2020-02-29T13:33:28.663Z",
+        "updatedAt": "2020-03-01T13:25:43.589Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -8151,8 +8743,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 4,
-        "publishedAt": "2020-02-29T13:33:28.663Z",
+        "publishedVersion": 6,
+        "publishedAt": "2020-03-01T13:25:43.589Z",
         "firstPublishedAt": "2020-02-29T13:33:28.663Z",
         "createdBy": {
           "sys": {
@@ -8168,8 +8760,8 @@
             "id": "5zmxnoQAC1A0Ha8szhssbs"
           }
         },
-        "publishedCounter": 1,
-        "version": 5,
+        "publishedCounter": 2,
+        "version": 7,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -8212,7 +8804,7 @@
         "id": "10SZBIkvSLwOaLWI9iQpk8",
         "type": "Entry",
         "createdAt": "2020-02-29T13:33:15.516Z",
-        "updatedAt": "2020-02-29T13:37:10.479Z",
+        "updatedAt": "2020-02-29T16:56:54.191Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -8220,8 +8812,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 5,
-        "publishedAt": "2020-02-29T13:37:10.479Z",
+        "publishedVersion": 14,
+        "publishedAt": "2020-02-29T16:56:54.191Z",
         "firstPublishedAt": "2020-02-29T13:33:23.231Z",
         "createdBy": {
           "sys": {
@@ -8237,8 +8829,8 @@
             "id": "5zmxnoQAC1A0Ha8szhssbs"
           }
         },
-        "publishedCounter": 2,
-        "version": 6,
+        "publishedCounter": 3,
+        "version": 15,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -8256,10 +8848,10 @@
       },
       "fields": {
         "title": {
-          "en": "asd"
+          "en": "thirdwave.network"
         },
         "description": {
-          "en": "asd"
+          "en": "thirdwave.network"
         },
         "image": {
           "en": {
@@ -8269,6 +8861,1737 @@
               "id": "5pVGSA6PqTDPFD7hYQWi7m"
             }
           }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "txu76a3w3kbd"
+          }
+        },
+        "id": "ikTHtnZLhQeoy0eB8uWpP",
+        "type": "Entry",
+        "createdAt": "2020-02-29T18:06:02.930Z",
+        "updatedAt": "2020-03-03T19:28:38.999Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5zmxnoQAC1A0Ha8szhssbs"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5zmxnoQAC1A0Ha8szhssbs"
+          }
+        },
+        "publishedCounter": 0,
+        "version": 23,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "article"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en": "æternity blockchain is open source, public and permissionless"
+        },
+        "author": {
+          "en": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "1I4ZjzRSM3XXiKq9GhW5dG"
+            }
+          }
+        },
+        "slug": {
+          "en": "aeternity-blockchain-is-open-source-public-and-permissionless"
+        },
+        "shortUrl": {
+          "en": "aeternity-blockchain-is-open-source-public-and-permissionless"
+        },
+        "canonical": {
+          "en": "aeternity-blockchain-is-open-source-public-and-permissionless"
+        },
+        "body": {
+          "en": {
+            "data": {
+            },
+            "content": [
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "",
+                    "nodeType": "text"
+                  },
+                  {
+                    "nodeType": "hyperlink",
+                    "content": [
+                      {
+                        "nodeType": "text",
+                        "value": "https://dacade.org/ae-dev-101/introduction",
+                        "marks": [
+                        ],
+                        "data": {
+                        }
+                      }
+                    ],
+                    "data": {
+                      "uri": "https://dacade.org/ae-dev-101/introduction"
+                    }
+                  },
+                  {
+                    "nodeType": "text",
+                    "value": "",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "nodeType": "paragraph",
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  },
+                  {
+                    "nodeType": "hyperlink",
+                    "content": [
+                      {
+                        "nodeType": "text",
+                        "value": "https://github.com/aeternity/aepp-sdk-js",
+                        "marks": [
+                        ],
+                        "data": {
+                        }
+                      }
+                    ],
+                    "data": {
+                      "uri": "https://github.com/aeternity/aepp-sdk-js"
+                    }
+                  },
+                  {
+                    "nodeType": "text",
+                    "value": "",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  }
+                ],
+                "data": {
+                }
+              }
+            ],
+            "nodeType": "document"
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "txu76a3w3kbd"
+          }
+        },
+        "id": "9LmOnfJAjkkV618GRzIla",
+        "type": "Entry",
+        "createdAt": "2020-03-02T16:11:22.731Z",
+        "updatedAt": "2020-03-02T16:11:39.518Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5zmxnoQAC1A0Ha8szhssbs"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5zmxnoQAC1A0Ha8szhssbs"
+          }
+        },
+        "publishedCounter": 0,
+        "version": 11,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "article"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en": "Substrate"
+        },
+        "author": {
+          "en": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "1I4ZjzRSM3XXiKq9GhW5dG"
+            }
+          }
+        },
+        "slug": {
+          "en": "substrate"
+        },
+        "body": {
+          "en": {
+            "nodeType": "document",
+            "data": {
+            },
+            "content": [
+              {
+                "nodeType": "paragraph",
+                "data": {
+                },
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  },
+                  {
+                    "nodeType": "hyperlink",
+                    "content": [
+                      {
+                        "nodeType": "text",
+                        "value": "https://www.parity.io/write-wasm-smart-contracts-with-ink-2-0/",
+                        "marks": [
+                        ],
+                        "data": {
+                        }
+                      }
+                    ],
+                    "data": {
+                      "uri": "https://www.parity.io/write-wasm-smart-contracts-with-ink-2-0/"
+                    }
+                  },
+                  {
+                    "nodeType": "text",
+                    "value": "",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "txu76a3w3kbd"
+          }
+        },
+        "id": "4i4wrTkFk4o3QOk3P3Wkld",
+        "type": "Entry",
+        "createdAt": "2020-03-03T10:42:12.920Z",
+        "updatedAt": "2020-03-03T10:42:26.452Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5zmxnoQAC1A0Ha8szhssbs"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5zmxnoQAC1A0Ha8szhssbs"
+          }
+        },
+        "publishedCounter": 0,
+        "version": 18,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "article"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en": "Python for Bitcoin"
+        },
+        "slug": {
+          "en": "python-for-bitcoin"
+        },
+        "body": {
+          "en": {
+            "nodeType": "document",
+            "data": {
+            },
+            "content": [
+              {
+                "nodeType": "paragraph",
+                "data": {
+                },
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  },
+                  {
+                    "nodeType": "hyperlink",
+                    "content": [
+                      {
+                        "nodeType": "text",
+                        "value": "https://medium.com/swlh/retrieving-full-historical-data-for-every-cryptocurrency-on-binance-bitmex-using-the-python-apis-27b47fd8137f",
+                        "marks": [
+                        ],
+                        "data": {
+                        }
+                      }
+                    ],
+                    "data": {
+                      "uri": "https://medium.com/swlh/retrieving-full-historical-data-for-every-cryptocurrency-on-binance-bitmex-using-the-python-apis-27b47fd8137f"
+                    }
+                  },
+                  {
+                    "nodeType": "text",
+                    "value": "",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "txu76a3w3kbd"
+          }
+        },
+        "id": "4rPXFVDXopaRy7Cz5bgoTe",
+        "type": "Entry",
+        "createdAt": "2020-03-03T14:34:31.658Z",
+        "updatedAt": "2020-03-03T20:20:35.217Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 93,
+        "publishedAt": "2020-03-03T20:20:35.217Z",
+        "firstPublishedAt": "2020-03-03T20:08:36.177Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5zmxnoQAC1A0Ha8szhssbs"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5zmxnoQAC1A0Ha8szhssbs"
+          }
+        },
+        "publishedCounter": 4,
+        "version": 94,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5zmxnoQAC1A0Ha8szhssbs"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "article"
+          }
+        }
+      },
+      "fields": {
+        "publicationDate": {
+          "en": "2020-03-03T00:00+01:00"
+        },
+        "title": {
+          "en": "How Decentralised Finance Will Change the World’s Economy"
+        },
+        "excerpt": {
+          "en": "Decentralised Finance (DeFi) will make a game-changing impact on the world in dozens of different economic dimensions."
+        },
+        "author": {
+          "en": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "1I4ZjzRSM3XXiKq9GhW5dG"
+            }
+          }
+        },
+        "featured": {
+          "en": true
+        },
+        "hero": {
+          "en": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "6gRZaKZhaZDnAq0zhBLEiq"
+            }
+          }
+        },
+        "category": {
+          "en": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "1iai2wmXSbxCHdKytCvnsR"
+              }
+            }
+          ]
+        },
+        "backgroundImage": {
+          "en": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "6gRZaKZhaZDnAq0zhBLEiq"
+            }
+          }
+        },
+        "backgroundColor": {
+          "en": "#6666ff"
+        },
+        "slug": {
+          "en": "how-decentralised-finance-will-change-the-worlds-economy"
+        },
+        "shortUrl": {
+          "en": "how-decentralised-finance-will-change-the-worlds-economy"
+        },
+        "canonical": {
+          "en": "how-decentralised-finance-will-change-the-worlds-economy"
+        },
+        "body": {
+          "en": {
+            "data": {
+            },
+            "content": [
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Blockchain offers many new solutions for existing applications. Two of the most exciting applications are supply chain and finance. Blockchain will be the gold standard for supply chain, and it will revolutionise the current financial system. Decentralised Finance (DeFi) will make a game-changing impact on the world in dozens of different economic dimensions.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "DeFi can address many of the flaws in the existing financial systems, including giving the unbanked access to the financial system. In the coming years, DeFi can offer improved transparency, more robust security while replacing many of the outdated processes.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "What is Decentralised Finance?",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "heading-2"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Decentralised Finance, or Open Finance, is all about creating a global, decentralised alternative to every financial service that exists today, including insurance, savings, loans, etc. It will bring financial activities to anyone with a smartphone and an internet connection. The objective of DeFi is to bring financial services to ",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                      "uri": "https://www.worldbank.org/en/news/press-release/2018/04/19/financial-inclusion-on-the-rise-but-gaps-remain-global-findex-database-shows"
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "marks": [
+                        ],
+                        "value": "1.7 billion unbanked people",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "hyperlink"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": " and catapult them into the global economic system.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "DeFi services will be decentralised Apps (dApps) that operate on a blockchain, for example, Ethereum. They leverage smart contracts to automate many of the functionalities in financial services. Although such dApps remove the need for trust in the absence of a centralised governing body, any organisation developing dApps requires a strong focus on data governance.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Laws, rules and regulations can be programmed into a blockchain or token so that they are enforced automatically. This will make governance in the financial sector easier, or even automatic, although it will still require, of course, a lot of attention. Nevertheless, a distributed ledger can act as legal evidence for data, increasing the importance of data ownership, data transparency and auditability and offering unique advantages over the existing financial system.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Advantages DeFi over Traditional Finance",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "heading-2"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Traditional financial systems use systems of banks and intermediaries to complete a single transaction between parties. This can take up several days and comes at a cost. A decentralised financial system is one where transactions occur between one individual and another individual, with no middlemen. Governed by smart contracts, the transactions are (nearly) instant and (almost) for free.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "One of the main advantages of DeFi is that it is borderless. Anyone, anywhere with a smartphone and access to the internet can use these financial services. This will revolutionise banking for the poor and unbanked. All of a sudden, they can securely store value. Using security tokens, they can invest anywhere in the world in anything with the click of a button.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "The tokenisation of assets is at the core of decentralised finance. Tokenisation is the process of changing value (e.g. asset) into its digital representative. Once that value is available on distributed ledger technology it can be traded, borrowed against, sold, invested in, etc. by anyone that has access to the DeFi application (i.e. anyone with a smartphone and internet connection). This will revolutionise asset trading across the globe, offering traders new markets and new opportunities. Tokenisation is set to provide increased competitiveness, transparency, liquidity, and accessibility across the world.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Startups Engaged in Decentralised Finance",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "heading-2"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "DeFi has rapidly risen to become one of the most active segments of the blockchain market. While some startups focus on the creation of new financial instruments, there are several startups dedicated to fulfilling existing functions instead. Projects include stablecoins, decentralised exchanges, insurance and lending platforms, marketplaces, investment and derivatives platforms, prediction markets and, of course, DeFi analytics platforms. Let’s explore some startups in the DeFi sphere. For a complete overview of interesting projects in the decentralised finance space, you can ",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                      "uri": "https://consensys.net/blog/news/the-100-projects-pioneering-decentralized-finance/"
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "marks": [
+                        ],
+                        "value": "view this list",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "hyperlink"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": " compiled by Consensys.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                      "uri": "https://makerdao.com/"
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "marks": [
+                          {
+                            "type": "bold"
+                          }
+                        ],
+                        "value": "MakerDao",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "hyperlink"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "heading-2"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "One of the most prominent DeFi platforms is the decentralised lending platform MakerDAO. In recent months it has seen impressive adoption of its stablecoin Dai. MakerDAO is a decentralised autonomous organisation on the Ethereum blockchain, and it is the crypto version of a pawn shop; instead of leaving a watch or a ring, the person leaves crypto, i.e. ETH. Whenever the user pays back the DAI received when leaving the ETH, the ETH is returned. MakerDAO is a popular crypto pawnshop as currently around $300 million ETH is locked away in smart contracts.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                      "uri": "https://compound.finance/"
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "marks": [
+                        ],
+                        "value": "Compound",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "hyperlink"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "heading-2"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Compound is an algorithmic, autonomous interest rate protocol built for developers, to unlock a universe of open financial applications. It enables individuals to borrow up to a percentage of their token’s value with no fees and the immediate ability to liquidate. They aim to enable crypto that sits currently idle on exchanges to yield interest while maintaining liquidity.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                      "uri": "https://idex.market/eth/idex"
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "marks": [
+                        ],
+                        "value": "IDEX",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "hyperlink"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "heading-2"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Centralised exchanges are well-known, but although they might be easy to use, they have one major Achilles heel; they are centralised and can, therefore, be hacked. We have seen many hacks over the past years resulting in millions of dollars in lost crypto. Decentralized exchanges fix this flaw. There is no centralised governing entity. Instead, smart contracts engage in decentralised exchanges that execute automatically and require no intermediary. All assets are controlled by their owners and the system only plays matchmaker to connect buyers and sellers with seamless algorithms.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                      "uri": "https://www.bounties.network/"
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "marks": [
+                        ],
+                        "value": "Bounties Network",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "hyperlink"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": ", ",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                      "uri": "https://gitcoin.co/"
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "marks": [
+                        ],
+                        "value": "Gitcoin",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "hyperlink"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "heading-2"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "These DeFi startups provide simple open marketplaces where anyone can exchange goods and services built along with decentralised architecture. Bounties Network offers a platform to create projects, collaborate and get paid in crypto for doing jobs in any domain. Gitcoin is a decentralized version of Github and is a marketplace for open source development work. Contrary to popular traditional marketplaces like Amazon, these platforms themselves don’t exert control over their marketplaces. Buyers and sellers dictate the terms of the marketplace without interference of any central authority.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                      "uri": "https://www.augur.net/"
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "marks": [
+                        ],
+                        "value": "Augur",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "hyperlink"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "heading-2"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Augur is built on Ethereum, and it offers a prediction market that is resistant to censorship and can provide a valuable peek into the public perception. Such decentralized prediction markets can alert you about real-world events, policies, and risks in the real world that are free for anyone and everyone to speculate about. Users can create predictions on any topic, including ",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                      "uri": "https://www.forbes.com/sites/oliversmith/2018/07/31/crypto-gambling-leaves-regulators-in-the-dark-as-blockchain-bets-are-placed-on-trumps-murder/#11d66704725c"
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "marks": [
+                        ],
+                        "value": "controversial",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "hyperlink"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": " ones.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                      "uri": "https://descrow.com/"
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "marks": [
+                        ],
+                        "value": "Descrow",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "hyperlink"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "heading-2"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Decentralized escrow services where traders can trade safely. The escrow holds onto your currency while the trades are done on off-chain or on-chain atomic swaps that are seamlessly handled by smart contracts. The blockchain itself functions as the escrow in many cases, with negligible risk.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Traditional Institutions and Decentralised Finance",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "heading-2"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                      {
+                        "type": "bold"
+                      }
+                    ],
+                    "value": "Traditional institutes have taken note of the rise of DeFi with great interest.",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": " According to a 2019 report by the ",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                      "uri": "https://www.fsb.org/2019/06/decentralised-financial-technologies-report-on-financial-stability-regulatory-and-governance-implications/"
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "marks": [
+                        ],
+                        "value": "Financial Stability Board",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "hyperlink"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": ", decentralized financial technologies could offer improved financial stability, greater competition and a more diverse financial system, while reducing the importance and impact of existing entities. However, DeFi could also bring risk to the financial system, including control and ownership of large amounts of crypto that could affect monetary policy (read: Libra). In addition, there are still many unknowns in terms of consumer and investor protection, and across the globe, regulation is behind.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Banks, insurers, and investors, in particular, have noted the scope of DeFi for their industries, especially where decentralisation can dramatically alter existing services to improve efficiency and lower costs in a single move.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Overall, banks are ",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                      "uri": "https://www.fsb.org/wp-content/uploads/P060619.pdf"
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "marks": [
+                          {
+                            "type": "bold"
+                          }
+                        ],
+                        "value": "positive",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "hyperlink"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": " on the impact of DeFi and how it can improve the banking infrastructure. They expect that decentralization will improve decision-making in economic systems, will reduce risks (such as credit or liquidity risks due to instant settlements of transactions) and will improve record-keeping. However, they will have to catch up quickly because new DeFi startups can disrupt existing business models rapidly.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Insurance companies are also closely watching the rise of decentralized finance. Startups such as ",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                      "uri": "https://etherisc.com/"
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "marks": [
+                        ],
+                        "value": "Etherisc",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "hyperlink"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": " have built a decentralized insurance protocol to collectively build insurance products. The Decentralised Insurance Platform allows users to develop smart contracts that digitally facilitate, enforce, and verify the terms and performance of an ",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                      "uri": "https://www.the-digital-insurer.com/wp-content/uploads/2018/07/1243-futureinternet-10-00020-v2-1.pdf"
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "marks": [
+                        ],
+                        "value": "insurance contract",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "hyperlink"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": ". Such smart contracts handle fraudulent claims with ease, with countermeasures to dissolve the payments and return them to the rightful party in the event of a breach of contract. New players can easily disrupt existing, large insurance companies that are slow to adapt.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Many traditional investors are still wary of the potential of Decentralised Finance. Although security tokens offer significant benefits for both the issuer as the investor, many still perceive them as extremely risky. Indeed, the decentralised ecosystem is still being developed, i.e. there are only a few regulated decentralized exchanges to trade security tokens, but I certainly believe that security tokens are the future of funding and investing.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Conclusion",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "heading-2"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Decentralised finance is equipped to fundamentally change the world economy. With blockchain technology spearheading the front, decentralization is set to bring back privacy, trust, and let individuals create a future where a transparent, secure, public system is in control once again.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "DeFi will enable the unbanked to join the economic system, it will lower the cost of doing business, and it will offer new investment opportunities for anyone across the globe. It will empower individuals and organizations and make them less reliant on the ‘too big to fail’ financial institutions that brought chaos during the Great Recession. The future is decentralised, and that certainly applies to the financial sector.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "1. Blockchain will disrupt international money transfer",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "2. Contactless cards to reach scale in the US",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "3. Tech firms move into Banking",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "4. FacebookPay to gain momentum, despite Libra toxicity",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "5. 3D Secure 2.0 to enforce de facto SCA implementation",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "6. Challenger bank hashtag#consolidation begins",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "7. QR payments to reach scale in emerging markets",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "8. Latin America will emerge as a crucial payments battleground",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "9. Digital-only banks to 'rebundle' services using OpenBanking",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "10. Instant payment momentum to build, with international interoperability key",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              }
+            ],
+            "nodeType": "document"
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "txu76a3w3kbd"
+          }
+        },
+        "id": "5myOjtU34Q5QCwrBbpm3Ik",
+        "type": "Entry",
+        "createdAt": "2020-03-03T15:12:16.776Z",
+        "updatedAt": "2020-03-03T15:12:16.776Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5zmxnoQAC1A0Ha8szhssbs"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5zmxnoQAC1A0Ha8szhssbs"
+          }
+        },
+        "publishedCounter": 0,
+        "version": 1,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "author"
+          }
+        }
+      },
+      "fields": {
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "txu76a3w3kbd"
+          }
+        },
+        "id": "1iai2wmXSbxCHdKytCvnsR",
+        "type": "Entry",
+        "createdAt": "2020-03-03T20:01:13.372Z",
+        "updatedAt": "2020-03-03T20:01:31.169Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 2,
+        "publishedAt": "2020-03-03T20:01:31.169Z",
+        "firstPublishedAt": "2020-03-03T20:01:31.169Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5zmxnoQAC1A0Ha8szhssbs"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5zmxnoQAC1A0Ha8szhssbs"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 3,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5zmxnoQAC1A0Ha8szhssbs"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "category"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en": "Decentralised Finance"
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "txu76a3w3kbd"
+          }
+        },
+        "id": "4WTLZN75h9AwEtIWFn97jv",
+        "type": "Entry",
+        "createdAt": "2020-03-05T19:15:56.648Z",
+        "updatedAt": "2020-03-05T19:18:57.800Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 10,
+        "publishedAt": "2020-03-05T19:18:57.800Z",
+        "firstPublishedAt": "2020-03-05T19:18:57.800Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5zmxnoQAC1A0Ha8szhssbs"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5zmxnoQAC1A0Ha8szhssbs"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 11,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5zmxnoQAC1A0Ha8szhssbs"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "code"
+          }
+        }
+      },
+      "fields": {
+        "language": {
+          "en": "shell"
+        },
+        "code": {
+          "en": "type storage = int\n\n(* variant defining pseudo multi-entrypoint actions *)\ntype action =\n  | Increment of int\n  | Decrement of int\n\nlet add (a: int) (b: int): int = a + b\n\nlet subtract (a: int) (b: int): int = a - b\n\n(* real entrypoint that re-routes the flow based on \n    the action provided *)\nlet main(p : action) storage =\n  let storage =\n    match p with\n    | Increment n -> add storage n\n    | Decrement n -> subtract storage n\n  in (([] : operation list), storage)"
+        },
+        "name": {
+          "en": "Ligo example"
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "txu76a3w3kbd"
+          }
+        },
+        "id": "1nUv31gwPNoaFxRF999tFd",
+        "type": "Entry",
+        "createdAt": "2020-03-05T19:20:48.968Z",
+        "updatedAt": "2020-03-05T19:44:21.924Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 15,
+        "publishedAt": "2020-03-05T19:44:21.924Z",
+        "firstPublishedAt": "2020-03-05T19:21:04.105Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5zmxnoQAC1A0Ha8szhssbs"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5zmxnoQAC1A0Ha8szhssbs"
+          }
+        },
+        "publishedCounter": 3,
+        "version": 16,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5zmxnoQAC1A0Ha8szhssbs"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "code"
+          }
+        }
+      },
+      "fields": {
+        "language": {
+          "en": "shell"
+        },
+        "code": {
+          "en": " \n$ curl https://gitlab.com/ligolang/ligo/raw/dev/scripts/installer.sh | bash -s \"next\"\n "
+        },
+        "name": {
+          "en": "Install ligo"
         }
       }
     }
@@ -8493,7 +10816,7 @@
         "id": "2tbUQe6bWCmY4hWFHNF6U7",
         "type": "Asset",
         "createdAt": "2020-01-25T12:30:46.430Z",
-        "updatedAt": "2020-01-25T12:32:11.186Z",
+        "updatedAt": "2020-02-29T17:53:17.179Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -8501,8 +10824,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 2,
-        "publishedAt": "2020-01-25T12:32:11.186Z",
+        "publishedVersion": 11,
+        "publishedAt": "2020-02-29T17:53:17.179Z",
         "firstPublishedAt": "2020-01-25T12:32:11.186Z",
         "createdBy": {
           "sys": {
@@ -8518,8 +10841,8 @@
             "id": "5zmxnoQAC1A0Ha8szhssbs"
           }
         },
-        "publishedCounter": 1,
-        "version": 3,
+        "publishedCounter": 2,
+        "version": 12,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -8530,22 +10853,22 @@
       },
       "fields": {
         "title": {
-          "en": "gatsby-logo"
+          "en": "tezos-logo"
         },
         "description": {
-          "en": "Gatsby logo"
+          "en": "Tezos logo"
         },
         "file": {
           "en": {
-            "url": "//images.ctfassets.net/txu76a3w3kbd/2tbUQe6bWCmY4hWFHNF6U7/92c66684ec4e0ca6a5aec5ac2986d7ce/ic-gatsby.svg",
+            "url": "//images.ctfassets.net/txu76a3w3kbd/2tbUQe6bWCmY4hWFHNF6U7/8e8dcfd31b9fe4328b60ddcb9f2d6cb6/tezos-xtz-logo.svg",
             "details": {
-              "size": 3018,
+              "size": 1517,
               "image": {
-                "width": 140,
-                "height": 40
+                "width": 1170,
+                "height": 1593
               }
             },
-            "fileName": "ic-gatsby.svg",
+            "fileName": "tezos-xtz-logo.svg",
             "contentType": "image/svg+xml"
           }
         }
@@ -9038,7 +11361,7 @@
         "id": "40GPT8RxXNNBqoQNTkHBPq",
         "type": "Asset",
         "createdAt": "2020-01-25T12:30:52.285Z",
-        "updatedAt": "2020-01-25T12:32:36.277Z",
+        "updatedAt": "2020-03-05T19:05:09.984Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -9046,8 +11369,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 2,
-        "publishedAt": "2020-01-25T12:32:36.277Z",
+        "publishedVersion": 14,
+        "publishedAt": "2020-03-05T19:05:09.984Z",
         "firstPublishedAt": "2020-01-25T12:32:36.277Z",
         "createdBy": {
           "sys": {
@@ -9063,8 +11386,8 @@
             "id": "5zmxnoQAC1A0Ha8szhssbs"
           }
         },
-        "publishedCounter": 1,
-        "version": 3,
+        "publishedCounter": 4,
+        "version": 15,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -9079,16 +11402,16 @@
         },
         "file": {
           "en": {
-            "url": "//images.ctfassets.net/txu76a3w3kbd/40GPT8RxXNNBqoQNTkHBPq/90e39299687ed737d90b5bbbafb2a0dc/home-meta.jpg",
+            "url": "//images.ctfassets.net/txu76a3w3kbd/40GPT8RxXNNBqoQNTkHBPq/920ec788db6f7f60b843a40cc79e0e4e/third-wave-logo.png",
             "details": {
-              "size": 266173,
+              "size": 14066,
               "image": {
-                "width": 1200,
-                "height": 630
+                "width": 1500,
+                "height": 1500
               }
             },
-            "fileName": "home-meta.jpg",
-            "contentType": "image/jpeg"
+            "fileName": "third-wave-logo.png",
+            "contentType": "image/png"
           }
         }
       }
@@ -9497,6 +11820,76 @@
             },
             "fileName": "third-wave-logo.png",
             "contentType": "image/png"
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "txu76a3w3kbd"
+          }
+        },
+        "id": "6gRZaKZhaZDnAq0zhBLEiq",
+        "type": "Asset",
+        "createdAt": "2020-03-03T19:59:52.055Z",
+        "updatedAt": "2020-03-03T20:00:53.352Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "publishedAt": "2020-03-03T20:00:53.352Z",
+        "firstPublishedAt": "2020-03-03T20:00:53.352Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5zmxnoQAC1A0Ha8szhssbs"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5zmxnoQAC1A0Ha8szhssbs"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 5,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5zmxnoQAC1A0Ha8szhssbs"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en": "defi"
+        },
+        "description": {
+          "en": "DeFi can address many of the flaws in the existing financial systems, including giving the unbanked access to the financial system. In the coming years, DeFi can offer improved transparency, more robust security while replacing many of the outdated processes."
+        },
+        "file": {
+          "en": {
+            "url": "//images.ctfassets.net/txu76a3w3kbd/6gRZaKZhaZDnAq0zhBLEiq/d48103a6868422adc77fd564ee44a22f/defi.jpg",
+            "details": {
+              "size": 286337,
+              "image": {
+                "width": 1500,
+                "height": 700
+              }
+            },
+            "fileName": "defi.jpg",
+            "contentType": "image/jpeg"
           }
         }
       }
