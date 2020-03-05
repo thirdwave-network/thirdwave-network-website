@@ -153,27 +153,27 @@ export default (store => {
 
         // Open source
         case constants.GO_TO_NARATIVE_GITHUB: {
-          window.open('https://github.com/narative/narative.co', '_blank')
+          window.open('https://github.com/thirdwave-network/', '_blank')
           store.dispatch({ type: constants.SHORTCUT, payload: feature })
           break
         }
         case constants.GO_TO_NARATIVE: {
-          window.open('https://narative.co/design/open/narative', '_blank')
+          window.open('https://thirdwave.network/design/open/narative', '_blank')
           store.dispatch({ type: constants.SHORTCUT, payload: feature })
           break
         }
         case constants.GO_TO_FEY_LOGO: {
-          window.open('https://narative.co/design/open/fey', '_blank')
+          window.open('https://thirdwave.network/design/open/fey', '_blank')
           store.dispatch({ type: constants.SHORTCUT, payload: feature })
           break
         }
         case constants.GO_TO_HOPPER_WWW: {
-          window.open('https://narative.co/design/open/hopper', '_blank')
+          window.open('https://thirdwave.network/design/open/hopper', '_blank')
           store.dispatch({ type: constants.SHORTCUT, payload: feature })
           break
         }
         // case constants.GO_TO_HOPPER_MEDIA: {
-        //   window.open('https://narative.co/design/open/hopper', '_blank')
+        //   window.open('https://thirdwave.network/design/open/hopper', '_blank')
         //   store.dispatch({ type: constants.SHORTCUT, payload: feature })
         //   break
         // }

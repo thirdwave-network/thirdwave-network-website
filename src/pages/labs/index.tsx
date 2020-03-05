@@ -134,7 +134,7 @@ function LabsPage({ data, location }) {
             <LinkToProduct
               target="_blank"
               data-a11y="false"
-              href="https://narative.co/design/open/novela"
+              href="https://thirdwave.network/design/open/novela"
               style={{ color: '#08080B' }}
             >
               <FigmaIcon aria-hidden="true" fill="#08080B" /> View in Figma
