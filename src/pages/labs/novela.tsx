@@ -151,12 +151,12 @@ function NovealPage({ data, location }) {
             >
               <Preview
                 id="Iframe__Novela"
-                src="https://novela.narative.co"
+                src="https://thirdwave.network"
                 ref={iframeRef}
                 isMobile={dimension === 361}
               />
               <PreviewLink
-                href="https://novela.narative.co"
+                href="https://thirdwave.network"
                 target="_blank"
                 rel="noopener"
               >
