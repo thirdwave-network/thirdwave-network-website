@@ -9,7 +9,7 @@ import { Img as Image } from '@components/Image/Image'
 
 import media from '@styles/media'
 
-const aboutNarativeText = [
+const aboutThirdwaveText = [
   `Even the most brilliant companies hit points where their focus is
   spread thin by the many challenges that growing businesses face,
   blocking them from reaching their full potential. That’s where we
@@ -66,7 +66,7 @@ const HomeAbout = () => {
             render={() => <AboutHeading>The Third Wave Approach</AboutHeading>}
           />
           <div>
-            {aboutNarativeText.map((text, index) => (
+            {aboutThirdwaveText.map((text, index) => (
               <TextContainer data-scroll-fade={true} key={index}>
                 <Text dangerouslySetInnerHTML={{ __html: text }} />
               </TextContainer>

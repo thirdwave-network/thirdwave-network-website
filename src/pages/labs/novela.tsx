@@ -135,7 +135,7 @@ function NovealPage({ data, location }) {
               </div>
               <Divider style={{ background: styledTheme.active }} />
               <Anchor
-                href="https://github.com/narative/gatsby-theme-novela/"
+                href="https://github.com/thirdwave-network/"
                 target="_blank"
                 rel="noopener"
               >
@@ -172,7 +172,7 @@ function NovealPage({ data, location }) {
             </Section>
             <Section>
               <MobileAnchor
-                href="https://github.com/narative/gatsby-theme-novela/"
+                href="https://github.com/thirdwave-network/"
                 target="_blank"
                 rel="noopener"
               >

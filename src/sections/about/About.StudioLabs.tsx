@@ -34,13 +34,13 @@ function AboutStudioLabs() {
           <Blocks>
             <Block>
               <BlockInner>
-                <NarativeStudioLogo />
+                <ThirdwaveStudioLogo/>
                 <p>Product design, software development and tokenizing</p>
               </BlockInner>
             </Block>
             <Block pad>
               <BlockInner>
-                <NarativeLabsLogo />
+                <ThirdwaveLabsLogo />
                 <p>Statistical models and methods for digital assets evaluation</p>
               </BlockInner>
             </Block>
@@ -511,7 +511,7 @@ const MediaAnimator = styled.div`
   `}
 `
 
-const NarativeLabsLogo = () => (
+const ThirdwaveLabsLogo = () => (
   <svg version="1.1" id="Warstwa_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
      width="350px" height="150" viewBox="40 160 880.394 198.614" enable-background="new 0 0 850.394 258.614"
      >
@@ -653,7 +653,7 @@ const NarativeLabsLogo = () => (
 </svg>
 )
 
-const NarativeStudioLogo = () => (
+const ThirdwaveStudioLogo = () => (
 <svg version="1.1" id="Warstwa_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
    width="350px" height="150px" viewBox="40 160 880.394 198.614" enable-background="new 0 0 850.394 258.614"
 	 >
